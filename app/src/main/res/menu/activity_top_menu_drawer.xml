@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Card Stats" />
+        <item
+            android:id="@+id/nav_vehicle_stats"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Vehicle Stats" />
+        <item
+            android:id="@+id/nav_pricing"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Card Pricing" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send Info" />
+        </menu>
+    </item>
+
+</menu>

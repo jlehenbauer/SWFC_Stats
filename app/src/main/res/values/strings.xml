@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Stats for SWFC</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_card_list">Cards</string>
+    <string name="title_card_detail">Card Detail</string>
+    <string name="card_list_hint_text">Type to filter cards</string>
+    <string name="card_list_location">assets/SWFC-Card_Stats.csv</string>
+    <string name="EXTRA_TEXT">com.jacoblehenbauer.android.statsforswfc.TEXT</string>
+    <string name="EXTRA_SUBJECT">com.jacoblehenbauer.android.statsforswfc.SUBJECT</string>
+    <string name="EXTRA_MESSAGE">com.jacoblehenbauer.android.statsforswfc.MESSAGE</string>
+</resources>
