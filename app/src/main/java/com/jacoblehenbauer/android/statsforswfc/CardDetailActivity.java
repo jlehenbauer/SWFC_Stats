@@ -31,6 +31,7 @@ public class CardDetailActivity extends AppCompatActivity
         setContentView(R.layout.activity_card_detail);
         Toolbar toolbar = (Toolbar) findViewById(R.id.detail_toolbar);
         setSupportActionBar(toolbar);
+        card = CardDetailFragment.getCard();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         assert fab != null;
@@ -41,8 +42,8 @@ public class CardDetailActivity extends AppCompatActivity
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
                 sendIntent.setType("text/plain");
-                sendIntent.putExtra(Intent.EXTRA_SUBJECT, "Stats for " + card.name);
-                sendIntent.putExtra(Intent.EXTRA_TEXT, card.toString());
+                sendIntent.putExtra(Intent.EXTRA_SUBJECT, "Stats for " + CardDetailFragment.getCard().name);
+                sendIntent.putExtra(Intent.EXTRA_TEXT, CardDetailFragment.getCard().toString());
                 startActivity(sendIntent);
 
                 Snackbar.make(view, "Sending card details", Snackbar.LENGTH_LONG)

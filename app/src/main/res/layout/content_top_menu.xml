@@ -10,11 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.jacoblehenbauer.android.statsforswfc.TopMenu"
-    tools:showIn="@layout/app_bar_top_menu">
+    tools:showIn="@layout/app_bar_top_menu"
+    android:background="@color/black">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This app will allow you to browse SWFC card stats, create and save formations and find the strongest formation for you." />
+        android:text="This app will allow you to browse SWFC card stats, create and save formations and find the strongest formation for you."
+        android:textColor="@color/colorWhite"/>
 
 </RelativeLayout>

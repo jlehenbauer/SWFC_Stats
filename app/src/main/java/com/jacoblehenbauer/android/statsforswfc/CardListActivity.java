@@ -231,6 +231,10 @@ public class CardListActivity extends AppCompatActivity {
     public static class Card {
 
         @Trim
+        @Parsed(field = "Image", defaultNullRead = "Image not found.")
+        public final String image;
+
+        @Trim
         @Parsed(field = "id", defaultNullRead = "00")
         public final String id;
 
@@ -298,6 +302,7 @@ public class CardListActivity extends AppCompatActivity {
         public final String details;
 
         public Card(String id,
+                    String image,
                     String name,
                     int stars,
                     String alignment,
@@ -312,6 +317,7 @@ public class CardListActivity extends AppCompatActivity {
                     String skill,
                     String details) {
             this.id = id;
+            this.image = image;
             this.name = name;
             this.stars = stars;
             this.alignment = alignment;
@@ -339,6 +345,7 @@ public class CardListActivity extends AppCompatActivity {
 
         public Card(){
             this.id = null;
+            this.image = null;
             this.name = null;
             this.stars = 0;
             this.alignment = null;
@@ -382,7 +389,6 @@ public class CardListActivity extends AppCompatActivity {
         public String toString() {
             String details = this.name + " "
                     + "\n" + this.getStars()
-                    + "\n" + this.alignment
                     + "\n" + "Range: " + String.valueOf(this.range)
                     + "\n" + "Base Defense: " + String.valueOf(this.dBase)
                     + "\n" + "Base Attack: " + String.valueOf(this.aBase)
@@ -406,6 +412,7 @@ public class CardListActivity extends AppCompatActivity {
     //add a card to the array and map of current cards
     private static void addCard(Card item) {
         Card card = new Card(item.id,
+                item.image,
                 item.name,
                 item.stars,
                 item.alignment,
@@ -463,7 +470,6 @@ public class CardListActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
         }
-
 
         //create a new Card for each card in the list
         while(!cards.isEmpty()){

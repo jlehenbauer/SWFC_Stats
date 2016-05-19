@@ -10,4 +10,5 @@
     android:layout_marginRight="16dp"
     app:layoutManager="LinearLayoutManager"
     tools:context="com.jacoblehenbauer.android.statsforswfc.CardListActivity"
-    tools:listitem="@layout/card_list_content" />
+    tools:listitem="@layout/card_list_content"
+    android:background="@color/black"/>

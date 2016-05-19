@@ -8,8 +8,11 @@ import android.support.v4.content.Loader;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.squareup.picasso.Picasso;
 
 import java.lang.reflect.Array;
 
@@ -56,6 +59,7 @@ public class CardDetailFragment extends Fragment {
             // to load content from a content provider.
             card = CardListActivity.ITEM_MAP.get(getArguments().getString(ARG_ITEM_ID));
             passedCard = CardListActivity.ITEM_MAP.get(getArguments().getString(ARG_ITEM_ID));
+            onAttach(getActivity());
 
             Activity activity = this.getActivity();
             CollapsingToolbarLayout appBarLayout = (CollapsingToolbarLayout) activity.findViewById(R.id.toolbar_layout);
@@ -69,29 +73,35 @@ public class CardDetailFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.card_detail, container, false);
+        View rootView = inflater.inflate(R.layout.test_card_detail, container, false);
 
         // Show the card content as text in a TextView.
         if (card != null) {
+            Picasso.with(getContext())
+                    .load(card.image)
+                    .resize(440,600)
+                    .into((ImageView) rootView.findViewById(R.id.card_image));
             ((TextView) rootView.findViewById(R.id.card_detail)).setText(card.toString());
+            Picasso.with(this.getContext())
+                    .load(card.alignment)
+                    .resize(200,200)
+                    .into((ImageView) rootView.findViewById(R.id.card_alignment));
         }
 
         return rootView;
     }
 
-    public CardListActivity.Card getCard(){
-        return card;
+    public static CardListActivity.Card getCard(){
+        return passedCard;
     }
 
     public interface OnDataPass{
         public void onDataPass(CardListActivity.Card passedCard);
     }
 
-    /**
     @Override
     public void onAttach(Activity a) {
         super.onAttach(a);
         dataPasser = (OnDataPass) a;
     }
-    **/
 }
