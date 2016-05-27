@@ -99,9 +99,11 @@ public class CardDetailFragment extends Fragment {
         public void onDataPass(CardListActivity.Card passedCard);
     }
 
+    /**
     @Override
     public void onAttach(Activity a) {
         super.onAttach(a);
         dataPasser = (OnDataPass) a;
     }
+    **/
 }

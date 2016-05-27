@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jacoblehenbauer.android.statsforswfc">
+
+    <uses-sdk
+        android:maxSdkVersion="21"
+        android:targetSdkVersion="23"></uses-sdk>
+
     <uses-permission android:name="android.permission.SET_DEBUG_APP" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <uses-sdk
-        android:maxSdkVersion="21"
-        android:targetSdkVersion="23"
-        >
-    </uses-sdk>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -44,6 +47,24 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.jacoblehenbauer.android.statsforswfc.CardListActivity" />
+        </activity>
+        <activity
+            android:name=".VehicleListActivity"
+            android:label="@string/title_vehicle_list"
+            android:parentActivityName=".TopMenu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jacoblehenbauer.android.statsforswfc.TopMenu" />
+        </activity>
+        <activity
+            android:name=".VehicleDetailActivity"
+            android:label="@string/title_vehicle_detail"
+            android:parentActivityName=".VehicleListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jacoblehenbauer.android.statsforswfc.VehicleListActivity" />
         </activity>
     </application>
 

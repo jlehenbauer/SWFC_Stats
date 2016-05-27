@@ -12,4 +12,6 @@
     <string name="EXTRA_TEXT">com.jacoblehenbauer.android.statsforswfc.TEXT</string>
     <string name="EXTRA_SUBJECT">com.jacoblehenbauer.android.statsforswfc.SUBJECT</string>
     <string name="EXTRA_MESSAGE">com.jacoblehenbauer.android.statsforswfc.MESSAGE</string>
+    <string name="title_vehicle_list">Vehicles</string>
+    <string name="title_vehicle_detail">Vehicle Detail</string>
 </resources>

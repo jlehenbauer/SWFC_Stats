@@ -85,21 +85,24 @@ public class TopMenu extends AppCompatActivity
 
         // Handle the home action
         if (id == R.id.nav_home) {
-            onCreate(null);
+            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+            drawer.closeDrawer(GravityCompat.START);
         }
-        else if (id == R.id.nav_stats) { //launch stats activity
+        else if (id == R.id.nav_stats) { //launch card stats activity
             Intent launchStats;
             launchStats = new Intent(this, CardListActivity.class);
             startActivity(launchStats);
         } else if (id == R.id.nav_vehicle_stats) { //launch vehicle stats activity
-
-        } else if (id == R.id.nav_pricing) { //launch pricing activity
+            Intent launchVehicleStats;
+            launchVehicleStats = new Intent(this, VehicleListActivity.class);
+            startActivity(launchVehicleStats);
+        } /**else if (id == R.id.nav_pricing) { //launch pricing activity
 
         } else if (id == R.id.nav_settings) { //launch settings activity
 
         } else if (id == R.id.nav_send) { //launch send info activity
 
-        }
+        }**/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
