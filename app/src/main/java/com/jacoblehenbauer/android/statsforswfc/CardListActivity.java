@@ -12,6 +12,7 @@ import android.support.design.widget.Snackbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import android.support.v7.app.ActionBar;
@@ -55,12 +56,12 @@ public class CardListActivity extends AppCompatActivity {
     /**
      * An array holding the cards.
      */
-    public static final List<Card> ITEMS = new ArrayList<Card>();
+    public static List<Card> ITEMS = new ArrayList<Card>();
 
     /**
      * A map of cards, by ID.
      */
-    public static final Map<String, Card> ITEM_MAP = new HashMap<String, Card>();
+    public static Map<String, Card> ITEM_MAP = new HashMap<String, Card>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,6 +76,9 @@ public class CardListActivity extends AppCompatActivity {
         //filterText.addTextChangedListener(filterTextWatcher);
 
 
+        //populate the default card list
+        makeCardList();
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setTitle(getTitle());
@@ -87,15 +91,89 @@ public class CardListActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+
         // Show the Up button in the action bar.
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
-        View recyclerView = findViewById(R.id.card_list);
+        final View recyclerView = findViewById(R.id.card_list);
         assert recyclerView != null;
         setupRecyclerView((RecyclerView) recyclerView);
+
+
+        /**
+         * Set up each of the filter buttons,
+         * which use the updateCardList to
+         * redefine ITEMS and notify the
+         * recyclerView adapter.
+         */
+        Button fiveStarButton = (Button) findViewById(R.id.fiveStarButton);
+        assert fiveStarButton != null;
+        fiveStarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                List<Card> cards = ITEMS;
+                updateCardList(5, cards);
+                ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
+            }
+        });
+
+        Button fourStarButton = (Button) findViewById(R.id.fourStarButton);
+        assert fourStarButton != null;
+        fourStarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                List<Card> cards = ITEMS;
+                updateCardList(4, cards);
+                ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
+            }
+        });
+
+        Button threeStarButton = (Button) findViewById(R.id.threeStarButton);
+        assert threeStarButton != null;
+        threeStarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                List<Card> cards = ITEMS;
+                updateCardList(3, cards);
+                ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
+            }
+        });
+
+        Button twoStarButton = (Button) findViewById(R.id.twoStarButton);
+        assert twoStarButton != null;
+        twoStarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                List<Card> cards = ITEMS;
+                updateCardList(2, cards);
+                ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
+            }
+        });
+
+        Button oneStarButton = (Button) findViewById(R.id.oneStarButton);
+        assert oneStarButton != null;
+        oneStarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                List<Card> cards = ITEMS;
+                updateCardList(1, cards);
+                ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
+            }
+        });
+
+        Button resetStarsButton = (Button) findViewById(R.id.resetStarsButton);
+        assert resetStarsButton != null;
+        resetStarsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                refreshCardList();
+                ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
+            }
+        });
 
         if (findViewById(R.id.card_detail_container) != null) {
             // The detail container view will be present only in the
@@ -151,7 +229,6 @@ public class CardListActivity extends AppCompatActivity {
     }
 
     private void setupRecyclerView(@NonNull RecyclerView recyclerView) {
-        makeCardList();
         recyclerView.setAdapter(new SimpleItemRecyclerViewAdapter(ITEMS));
     }
 
@@ -222,6 +299,12 @@ public class CardListActivity extends AppCompatActivity {
             public String toString() {
                 return super.toString() + " '" + mContentView.getText() + "'";
             }
+        }
+
+        public void updateData(Map<String, Card> cards){
+            ITEM_MAP.clear();
+            ITEM_MAP.putAll(cards);
+            notifyDataSetChanged();
         }
     }
 
@@ -430,6 +513,11 @@ public class CardListActivity extends AppCompatActivity {
         ITEM_MAP.put(card.id, card);
     }
 
+    //remove a card from the item map in order to view different sets of cards
+    public static void removeCard(Card item){
+        ITEMS.remove(item);
+    }
+
     private void makeCardList(){
         InputStream cardFile = null;
         try {
@@ -476,6 +564,23 @@ public class CardListActivity extends AppCompatActivity {
             addCard(cards.get(0));
             cards.remove(0);
         }
+    }
+
+    public void updateCardList(int filter, List<Card> cards){
+        if(ITEMS.size() != ITEM_MAP.size()){
+            makeCardList();
+        }
+        for(int i = cards.size()-1; i > 0; i--){
+            if (cards.get(i).stars != filter){
+                ITEMS.remove(i);
+            }
+        }
+    }
+
+    public void refreshCardList(){
+        ITEMS.clear();
+        ITEM_MAP.clear();
+        makeCardList();
     }
 
 }

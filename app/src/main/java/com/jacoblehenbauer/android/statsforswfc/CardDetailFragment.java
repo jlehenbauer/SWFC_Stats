@@ -4,17 +4,13 @@ import android.app.Activity;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.content.Loader;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
-
-import java.lang.reflect.Array;
 
 /**
  * A fragment representing a single Card detail screen.
@@ -73,7 +69,7 @@ public class CardDetailFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.test_card_detail, container, false);
+        View rootView = inflater.inflate(R.layout.card_detail, container, false);
 
         // Show the card content as text in a TextView.
         if (card != null) {

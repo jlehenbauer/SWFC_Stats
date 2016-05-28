@@ -28,9 +28,57 @@
             android:inputType="text"
             android:maxLines="1"/>
          -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="right|top">
+        <Button
+            android:id="@+id/fiveStarButton"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="5*"
+            android:layout_gravity="right"/>
+        <Button
+            android:id="@+id/fourStarButton"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="4*"
+            android:layout_gravity="right"/>
+        <Button
+            android:id="@+id/threeStarButton"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="3*"
+            android:layout_gravity="right"/>
+        <Button
+            android:id="@+id/twoStarButton"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="2*"
+            android:layout_gravity="right"/>
+        <Button
+            android:id="@+id/oneStarButton"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="1*"
+            android:layout_gravity="right"/>
+        <Button
+            android:id="@+id/resetStarsButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:layout_gravity="right"/>
+        </LinearLayout>
+
 
     </android.support.design.widget.AppBarLayout>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollIndicators="left">
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="fill_parent"
@@ -42,6 +90,8 @@
             android:layout_width="fill_parent"/>
 
     </FrameLayout>
+
+    </ScrollView>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

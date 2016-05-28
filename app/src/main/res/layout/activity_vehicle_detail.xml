@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="com.jacoblehenbauer.android.statsforswfc.VehicleDetailActivity"
-    tools:ignore="MergeRootFrame">
+    tools:ignore="MergeRootFrame"
+    android:background="@color/black">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
