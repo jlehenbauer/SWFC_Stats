@@ -72,16 +72,15 @@ public class CardDetailFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.card_detail, container, false);
 
         // Show the card content as text in a TextView.
-        if (card != null) {
+        if (card != null && card.image == null){
+            ((TextView) rootView.findViewById(R.id.card_detail)).setText("Image not found." + "\n \n" + card.toString());
+        }
+        else if (card != null){
             Picasso.with(getContext())
                     .load(card.image)
                     .resize(440,600)
                     .into((ImageView) rootView.findViewById(R.id.card_image));
             ((TextView) rootView.findViewById(R.id.card_detail)).setText(card.toString());
-            Picasso.with(this.getContext())
-                    .load(card.alignment)
-                    .resize(200,200)
-                    .into((ImageView) rootView.findViewById(R.id.card_alignment));
         }
 
         return rootView;

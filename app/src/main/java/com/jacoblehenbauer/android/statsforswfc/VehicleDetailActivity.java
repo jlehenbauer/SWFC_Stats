@@ -16,7 +16,12 @@ import android.view.MenuItem;
  * item details are presented side-by-side with a list of items
  * in a {@link VehicleListActivity}.
  */
-public class VehicleDetailActivity extends AppCompatActivity {
+
+
+public class VehicleDetailActivity extends AppCompatActivity
+        implements VehicleDetailFragment.OnDataPass{
+
+    private VehicleListActivity.Vehicle vehicle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,12 +29,22 @@ public class VehicleDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_vehicle_detail);
         Toolbar toolbar = (Toolbar) findViewById(R.id.detail_toolbar);
         setSupportActionBar(toolbar);
+        vehicle = VehicleDetailFragment.getVehicle();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        assert fab != null;
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own detail action", Snackbar.LENGTH_LONG)
+
+                Intent sendIntent = new Intent();
+                sendIntent.setAction(Intent.ACTION_SEND);
+                sendIntent.setType("text/plain");
+                sendIntent.putExtra(Intent.EXTRA_SUBJECT, "Stats for " + VehicleDetailFragment.getVehicle().name);
+                sendIntent.putExtra(Intent.EXTRA_TEXT, VehicleDetailFragment.getVehicle().toString());
+                startActivity(sendIntent);
+
+                Snackbar.make(view, "Sending vehicle details", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -77,5 +92,9 @@ public class VehicleDetailActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onDataPass(VehicleListActivity.Vehicle passedVehicle){
+        vehicle = passedVehicle;
     }
 }

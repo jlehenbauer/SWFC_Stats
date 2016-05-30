@@ -30,7 +30,7 @@
          -->
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="right|top">
         <Button
@@ -74,24 +74,28 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbarAlwaysDrawVerticalTrack="true"
-        android:scrollIndicators="left">
+
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollIndicators="top"
+            android:scrollHorizontally="false"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true">
         <include layout="@layout/card_list"
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"/>
+        </ScrollView>
 
     </FrameLayout>
 
-    </ScrollView>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

@@ -2,6 +2,7 @@ package com.jacoblehenbauer.android.statsforswfc;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -13,26 +14,30 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 import android.support.v7.app.ActionBar;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.univocity.parsers.annotations.NullString;
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.univocity.parsers.annotations.Parsed;
 import com.univocity.parsers.annotations.Trim;
 import com.univocity.parsers.common.processor.BeanListProcessor;
 import com.univocity.parsers.csv.CsvParser;
 import com.univocity.parsers.csv.CsvParserSettings;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 /**
@@ -50,9 +55,6 @@ public class CardListActivity extends AppCompatActivity {
      * device.
      */
     private boolean mTwoPane;
-    //private EditText filterText = (EditText) findViewById(R.id.search_box);
-    //private ListView cardList = (ListView) findViewById(R.id.card_list);
-    //ArrayAdapter<String> adapter = null;
     /**
      * An array holding the cards.
      */
@@ -63,26 +65,30 @@ public class CardListActivity extends AppCompatActivity {
      */
     public static Map<String, Card> ITEM_MAP = new HashMap<String, Card>();
 
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_list);
 
-        /**
-         * listView and text items to be used to make the card list filterable
-         */
-        //adapter = new ArrayAdapter<String>(this, R.layout.card_list_content, R.id.name);
-        //cardList.setAdapter(adapter);
-        //filterText.addTextChangedListener(filterTextWatcher);
-
-
-        //populate the default card list
+        //initial population of the default card list
         makeCardList();
 
+        /**
+         * Create toolbar
+         */
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setTitle(getTitle());
 
+        /**
+         * Create Floating Action Button and set behavior
+         */
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -93,12 +99,17 @@ public class CardListActivity extends AppCompatActivity {
         });
 
 
-        // Show the Up button in the action bar.
+        /**
+         * Show the up button in the action bar and set its action to return home
+         */
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
+        /**
+         * Create recyclerView to handle the updating of information
+         */
         final View recyclerView = findViewById(R.id.card_list);
         assert recyclerView != null;
         setupRecyclerView((RecyclerView) recyclerView);
@@ -183,25 +194,10 @@ public class CardListActivity extends AppCompatActivity {
             mTwoPane = true;
         }
 
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
-
-    /**
-     * Text watcher for the filtering of listView items in the card List
-     *
-    private TextWatcher filterTextWatcher = new TextWatcher() {
-
-        public void afterTextChanged(Editable s) {
-        }
-
-        public void beforeTextChanged(CharSequence s, int start, int count,
-                                      int after) {
-        }
-
-        public void onTextChanged(CharSequence s, int start, int before,
-                                  int count) {
-            adapter.getFilter().filter(s);
-        }
-    };**/
 
 
     @Override
@@ -230,6 +226,46 @@ public class CardListActivity extends AppCompatActivity {
 
     private void setupRecyclerView(@NonNull RecyclerView recyclerView) {
         recyclerView.setAdapter(new SimpleItemRecyclerViewAdapter(ITEMS));
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client.connect();
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "CardList Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app URL is correct.
+                Uri.parse("android-app://com.jacoblehenbauer.android.statsforswfc/http/host/path")
+        );
+        AppIndex.AppIndexApi.start(client, viewAction);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        Action viewAction = Action.newAction(
+                Action.TYPE_VIEW, // TODO: choose an action type.
+                "CardList Page", // TODO: Define a title for the content shown.
+                // TODO: If you have web page content that matches this app activity's content,
+                // make sure this auto-generated web page URL is correct.
+                // Otherwise, set the URL to null.
+                Uri.parse("http://host/path"),
+                // TODO: Make sure this auto-generated app URL is correct.
+                Uri.parse("android-app://com.jacoblehenbauer.android.statsforswfc/http/host/path")
+        );
+        AppIndex.AppIndexApi.end(client, viewAction);
+        client.disconnect();
     }
 
     public class SimpleItemRecyclerViewAdapter
@@ -292,7 +328,7 @@ public class CardListActivity extends AppCompatActivity {
                 super(view);
                 mView = view;
                 mIdView = (TextView) view.findViewById(R.id.name);
-                mContentView = (TextView) view.findViewById(R.id.stars);;
+                mContentView = (TextView) view.findViewById(R.id.stars);
             }
 
             @Override
@@ -301,7 +337,7 @@ public class CardListActivity extends AppCompatActivity {
             }
         }
 
-        public void updateData(Map<String, Card> cards){
+        public void updateData(Map<String, Card> cards) {
             ITEM_MAP.clear();
             ITEM_MAP.putAll(cards);
             notifyDataSetChanged();
@@ -334,16 +370,16 @@ public class CardListActivity extends AppCompatActivity {
         public final String alignment;
 
         @Trim
+        @Parsed(field = "isAwakenable")
+        public final boolean isAwakenable;
+
+        @Trim
+        @Parsed(field = "numTurns")
+        public final String numTurns;
+
+        @Trim
         @Parsed(field = "Range", defaultNullRead = "n")
         public final char range;
-
-        @Trim
-        @Parsed(field = "DBase", defaultNullRead = "0")
-        public final int dBase;
-
-        @Trim
-        @Parsed(field = "ABase", defaultNullRead = "0")
-        public final int aBase;
 
         @Trim
         @Parsed(field = "DBaseMax", defaultNullRead = "0")
@@ -363,6 +399,10 @@ public class CardListActivity extends AppCompatActivity {
         public final int a4_7max;
         public final int d8_15max;
         public final int a8_15max;
+        public final int d8_15AwakenMax;
+        public final int a8_15AwakenMax;
+        public final int d16_31AwakenMax;
+        public final int a16_31AwakenMax;
 
         @Trim
         @Parsed(field = "Acc", defaultNullRead = "0")
@@ -380,78 +420,88 @@ public class CardListActivity extends AppCompatActivity {
         @Parsed(field = "Skill")
         public final String skill;
 
-        @Trim
-        @Parsed(field = "Details")
-        public final String details;
-
         public Card(String id,
                     String image,
                     String name,
                     int stars,
                     String alignment,
+                    String numTurns,
                     char range,
-                    int dBase,
-                    int aBase,
                     int dBaseMax,
                     int aBaseMax,
+                    boolean isAwakenable,
                     int acc,
                     int eva,
                     int cost,
-                    String skill,
-                    String details) {
+                    String skill) {
             this.id = id;
             this.image = image;
             this.name = name;
             this.stars = stars;
             this.alignment = alignment;
+            this.numTurns = numTurns;
             this.range = range;
-            this.dBase = dBase;
-            this.aBase = aBase;
             this.dBaseMax = dBaseMax;
             this.aBaseMax = aBaseMax;
-            this.d1Max = (int) Math.floor(dBaseMax*1.14);
-            this.a1Max = (int) Math.floor(aBaseMax*1.14);
-            this.d2_3max = (int) Math.floor((d1Max*1.07) + (dBaseMax*0.07));
-            this.a2_3max = (int) Math.floor((a1Max*1.07) + (aBaseMax*0.07));
-            this.d2_4max = (int) Math.floor(d1Max*1.14);
-            this.a2_4max = (int) Math.floor(a1Max*1.14);
-            this.d4_7max = (int) Math.floor((d2_3max*1.07) + (dBaseMax*0.07));
-            this.a4_7max = (int) Math.floor((a2_3max*1.07) + (aBaseMax*0.07));
-            this.d8_15max = (int) Math.floor(d2_4max*1.14);
-            this.a8_15max = (int) Math.floor(a2_4max*1.14);
+            this.d1Max = (int) Math.floor(dBaseMax * 1.14);
+            this.a1Max = (int) Math.floor(aBaseMax * 1.14);
+            this.d2_3max = (int) Math.floor((d1Max * 1.07) + (dBaseMax * 0.07));
+            this.a2_3max = (int) Math.floor((a1Max * 1.07) + (aBaseMax * 0.07));
+            this.d2_4max = (int) Math.floor(d1Max * 1.14);
+            this.a2_4max = (int) Math.floor(a1Max * 1.14);
+            this.d4_7max = (int) Math.floor((d2_3max * 1.07) + (dBaseMax * 0.07));
+            this.a4_7max = (int) Math.floor((a2_3max * 1.07) + (aBaseMax * 0.07));
+            this.d8_15max = (int) Math.floor(d2_4max * 1.14);
+            this.a8_15max = (int) Math.floor(a2_4max * 1.14);
+            this.isAwakenable = isAwakenable;
+            if(this.isAwakenable){
+                this.d8_15AwakenMax = (int) Math.floor(d4_7max*1.2);
+                this.a8_15AwakenMax = (int) Math.floor(a4_7max*1.2);
+                this.d16_31AwakenMax = (int) Math.floor(d8_15max*1.2);
+                this.a16_31AwakenMax = (int) Math.floor(a8_15max*1.2);
+            }
+            else {
+
+                this.d8_15AwakenMax = 0;
+                this.a8_15AwakenMax = 0;
+                this.d16_31AwakenMax = 0;
+                this.a16_31AwakenMax = 0;
+            }
             this.acc = acc;
             this.eva = eva;
             this.cost = cost;
             this.skill = skill;
-            this.details = details;
         }
 
-        public Card(){
+        public Card() {
             this.id = null;
             this.image = null;
             this.name = null;
             this.stars = 0;
             this.alignment = null;
+            this.numTurns = null;
             this.range = 0;
-            this.dBase = 0;
-            this.aBase = 0;
             this.dBaseMax = 0;
             this.aBaseMax = 0;
-            this.d1Max = (int) Math.floor(dBaseMax*1.14);
-            this.a1Max = (int) Math.floor(aBaseMax*1.14);
-            this.d2_3max = (int) Math.floor((d1Max*1.07) + (dBaseMax*0.07));
-            this.a2_3max = (int) Math.floor((a1Max*1.07) + (aBaseMax*0.07));
-            this.d2_4max = (int) Math.floor(d1Max*1.14);
-            this.a2_4max = (int) Math.floor(a1Max*1.14);
-            this.d4_7max = (int) Math.floor((d2_3max*1.07) + (dBaseMax*0.07));
-            this.a4_7max = (int) Math.floor((a2_3max*1.07) + (aBaseMax*0.07));
-            this.d8_15max = (int) Math.floor(d2_4max*1.14);
-            this.a8_15max = (int) Math.floor(a2_4max*1.14);
+            this.d1Max = (int) Math.floor(dBaseMax * 1.14);
+            this.a1Max = (int) Math.floor(aBaseMax * 1.14);
+            this.d2_3max = (int) Math.floor((d1Max * 1.07) + (dBaseMax * 0.07));
+            this.a2_3max = (int) Math.floor((a1Max * 1.07) + (aBaseMax * 0.07));
+            this.d2_4max = (int) Math.floor(d1Max * 1.14);
+            this.a2_4max = (int) Math.floor(a1Max * 1.14);
+            this.d4_7max = (int) Math.floor((d2_3max * 1.07) + (dBaseMax * 0.07));
+            this.a4_7max = (int) Math.floor((a2_3max * 1.07) + (aBaseMax * 0.07));
+            this.d8_15max = (int) Math.floor(d2_4max * 1.14);
+            this.a8_15max = (int) Math.floor(a2_4max * 1.14);
+            this.isAwakenable = false;
             this.acc = 0;
             this.eva = 0;
             this.cost = 0;
             this.skill = null;
-            this.details = null;
+            this.d8_15AwakenMax = 0;
+            this.a8_15AwakenMax = 0;
+            this.d16_31AwakenMax = 0;
+            this.a16_31AwakenMax = 0;
         }
 
         public String getStars() {
@@ -470,25 +520,29 @@ public class CardListActivity extends AppCompatActivity {
 
         @Override
         public String toString() {
-            String details = this.name + " "
-                    + "\n" + this.getStars()
+            String stats = this.name + " "
+                    + "\n" + this.getStars() + this.alignment
+                    + "\n" + "Actions per turn: " + this.numTurns
                     + "\n" + "Range: " + String.valueOf(this.range)
-                    + "\n" + "Base Defense: " + String.valueOf(this.dBase)
-                    + "\n" + "Base Attack: " + String.valueOf(this.aBase)
-                    + "\n" + "Max Base Defense: " + String.valueOf(this.dBaseMax)
-                    + "\n" + "Max Base Attack: " + String.valueOf(this.aBaseMax)
-                    + "\n" + "Evo 1 Max Defense: " + String.valueOf(this.d1Max)
-                    + "\n" + "Evo 1 Max Attack: " + String.valueOf(this.a1Max)
-                    + "\n" + "4/7 Evo Max Defense: " + String.valueOf(this.d4_7max)
-                    + "\n" + "4/7 Evo Max Attack: " + String.valueOf(this.a4_7max)
-                    + "\n" + "8/15 Evo Max Defense: " + String.valueOf(this.d8_15max)
-                    + "\n" + "8/15 Evo Max Attack: " + String.valueOf(this.a8_15max)
-                    + "\n" + "Acc: " + String.valueOf(this.acc)
+                    + "\n" + "Max Base Defense: " + NumberFormat.getNumberInstance(Locale.US).format(this.dBaseMax)
+                    + "\n" + "Max Base Attack: " + NumberFormat.getNumberInstance(Locale.US).format(this.aBaseMax)
+                    + "\n" + "Evo 1 Max Defense: " + NumberFormat.getNumberInstance(Locale.US).format(this.d1Max)
+                    + "\n" + "Evo 1 Max Attack: " + NumberFormat.getNumberInstance(Locale.US).format(this.a1Max)
+                    + "\n" + "4/7 Evo Max Defense: " + NumberFormat.getNumberInstance(Locale.US).format(this.d4_7max)
+                    + "\n" + "4/7 Evo Max Attack: " + NumberFormat.getNumberInstance(Locale.US).format(this.a4_7max)
+                    + "\n" + "8/15 Evo Max Defense: " + NumberFormat.getNumberInstance(Locale.US).format(this.d8_15max)
+                    + "\n" + "8/15 Evo Max Attack: " + NumberFormat.getNumberInstance(Locale.US).format(this.a8_15max);
+            if(this.isAwakenable){
+                stats = stats + "\n8/15 Awakened Max Def: " + NumberFormat.getNumberInstance(Locale.US).format(this.d8_15AwakenMax)
+                        + "\n" + "8/15 Awakened Max Atk: " + NumberFormat.getNumberInstance(Locale.US).format(this.a8_15AwakenMax)
+                        + "\n" + "16/31 Awakened Max Def: " + NumberFormat.getNumberInstance(Locale.US).format(this.d16_31AwakenMax)
+                        + "\n" + "16/31 Awakened Max Atk: " + NumberFormat.getNumberInstance(Locale.US).format(this.a16_31AwakenMax);
+            }
+                    stats = stats + "\n" + "Acc: " + String.valueOf(this.acc)
                     + "\n" + "Eva: " + String.valueOf(this.eva)
                     + "\n" + "Cost: " + String.valueOf(this.cost)
-                    + "\n" + "Skill: " + this.skill
-                    + "\n" + "Details:" + this.details;
-            return details;
+                    + "\n" + "Skill: " + this.skill;
+            return stats;
         }
     }
 
@@ -499,26 +553,25 @@ public class CardListActivity extends AppCompatActivity {
                 item.name,
                 item.stars,
                 item.alignment,
+                item.numTurns,
                 item.range,
-                item.dBase,
-                item.aBase,
                 item.dBaseMax,
                 item.aBaseMax,
+                item.isAwakenable,
                 item.acc,
                 item.eva,
                 item.cost,
-                item.skill,
-                item.details);
+                item.skill);
         ITEMS.add(card);
         ITEM_MAP.put(card.id, card);
     }
 
     //remove a card from the item map in order to view different sets of cards
-    public static void removeCard(Card item){
+    public static void removeCard(Card item) {
         ITEMS.remove(item);
     }
 
-    private void makeCardList(){
+    private void makeCardList() {
         InputStream cardFile = null;
         try {
             cardFile = this.getAssets().open("SWFC-Card_Stats.csv");
@@ -528,7 +581,9 @@ public class CardListActivity extends AppCompatActivity {
         }
         InputStreamReader cardReader;
         cardReader = null;
-        if(cardFile != null){cardReader = new InputStreamReader(cardFile);}
+        if (cardFile != null) {
+            cardReader = new InputStreamReader(cardFile);
+        }
 
 
         BeanListProcessor<Card> rowProcessor = new BeanListProcessor<>(Card.class);
@@ -560,24 +615,24 @@ public class CardListActivity extends AppCompatActivity {
         }
 
         //create a new Card for each card in the list
-        while(!cards.isEmpty()){
+        while (!cards.isEmpty()) {
             addCard(cards.get(0));
             cards.remove(0);
         }
     }
 
-    public void updateCardList(int filter, List<Card> cards){
-        if(ITEMS.size() != ITEM_MAP.size()){
-            makeCardList();
+    public void updateCardList(int filter, List<Card> cards) {
+        if (ITEMS.size() != ITEM_MAP.size()) {
+            refreshCardList();
         }
-        for(int i = cards.size()-1; i > 0; i--){
-            if (cards.get(i).stars != filter){
-                ITEMS.remove(i);
+        for (int i = cards.size() - 1; i >= 0; i--) {
+            if (cards.get(i).stars != filter) {
+                removeCard(cards.get(i));
             }
         }
     }
 
-    public void refreshCardList(){
+    public void refreshCardList() {
         ITEMS.clear();
         ITEM_MAP.clear();
         makeCardList();

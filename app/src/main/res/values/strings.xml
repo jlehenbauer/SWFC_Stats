@@ -14,4 +14,6 @@
     <string name="EXTRA_MESSAGE">com.jacoblehenbauer.android.statsforswfc.MESSAGE</string>
     <string name="title_vehicle_list">Vehicles</string>
     <string name="title_vehicle_detail">Vehicle Detail</string>
+    <string name="main_message">Welcome to the unofficial SWFC Stats app! I have lofty goals for this, but I\'ve decided to release where I am so far. In the menu (which you can pull in from the left) you can choose to view the stats of cards or vehicles. \n\nI\'ve been gathering much data on these cards, and while almost all are complete, there are some missing bits here and there. If you find one, please feel free to report it through the app or the Play Store. \n\nIn particular, some of the vehicles are in need of a Build Cost and Build Time, so if you see they\'re missing for a vehicle and have them, email me and they\'ll be in the next update! \n\nThanks for using the SWFC Stats App, and may the Force be with you.</string>
+    <string name="update_message"></string>
 </resources>

@@ -1,0 +1,40 @@
+Name,Id,Cost,Attack Pattern,Build Cost,Build Time,HP,numTurns,l5Atk,l5Def,Acc,Eva,xsize,ysize,Pilots,Copilots,Parts,isRare,Image
+T-16 Skyhopper,1,9,Anti-Armor,9000,45,2000,1,5580,3480,120,60,1,2,1,0,1,FALSE,http://swfcstats.com/custom/images/vehicles/2910500100.png
+AT-ST,2,9,1-on-1,9000,45,2000,1,5950,3770,120,0,1,2,1,1,0,FALSE,http://swfcstats.com/custom/images/vehicles/2913100100.png
+Naboo Starfighter,3,10,Anti-Armor,15400,77,4000,2,6120,4340,120,60,2,2,1,1,2,FALSE,http://swfcstats.com/custom/images/vehicles/2902000100.png
+MTT,4,10,1-on-1,12000,60,2000,1,4880,4780,120,0,2,1,1,0,1,FALSE,http://swfcstats.com/custom/images/vehicles/2901900100.png
+Jedi Interceptor,5,11,Anti-Armor,15400,77,4000,1,7970,4620,120,60,2,2,1,1,2,FALSE,http://swfcstats.com/custom/images/vehicles/2903700100.png
+AT-AP,6,11,Anti-Armor,12000,60,4000,1,7470,5090,120,0,2,2,1,1,2,FALSE,http://swfcstats.com/custom/images/vehicles/2905400100.png
+A-Wing,7,12,Anti-Armor,19200,96,4000,1,7600,4770,120,70,2,2,1,0,3,FALSE,http://swfcstats.com/custom/images/vehicles/2913500100.png
+TIE Fighter,8,14,Anti-Armor,28000,140,4000,2,7930,4000,120,70,2,2,1,0,3,FALSE,http://swfcstats.com/custom/images/vehicles/2910800100.png
+X-Wing,9,14,Anti-Armor,28000,140,4000,2,6870,5300,120,60,2,2,1,1,2,FALSE,http://swfcstats.com/custom/images/vehicles/2910600100.png
+LAAT/i,10,12,Sweep,19200,96,4000,1 per 2,6100,5600,120,50,2,2,1,2,1,FALSE,http://swfcstats.com/custom/images/vehicles/2905000100.png
+Hailfire Droid,11,13,Semi-Circle,22000,110,4000,1 per 2,7530,4950,130,0,2,2,0,0,4,FALSE,http://swfcstats.com/custom/images/vehicles/2920100100.png
+AT-AT,12,17,Pierce,32000,160,6000,1 per 2,6330,9120,120,0,2,3,1,2,3,FALSE,http://swfcstats.com/custom/images/vehicles/2913000100.png
+AAT,13,13,1-on-1,22000,110,4000,1 per 2,9690,4740,120,0,2,2,1,2,1,FALSE,http://swfcstats.com/custom/images/vehicles/2900100100.png
+Droid Tri-Fighter,14,14,Anti-Armor,26000,130,4000,4,6190,4440,140,60,2,2,0,0,4,FALSE,http://swfcstats.com/custom/images/vehicles/2920300100.png
+TIE Bomber,15,16,Cross,32000,160,4000,1 per 2,8280,4840,160,40,2,2,1,0,3,FALSE,http://swfcstats.com/custom/images/vehicles/2912700100.png
+Millennium Falcon,16,21,Anti-Armor,,,,4,7130,6930,140,20,3,2,1,3,2,TRUE,http://swfcstats.com/custom/images/vehicles/2911100100.png
+TIE Advanced,17,16,Anti-Armor,42000,210,4000,2,9120,3920,140,70,2,2,1,0,3,TRUE,http://swfcstats.com/custom/images/vehicles/2910700100.png
+Bongo,18,11,Semi-Circle,9000,45,4000,1 per 2,5730,5730,140,40,2,2,1,2,1,FALSE,http://swfcstats.com/custom/images/vehicles/2920400100.png
+Jedi Starfighter,19,15,Anti-Armor,36000,180,4000,2,8010,5080,140,80,2,2,1,1,2,TRUE,http://swfcstats.com/custom/images/vehicles/2903800100.png
+Octuparra Magna Tri-Droid,20,15,Cross,,,,1 per 2,7280,5280,160,0,2,2,0,0,4,FALSE,http://swfcstats.com/custom/images/vehicles/2907000100.png
+Slave I,21,14,1-on-1,,,,2,6200,5840,140,60,2,2,1,1,2,TRUE,http://swfcstats.com/custom/images/vehicles/2903900100.png
+AT-TE,22,12,Anti-Armor,,,,1,5730,7030,140,0,2,2,1,2,1,FALSE,http://swfcstats.com/custom/images/vehicles/2903600100.png
+A6 Juggernaut,23,17,Pierce,,,,1 per 2,5100,8800,140,0,3,2,1,2,3,FALSE,http://swfcstats.com/custom/images/vehicles/2920500100.png
+Y-Wing,24,15,Anti-Armor,,,,2,6110,7330,140,40,2,2,1,2,2,FALSE,http://swfcstats.com/custom/images/vehicles/2909800100.png
+Snowspeeder,25,12,Anti-Armor,,,,1,6240,2330,140,100,2,1,1,1,1,FALSE,http://swfcstats.com/custom/images/vehicles/2911500100.png
+Blizzard 1,26,60,Pierce,,,,1 per 2,6080,9020,140,0,2,3,1,2,3,TRUE,http://swfcstats.com/custom/images/vehicles/2913000200.png
+Soulless One,27,16,1-on-1,,,,2,7010,2580,140,90,1,2,1,0,2,TRUE,http://swfcstats.com/custom/images/vehicles/2920600100.png
+TIE Interceptor,28,16,Anti-Armor,,,,4,6780,3420,140,80,2,2,1,0,3,FALSE,http://swfcstats.com/custom/images/vehicles/2914300100.png
+ARC-170 Starfighter,29,12,Anti-Armor,,,,2,6020,4780,140,60,2,2,1,2,2,FALSE,http://swfcstats.com/custom/images/vehicles/2920700100.png
+Scimitar,30,18,Anti-Armor,,,,1,8710,6120,150,60,2,2,1,0,3,TRUE,http://swfcstats.com/custom/images/vehicles/2920800100.png
+NR-N99 Tank Droid,31,9,Anti-Armor,,,,1,5580,3480,120,60,1,2,1,0,1,FALSE,http://swfcstats.com/custom/images/vehicles/2921000100.png
+TIE Phantom,32,20,Sweep,,,,1,6550,5160,120,70,2,2,1,1,2,FALSE,http://swfcstats.com/custom/images/vehicles/2920900100.png
+B-Wing,33,22,Pierce,,,,1 per 2,7100,7730,160,50,2,2,1,0,3,FALSE,http://swfcstats.com/custom/images/vehicles/2913600100.png
+Blade of Dorin,34,25,Anti-Armor,,,,2,7970,4620,140,70,2,2,1,1,2,TRUE,http://swfcstats.com/custom/images/vehicles/2904000100.png
+Umbaran Starfighter,35,15,1-on-1,,,,2,7250,5680,140,60,2,2,1,0,3,FALSE,http://swfcstats.com/custom/images/vehicles/2921300100.png
+Khetanna,36,30,1-on-1,,,,5,1350,10190,120,10,3,1,1,3,2,FALSE,http://swfcstats.com/custom/images/vehicles/2921400100.png
+Millennium Falcon: TFA,37,24,Anti-Armor,56000,300,6000,4,7370,7070,145,25,3,2,1,3,2,TRUE,http://swfcstats.com/custom/images/vehicles/2911100200.png
+First Order TIE Fighter,38,15,Anti-Armor,,,,2,8030,4700,140,70,2,2,1,0,3,FALSE,http://swfcstats.com/custom/images/vehicles/2910800200.png
+First Order Special Forces TIE Fighter,39,50,anti-Armor,,,,2,7370,5370,140,70,2,2,1,1,3,TRUE,http://swfcstats.com/custom/images/vehicles/2910800300.png

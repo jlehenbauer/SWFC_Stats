@@ -13,10 +13,21 @@
     tools:showIn="@layout/app_bar_top_menu"
     android:background="@color/black">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This app will allow you to browse SWFC card stats, create and save formations and find the strongest formation for you."
+        android:textColor="@color/colorWhite"
+        android:text="@string/update_message"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_message"
         android:textColor="@color/colorWhite"/>
+    </LinearLayout>
 
 </RelativeLayout>
