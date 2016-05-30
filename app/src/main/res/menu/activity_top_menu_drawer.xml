@@ -4,16 +4,16 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_info_white_24dp"
             android:title="Home" />
         <item
             android:id="@+id/nav_stats"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/cards_icon"
             android:title="Card Stats" />
 
         <item
             android:id="@+id/nav_vehicle_stats"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/vehicles_icon"
             android:title="Vehicle Stats" />
         <!--
 <item

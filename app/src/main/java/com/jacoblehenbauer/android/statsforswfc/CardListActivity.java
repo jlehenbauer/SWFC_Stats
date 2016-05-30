@@ -93,7 +93,7 @@ public class CardListActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Search using the bar above", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Filter cards using the bar above", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
