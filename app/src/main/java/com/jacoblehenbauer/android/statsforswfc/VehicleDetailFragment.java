@@ -73,6 +73,51 @@ public class VehicleDetailFragment extends Fragment {
                     .load(vehicle.image)
                     .resize(440,600)
                     .into((ImageView) rootView.findViewById(R.id.vehicle_image));
+            //show attack pattern
+            if(vehicle.atkPattern.equals("Anti-Armor")){
+                Picasso.with(getContext())
+                        .load(R.drawable.antiarmor)
+                        .resize(400,400)
+                        .into((ImageView) rootView.findViewById(R.id.atk_ptrn_image));
+            }
+            else if(vehicle.atkPattern.equals("1-on-1")){
+                Picasso.with(getContext())
+                        .load(R.drawable.one_on_one)
+                        .resize(400,400)
+                        .into((ImageView) rootView.findViewById(R.id.atk_ptrn_image));
+            }
+            else if(vehicle.atkPattern.equals("Cross")){
+                Picasso.with(getContext())
+                        .load(R.drawable.cross)
+                        .resize(400,400)
+                        .into((ImageView) rootView.findViewById(R.id.atk_ptrn_image));
+            }
+            else if(vehicle.atkPattern.equals("Sweep")){
+                Picasso.with(getContext())
+                        .load(R.drawable.sweep)
+                        .resize(400,400)
+                        .into((ImageView) rootView.findViewById(R.id.atk_ptrn_image));
+            }
+            else if(vehicle.atkPattern.equals("Semi-Circle")){
+                Picasso.with(getContext())
+                        .load(R.drawable.semicircle)
+                        .resize(400,400)
+                        .into((ImageView) rootView.findViewById(R.id.atk_ptrn_image));
+            }
+            else if(vehicle.atkPattern.equals("Pierce") && vehicle.xsize == 2){
+                Picasso.with(getContext())
+                        .load(R.drawable.pierce2)
+                        .resize(400,400)
+                        .into((ImageView) rootView.findViewById(R.id.atk_ptrn_image));
+            }
+            else if(vehicle.atkPattern.equals("Pierce") && vehicle.xsize == 3){
+                Picasso.with(getContext())
+                        .load(R.drawable.pierce3)
+                        .resize(400,400)
+                        .into((ImageView) rootView.findViewById(R.id.atk_ptrn_image));
+            }
+
+            //Print the rest of the vehicle card details
             ((TextView) rootView.findViewById(R.id.vehicle_detail)).setText(vehicle.toString());
         }
 

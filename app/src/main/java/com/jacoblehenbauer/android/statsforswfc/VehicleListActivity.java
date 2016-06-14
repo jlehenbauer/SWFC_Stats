@@ -430,15 +430,6 @@ public class VehicleListActivity extends AppCompatActivity {
                     + "\n" + "Build Cost: " + NumberFormat.getNumberInstance(Locale.US).format(this.buildCost) + " credits"
                     + "\n" + "Build Time: " + printedBuildTime;
 
-            /**
-             * if(this.atkPattern == "antiArmor"){
-             * //append antiArmor image/text
-             * }
-             * else(this.atkPattern == "pierce"){
-             * //append Pierce image/text
-             * }
-             *
-             */
             return details;
         }
     }
