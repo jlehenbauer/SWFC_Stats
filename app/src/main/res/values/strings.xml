@@ -5,7 +5,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="settings_coming">Settings coming soon</string>
+    <string name="settings_title">Settings</string>
     <string name="title_card_list">Cards</string>
     <string name="title_card_detail">Card Detail</string>
     <string name="card_list_hint_text">Type to filter cards</string>
@@ -16,7 +16,7 @@
     <string name="title_vehicle_list">Vehicles</string>
     <string name="title_vehicle_detail">Vehicle Detail</string>
     <string name="main_message">Welcome to the unofficial SWFC Stats app! I have lofty goals for this, but I\'ve decided to release where I am so far. In the menu (which you can pull in from the left) you can choose to view the stats of cards or vehicles. \n\nI\'ve been gathering much data on these cards, and while almost all are complete, there are some missing bits here and there. If you find one, please feel free to report it through the app or the Play Store. \n\nIn particular, some of the vehicles are in need of a Build Cost and Build Time, so if you see they\'re missing for a vehicle and have them, email me and they\'ll be in the next update! \n\nThanks for using the SWFC Stats App, and may the Force be with you.</string>
-    <string name="update_message">V1.0 - Initial Release! NOTE: Card images will hopefully soon be a part of each page, but I\'m working with Google on their Play Store content policies at the moment. Hopefully they\'ll be in the next update.\n</string>
+    <string name="update_message">V1.2: Card images are here! NOTE: the images are displayed from an online repository. They are small, but will affect data usage on wireless data networks. If you do not wish for this to be an issue, please turn off images in settings.\n</string>
     <string name="title_activity_settings">Settings</string>
 
     <!-- Strings related to Settings -->
@@ -26,6 +26,9 @@
 
     <string name="pref_title_social_recommendations">Personalized settings</string>
     <string name="pref_description_social_recommendations">Coming soon!</string>
+
+    <string name="pref_enable_images">Enable card images</string>
+    <string name="pref_img_enabled_summary">Will use network connections when enabled.</string>
 
     <string name="pref_title_display_name">Display name</string>
     <string name="pref_default_display_name">John Smith</string>

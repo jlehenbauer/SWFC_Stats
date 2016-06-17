@@ -1,6 +1,8 @@
 package com.jacoblehenbauer.android.statsforswfc;
 
 import android.app.Activity;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -72,16 +74,25 @@ public class CardDetailFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.card_detail, container, false);
 
         // Show the card content as text in a TextView.
+
+        /**
+         * Get preference value for downloading images via networks
+         */
+        SharedPreferences dataPref = PreferenceManager.getDefaultSharedPreferences(this.getContext());
+        Boolean downloadImages = dataPref.getBoolean("imagesEnabled", true);
+
         if (card != null && card.image == null){
-            ((TextView) rootView.findViewById(R.id.card_detail)).setText("Image not found." + "\n \n" + card.toString());
+            ((TextView) rootView.findViewById(R.id.card_detail)).setText("Image not available." + "\n \n" + card.toString());
         }
-        else if (card != null){
+        else if (card != null && downloadImages){
             Picasso.with(getContext())
                     .load(card.image)
                     .resize(440,600)
                     .into((ImageView) rootView.findViewById(R.id.card_image));
             ((TextView) rootView.findViewById(R.id.card_detail)).setText(card.toString());
         }
+        else //print only the card information
+            ((TextView) rootView.findViewById(R.id.card_detail)).setText(card.toString());
 
         return rootView;
     }
