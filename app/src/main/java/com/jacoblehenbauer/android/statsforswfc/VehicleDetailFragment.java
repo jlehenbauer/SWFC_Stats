@@ -12,6 +12,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 import com.squareup.picasso.Picasso;
 
 
@@ -22,6 +24,12 @@ import com.squareup.picasso.Picasso;
  * on handsets.
  */
 public class VehicleDetailFragment extends Fragment {
+
+    /**
+     * Create a Tracker for Analytics
+     */
+    private Tracker mTracker;
+
     /**
      * The fragment argument representing the item ID that this fragment
      * represents.
@@ -61,6 +69,12 @@ public class VehicleDetailFragment extends Fragment {
                 appBarLayout.setTitle(vehicle.name);
             }
         }
+        /**
+         * Send Analytics report for the visible Card
+         */
+        AnalyticsApplication application = (AnalyticsApplication) getActivity().getApplication();
+        mTracker = application.getDefaultTracker();
+        sendScreenName();
     }
 
     @Override
@@ -136,5 +150,17 @@ public class VehicleDetailFragment extends Fragment {
 
     public interface OnDataPass{
         public void onDataPass(VehicleListActivity.Vehicle passedVehicle);
+    }
+
+    /**
+     * Record a screen view hit for the visible Card Detail Fragment
+     */
+    private void sendScreenName() {
+        if(vehicle != null) {
+            // [START screen_view_hit]
+            mTracker.setScreenName("Vehicle Detail: " + vehicle.name);
+            mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+            // [END screen_view_hit]
+        }
     }
 }

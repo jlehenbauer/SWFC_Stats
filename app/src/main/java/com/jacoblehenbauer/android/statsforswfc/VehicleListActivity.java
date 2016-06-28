@@ -21,6 +21,8 @@ import android.support.v7.app.ActionBar;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 import com.univocity.parsers.annotations.NullString;
 import com.univocity.parsers.annotations.Parsed;
 import com.univocity.parsers.annotations.Trim;
@@ -49,6 +51,11 @@ import java.util.Map;
 public class VehicleListActivity extends AppCompatActivity {
 
     /**
+     * Create Tracker for Analytics
+     */
+    private Tracker mTracker;
+
+    /**
      * Whether or not the activity is in two-pane mode, i.e. running on a tablet
      * device.
      */
@@ -65,6 +72,8 @@ public class VehicleListActivity extends AppCompatActivity {
      * A map of Vehicles, by ID.
      */
     public static final Map<String, Vehicle> ITEM_MAP = new HashMap<String, Vehicle>();
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -145,6 +154,13 @@ public class VehicleListActivity extends AppCompatActivity {
                 ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
             }
         });
+
+        /**
+         * Obtain the shared Tracker instance
+         */
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+        sendScreenName();
 
     }
 
@@ -532,4 +548,14 @@ public class VehicleListActivity extends AppCompatActivity {
         makeVehicleList();
     }
 
+    /**
+     * Record a screen view hit for the visible CardList
+     */
+    private void sendScreenName() {
+
+        // [START screen_view_hit]
+        mTracker.setScreenName("Vehicle List");
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+        // [END screen_view_hit]
+    }
 }

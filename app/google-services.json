@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "591806433362",
+    "project_id": "stats-for-swfc"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591806433362:android:b229d542c3720ff9",
+        "android_client_info": {
+          "package_name": "com.jacoblehenbauer.android.statsforswfc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk4tLKGGTlGEVmFJHzELkrbtR44b1B-WU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-79067205-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

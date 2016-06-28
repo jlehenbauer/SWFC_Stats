@@ -13,10 +13,12 @@
     <string name="EXTRA_TEXT">com.jacoblehenbauer.android.statsforswfc.TEXT</string>
     <string name="EXTRA_SUBJECT">com.jacoblehenbauer.android.statsforswfc.SUBJECT</string>
     <string name="EXTRA_MESSAGE">com.jacoblehenbauer.android.statsforswfc.MESSAGE</string>
+    <string name="email_dev">mailto:dev@jacoblehenbauer.com</string>
     <string name="title_vehicle_list">Vehicles</string>
     <string name="title_vehicle_detail">Vehicle Detail</string>
-    <string name="main_message">Welcome to the unofficial SWFC Stats app! I have lofty goals for this, but I\'ve decided to release where I am so far. In the menu (which you can pull in from the left) you can choose to view the stats of cards or vehicles. \n\nI\'ve been gathering much data on these cards, and while almost all are complete, there are some missing bits here and there. If you find one, please feel free to report it through the app or the Play Store. \n\nIn particular, some of the vehicles are in need of a Build Cost and Build Time, so if you see they\'re missing for a vehicle and have them, email me and they\'ll be in the next update! \n\nThanks for using the SWFC Stats App, and may the Force be with you.</string>
-    <string name="update_message">V1.2: Card images are here! NOTE: the images are displayed from an online repository. They are small, but will affect data usage on wireless data networks. If you do not wish for this to be an issue, please turn off images in settings.\n</string>
+    <string name="main_message">Welcome to the unofficial SWFC Stats app! More features are on the way, and I\'m updating as frequently as possible. In the menu (which you can pull in from the left) you can choose to view the stats of cards or vehicles. \n\nI\'ve been gathering much data on these cards, and while almost all are complete, there are some missing bits here and there. If you find one, please feel free to report it through the app settings or the Play Store. \n\nIn particular, some of the vehicles are in need of a Build Cost and Build Time, so if you see they\'re missing for a vehicle and have them, email me and they\'ll be in the next update! \n\nThanks for using the SWFC Stats App, and may the Force be with you.</string>
+    <string name="update_message">V1.3: Please look at the new settings in the overflow menu at the top of this page. I added reporting, so if you have any issues, click the Send Feedback button there to report any issues.\n</string>
+    <string name="about_disclaimer">The Stats for SWFC is in no way related to any other entity. Star Wars and Star Wars Force Collection belong to Disney and Konami, and I take no credit or responsibility for any content of their ownership. This is a free tool meant to help those playing SWFC. Please direct any comments, issues or questions to the feedback button below. Thank you.</string>
     <string name="title_activity_settings">Settings</string>
 
     <!-- Strings related to Settings -->
@@ -43,6 +45,13 @@
         <item>1</item>
         <item>0</item>
         <item>-1</item>
+    </string-array>
+
+    <!-- List of filterable/sortable items on card lists -->
+    <string-array name="filter_items">
+        <item>Rarity (High to low)</item>
+        <item>Attack (High to low)</item>
+        <item>Skill</item>
     </string-array>
 
     <!-- Example settings for Data & Sync -->

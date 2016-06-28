@@ -1,11 +1,14 @@
 package com.jacoblehenbauer.android.statsforswfc;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.support.design.widget.FloatingActionButton;
@@ -21,6 +24,8 @@ import android.support.v7.app.ActionBar;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -33,8 +38,10 @@ import com.univocity.parsers.csv.CsvParserSettings;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.text.NumberFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
@@ -49,6 +56,11 @@ import java.util.Map;
  * item details side-by-side using two vertical panes.
  */
 public class CardListActivity extends AppCompatActivity {
+
+    /**
+     * Create Tracker for Analytics
+     */
+    private Tracker mTracker;
 
     /**
      * Whether or not the activity is in two-pane mode, i.e. running on a tablet
@@ -71,13 +83,15 @@ public class CardListActivity extends AppCompatActivity {
      */
     private GoogleApiClient client;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_list);
 
         //initial population of the default card list
-        makeCardList();
+        makeOriginalCardList();
 
         /**
          * Create toolbar
@@ -85,18 +99,6 @@ public class CardListActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setTitle(getTitle());
-
-        /**
-         * Create Floating Action Button and set behavior
-         */
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Filter cards using the bar above", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
 
         /**
@@ -114,10 +116,25 @@ public class CardListActivity extends AppCompatActivity {
         assert recyclerView != null;
         setupRecyclerView((RecyclerView) recyclerView);
 
+        /**
+         * Create Floating Action Button and set behavior
+         */
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                 Snackbar.make(view, "Filter cards using the bar above", Snackbar.LENGTH_LONG)
+                 .setAction("Action", null).show();
+                //showFilterDialog();
+                //sortByAttack();
+                //((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
+            }
+        });
 
         /**
          * Set up each of the filter buttons,
-         * which use the updateCardList to
+         * which use the filterCardListByStars to
          * redefine ITEMS and notify the
          * recyclerView adapter.
          */
@@ -127,7 +144,7 @@ public class CardListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 List<Card> cards = ITEMS;
-                updateCardList(5, cards);
+                filterCardListByStars(5, cards);
                 ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
             }
         });
@@ -138,7 +155,7 @@ public class CardListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 List<Card> cards = ITEMS;
-                updateCardList(4, cards);
+                filterCardListByStars(4, cards);
                 ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
             }
         });
@@ -149,7 +166,7 @@ public class CardListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 List<Card> cards = ITEMS;
-                updateCardList(3, cards);
+                filterCardListByStars(3, cards);
                 ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
             }
         });
@@ -160,7 +177,7 @@ public class CardListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 List<Card> cards = ITEMS;
-                updateCardList(2, cards);
+                filterCardListByStars(2, cards);
                 ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
             }
         });
@@ -171,7 +188,7 @@ public class CardListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 List<Card> cards = ITEMS;
-                updateCardList(1, cards);
+                filterCardListByStars(1, cards);
                 ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
             }
         });
@@ -197,6 +214,13 @@ public class CardListActivity extends AppCompatActivity {
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+        /**
+         * Obtain the shared Tracker instance
+         */
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+        sendScreenName();
     }
 
 
@@ -342,6 +366,48 @@ public class CardListActivity extends AppCompatActivity {
             ITEM_MAP.putAll(cards);
             notifyDataSetChanged();
         }
+    }
+
+    /**
+     * Create a popup dialog to allow filtering of cards
+     */
+    private void showFilterDialog() {
+        AlertDialog.Builder builder1 = new AlertDialog.Builder(this);
+        builder1.setTitle("Filter Card List");
+        builder1.setCancelable(true);
+
+
+        builder1.setMultiChoiceItems(R.array.filter_items, null, new DialogInterface.OnMultiChoiceClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which, boolean isChecked) {
+                if(isChecked){
+                    //when item is checked, add it to the list of selected items
+                }
+                else{
+                    //remove item from list if it is already there
+                }
+            }
+        });
+        builder1.setPositiveButton(
+                "Filter",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        sortByAttack();
+                        dialog.cancel();
+                        //filter items method
+                    }
+                });
+
+        builder1.setNegativeButton(
+                "Cancel",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                    }
+                });
+
+        AlertDialog alert11 = builder1.create();
+        alert11.show();
     }
 
     /**
@@ -571,7 +637,7 @@ public class CardListActivity extends AppCompatActivity {
         ITEMS.remove(item);
     }
 
-    private void makeCardList() {
+    private void makeOriginalCardList() {
         InputStream cardFile = null;
         try {
             cardFile = this.getAssets().open("SWFC-Card_Stats.csv");
@@ -621,12 +687,32 @@ public class CardListActivity extends AppCompatActivity {
         }
     }
 
-    public void updateCardList(int filter, List<Card> cards) {
+    public void filterCardListBySkill(boolean hasSkill, List<Card> cards){
         if (ITEMS.size() != ITEM_MAP.size()) {
             refreshCardList();
         }
-        for (int i = cards.size() - 1; i >= 0; i--) {
-            if (cards.get(i).stars != filter) {
+        if(hasSkill) {
+            for (int i = cards.size() - 1; i >= 0; i--) {
+                if (cards.get(i).skill == null) {
+                    removeCard(cards.get(i));
+                }
+            }
+        }
+        else {
+            for (int i = cards.size() - 1; i >= 0; i--) {
+                if (cards.get(i).skill != null) {
+                    removeCard(cards.get(i));
+                }
+            }
+        }
+    }
+
+    public void filterCardListByStars(int filter, List<Card> cards) {
+            if (ITEMS.size() != ITEM_MAP.size()) {
+                refreshCardList();
+            }
+            for (int i = cards.size() - 1; i >= 0; i--) {
+                if (cards.get(i).stars != filter) {
                 removeCard(cards.get(i));
             }
         }
@@ -635,7 +721,33 @@ public class CardListActivity extends AppCompatActivity {
     public void refreshCardList() {
         ITEMS.clear();
         ITEM_MAP.clear();
-        makeCardList();
+        makeOriginalCardList();
+    }
+
+    public void sortByAttack(){
+        ArrayList<Card> tempList = new ArrayList<Card>();
+        tempList.add(0, ITEMS.get(0));
+        for(int i = 0;  i < ITEMS.size(); i++){
+            for(int j = 0; j<tempList.size();j++) {
+               if (ITEMS.get(i).aBaseMax > tempList.get(j).aBaseMax) {
+                   tempList.add(j + 1, ITEMS.get(i));
+                   break;
+               }
+            }
+
+        }
+        ITEMS = tempList;
+    }
+
+    /**
+     * Record a screen view hit for the visible CardList
+     */
+    private void sendScreenName() {
+
+        // [START screen_view_hit]
+        mTracker.setScreenName("Card List");
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+        // [END screen_view_hit]
     }
 
 }

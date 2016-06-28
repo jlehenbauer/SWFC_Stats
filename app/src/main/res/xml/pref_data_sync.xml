@@ -21,7 +21,7 @@
     </Preference>
     -->
     <SwitchPreference
-        android:defaultValue="true"
+        android:defaultValue="false"
         android:key="imagesEnabled"
         android:summary="@string/pref_img_enabled_summary"
         android:title="@string/pref_enable_images" />

@@ -1,10 +1,16 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <SwitchPreference
-        android:defaultValue="true"
-        android:key="images_enabled"
-        android:title="@string/pref_enable_images" />
-
+    <Preference android:key="about"
+        android:title="About Stats for SWFC"
+        android:summary="@string/about_disclaimer"/>
+    <Preference android:key="devcontact"
+        android:title="Send Feedback">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="@string/email_dev">
+            <extra android:name="android.intent.extra.SUBJECT"
+                android:value="Feedback for Stats for SWFC"/>
+        </intent>
+    </Preference>
     <!-- NOTE: EditTextPreference accepts EditText attributes. -->
     <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code.
     <EditTextPreference

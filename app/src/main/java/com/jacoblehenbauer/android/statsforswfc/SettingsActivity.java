@@ -21,6 +21,9 @@ import android.text.TextUtils;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
+
 import java.util.List;
 
 /**
@@ -35,6 +38,12 @@ import java.util.List;
  * API Guide</a> for more information on developing a Settings UI.
  */
 public class SettingsActivity extends AppCompatPreferenceActivity {
+
+    /**
+     * Create a Tracker resource for Analytics
+     */
+    private Tracker mTracker;
+
     /**
      * A preference value change listener that updates the preference's summary
      * to reflect its new value.
@@ -121,6 +130,13 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setupActionBar();
+
+        // Obtain the shared Tracker instance.
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+
+        mTracker.setScreenName("Settings");
+        mTracker.send(new HitBuilders.ScreenViewBuilder().build());
     }
 
     /**
@@ -169,14 +185,15 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
      */
     protected boolean isValidFragment(String fragmentName) {
         return PreferenceFragment.class.getName().equals(fragmentName)
-                //|| GeneralPreferenceFragment.class.getName().equals(fragmentName)
-                ||DataSyncPreferenceFragment.class.getName().equals(fragmentName);
+                ||DataSyncPreferenceFragment.class.getName().equals(fragmentName)
+                ||GeneralPreferenceFragment.class.getName().equals(fragmentName);
                 //|| NotificationPreferenceFragment.class.getName().equals(fragmentName);
     }
 
     /**
      * This fragment shows general preferences only. It is used when the
      * activity is showing a two-pane settings UI.
+     */
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public static class GeneralPreferenceFragment extends PreferenceFragment {
         @Override
@@ -189,8 +206,6 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             // to their values. When their values change, their summaries are
             // updated to reflect the new value, per the Android Design
             // guidelines.
-            bindPreferenceSummaryToValue(findPreference("example_text"));
-            bindPreferenceSummaryToValue(findPreference("example_list"));
         }
 
         @Override
@@ -204,7 +219,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         }
     }
 
-    */
+
     /**
      * This fragment shows notification preferences only. It is used when the
      * activity is showing a two-pane settings UI.

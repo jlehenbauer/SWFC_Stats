@@ -12,6 +12,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
 import com.squareup.picasso.Picasso;
 
 /**
@@ -21,6 +23,12 @@ import com.squareup.picasso.Picasso;
  * on handsets.
  */
 public class CardDetailFragment extends Fragment {
+
+
+    /**
+     * Analytics
+     */
+    private Tracker mTracker;
 
     /**
      * The fragment argument representing the item ID that this fragment
@@ -65,7 +73,16 @@ public class CardDetailFragment extends Fragment {
                 appBarLayout.setTitle(card.name + " " + card.getStarsShort());
             }
             //dataPasser.onDataPass(passedCard);
+
+
+            /**
+             * Send Analytics report for the visible Card
+             */
+            AnalyticsApplication application = (AnalyticsApplication) getActivity().getApplication();
+            mTracker = application.getDefaultTracker();
+            sendScreenName();
         }
+
     }
 
     @Override
@@ -112,4 +129,16 @@ public class CardDetailFragment extends Fragment {
         dataPasser = (OnDataPass) a;
     }
     **/
+
+    /**
+    * Record a screen view hit for the visible Card Detail Fragment
+    */
+    private void sendScreenName() {
+        if (card != null) {
+            // [START screen_view_hit]
+            mTracker.setScreenName("Card Detail: " + card.name);
+            mTracker.send(new HitBuilders.ScreenViewBuilder().build());
+            // [END screen_view_hit]
+        }
+    }
 }

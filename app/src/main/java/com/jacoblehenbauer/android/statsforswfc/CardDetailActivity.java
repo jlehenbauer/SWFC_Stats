@@ -10,6 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBar;
 import android.view.MenuItem;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
+
 /**
  * An activity representing a single Card detail screen. This
  * activity is only used narrow width devices. On tablet-size devices,
@@ -19,6 +22,10 @@ import android.view.MenuItem;
 public class CardDetailActivity extends AppCompatActivity
         implements CardDetailFragment.OnDataPass{
 
+    /**
+     * Create the Tracker for Analytics
+     */
+    private Tracker mTracker;
 
     /**
      * The card content this activity is presenting.
@@ -33,11 +40,26 @@ public class CardDetailActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         card = CardDetailFragment.getCard();
 
+        /**
+         * Obtain the shared Tracker instance
+         */
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         assert fab != null;
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                /**
+                 * Send Share activity to Analytics
+                 */
+                mTracker.send(new HitBuilders.EventBuilder()
+                        .setCategory("Action")
+                        .setAction("Share")
+                        .setLabel("Card Share")
+                        .build());
 
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
@@ -99,4 +121,5 @@ public class CardDetailActivity extends AppCompatActivity
     public void onDataPass(CardListActivity.Card passedCard){
         card = passedCard;
     }
+
 }

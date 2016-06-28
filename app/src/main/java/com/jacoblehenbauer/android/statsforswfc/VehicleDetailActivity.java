@@ -10,6 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.app.ActionBar;
 import android.view.MenuItem;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
+
 /**
  * An activity representing a single Vehicle detail screen. This
  * activity is only used narrow width devices. On tablet-size devices,
@@ -18,8 +21,14 @@ import android.view.MenuItem;
  */
 
 
+
 public class VehicleDetailActivity extends AppCompatActivity
         implements VehicleDetailFragment.OnDataPass{
+
+    /**
+     * Create the Tracker for Analytics
+     */
+    private Tracker mTracker;
 
     private VehicleListActivity.Vehicle vehicle;
 
@@ -31,11 +40,26 @@ public class VehicleDetailActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         vehicle = VehicleDetailFragment.getVehicle();
 
+        /**
+         * Obtain the shared Tracker instance
+         */
+        AnalyticsApplication application = (AnalyticsApplication) getApplication();
+        mTracker = application.getDefaultTracker();
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         assert fab != null;
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                /**
+                 * Send Share activity to Analytics
+                 */
+                mTracker.send(new HitBuilders.EventBuilder()
+                        .setCategory("Action")
+                        .setAction("Share")
+                        .setLabel("Vehicle Share")
+                        .build());
 
                 Intent sendIntent = new Intent();
                 sendIntent.setAction(Intent.ACTION_SEND);
@@ -76,6 +100,8 @@ public class VehicleDetailActivity extends AppCompatActivity
                     .add(R.id.vehicle_detail_container, fragment)
                     .commit();
         }
+
+
     }
 
     @Override
@@ -97,4 +123,6 @@ public class VehicleDetailActivity extends AppCompatActivity
     public void onDataPass(VehicleListActivity.Vehicle passedVehicle){
         vehicle = passedVehicle;
     }
+
+
 }
