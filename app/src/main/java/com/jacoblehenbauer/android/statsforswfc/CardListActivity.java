@@ -587,8 +587,9 @@ public class CardListActivity extends AppCompatActivity {
         @Override
         public String toString() {
             String stats = this.name + " "
-                    + "\n" + this.getStars() + this.alignment
-                    + "\n" + "Actions per turn: " + this.numTurns
+                    + "\n" + this.getStars();
+            if(this.alignment!=null) stats = stats + this.alignment;
+            stats = stats + "\n" + "Actions per turn: " + this.numTurns
                     + "\n" + "Range: " + String.valueOf(this.range)
                     + "\n" + "Max Base Defense: " + NumberFormat.getNumberInstance(Locale.US).format(this.dBaseMax)
                     + "\n" + "Max Base Attack: " + NumberFormat.getNumberInstance(Locale.US).format(this.aBaseMax)
