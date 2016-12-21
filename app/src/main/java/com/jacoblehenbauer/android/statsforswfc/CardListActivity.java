@@ -42,6 +42,7 @@ import java.lang.reflect.Array;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
@@ -124,11 +125,57 @@ public class CardListActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                 Snackbar.make(view, "Filter cards using the bar above", Snackbar.LENGTH_LONG)
+                 Snackbar.make(view, "Filter cards using the dialog", Snackbar.LENGTH_LONG)
                  .setAction("Action", null).show();
-                //showFilterDialog();
-                //sortByAttack();
-                //((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
+                final boolean[] filterOptions = new boolean[7];
+                AlertDialog.Builder builder1 = new AlertDialog.Builder(recyclerView.getContext());
+                builder1.setTitle("Filter Card List");
+                builder1.setCancelable(true);
+                builder1.setSingleChoiceItems(R.array.filter_items, -1, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        filterOptions[i] = true;
+                    }
+                }).setPositiveButton("Filter", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        //int selectedPosition = ((AlertDialog)dialogInterface).getListView().getSelectedItemPosition();
+                        if(filterOptions[0] == true){
+                            refreshCardList();
+                            ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();}
+                        else if(filterOptions[1] == true){
+                            sortByAttack("ascending");
+                            ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();}
+                        else if(filterOptions[2] == true){
+                            sortByAttack("descending");
+                            ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();}
+                        else if(filterOptions[3] == true){
+                            sortByCost("ascending");
+                            ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();}
+                        else if(filterOptions[4] == true){
+                            sortByCost("descending");
+                            ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();}
+                        else if(filterOptions[5] == true){
+                            sortBySkill("ascending");
+                            ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();}
+                        else if(filterOptions[6] == true){
+                            sortBySkill("descending");
+                            ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();}
+                        else return;
+                    }
+                })
+                        .setNegativeButton(
+                                "Cancel",
+                                new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int id) {
+                                        dialog.cancel();
+                                    }
+                                });
+
+                AlertDialog alert11 = builder1.create();
+                alert11.show();
+
+                ((RecyclerView) recyclerView).getAdapter().notifyDataSetChanged();
             }
         });
 
@@ -371,34 +418,27 @@ public class CardListActivity extends AppCompatActivity {
     /**
      * Create a popup dialog to allow filtering of cards
      */
-    private void showFilterDialog() {
+/*    private void showFilterDialog() {
         AlertDialog.Builder builder1 = new AlertDialog.Builder(this);
         builder1.setTitle("Filter Card List");
         builder1.setCancelable(true);
+        builder1.setSingleChoiceItems(R.array.filter_items, 0, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
 
-
-        builder1.setMultiChoiceItems(R.array.filter_items, null, new DialogInterface.OnMultiChoiceClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which, boolean isChecked) {
-                if(isChecked){
-                    //when item is checked, add it to the list of selected items
-                }
-                else{
-                    //remove item from list if it is already there
-                }
-            }
-        });
-        builder1.setPositiveButton(
-                "Filter",
-                new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        sortByAttack();
-                        dialog.cancel();
-                        //filter items method
                     }
-                });
-
-        builder1.setNegativeButton(
+                }).setPositiveButton("Filter", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                int selectedPosition = ((AlertDialog)dialogInterface).getListView().getSelectedItemPosition();
+                if(selectedPosition == 0){ filterCardListByStars(5, ITEMS); }
+                else if(selectedPosition == 1){ sortByAttack(); }
+                else if(selectedPosition == 2){ sortBySkill(); }
+                else if(selectedPosition == 3){ sortByCost(); }
+                else return;
+            }
+        })
+        .setNegativeButton(
                 "Cancel",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
@@ -408,7 +448,8 @@ public class CardListActivity extends AppCompatActivity {
 
         AlertDialog alert11 = builder1.create();
         alert11.show();
-    }
+
+    }*/
 
     /**
      * A SWFC card.
@@ -440,11 +481,11 @@ public class CardListActivity extends AppCompatActivity {
         public final boolean isAwakenable;
 
         @Trim
-        @Parsed(field = "numTurns")
+        @Parsed(field = "numTurns", defaultNullRead = "unavailable")
         public final String numTurns;
 
         @Trim
-        @Parsed(field = "Range", defaultNullRead = "n")
+        @Parsed(field = "Range", defaultNullRead = "N")
         public final char range;
 
         @Trim
@@ -614,7 +655,7 @@ public class CardListActivity extends AppCompatActivity {
     }
 
     //add a card to the array and map of current cards
-    private static void addCard(Card item) {
+    private static void addNewCard(Card item) {
         Card card = new Card(item.id,
                 item.image,
                 item.name,
@@ -637,6 +678,9 @@ public class CardListActivity extends AppCompatActivity {
     public static void removeCard(Card item) {
         ITEMS.remove(item);
     }
+
+    //add a card to the end of the ITEMS list
+    public static void addCard(Card item) {ITEMS.add(ITEMS.size(), item);}
 
     private void makeOriginalCardList() {
         InputStream cardFile = null;
@@ -683,7 +727,7 @@ public class CardListActivity extends AppCompatActivity {
 
         //create a new Card for each card in the list
         while (!cards.isEmpty()) {
-            addCard(cards.get(0));
+            addNewCard(cards.get(0));
             cards.remove(0);
         }
     }
@@ -725,20 +769,81 @@ public class CardListActivity extends AppCompatActivity {
         makeOriginalCardList();
     }
 
-    public void sortByAttack(){
+    public void sortByAttack(String order){
         ArrayList<Card> tempList = new ArrayList<Card>();
-        tempList.add(0, ITEMS.get(0));
-        for(int i = 0;  i < ITEMS.size(); i++){
-            for(int j = 0; j<tempList.size();j++) {
-               if (ITEMS.get(i).aBaseMax > tempList.get(j).aBaseMax) {
-                   tempList.add(j + 1, ITEMS.get(i));
-                   break;
-               }
+        /**
+         * While the original card list has cards:
+         *      1. Find the highest remaining value
+         *      2. Remove this card from the original list
+         *      3. Place this at the end of the tempList
+         * Then reset the original list to the new tempList
+         */
+        while(!ITEMS.isEmpty()){
+            Card card = ITEMS.get(0);
+            for(int i = 0; i < ITEMS.size(); i++){
+                if(ITEMS.get(i).aBaseMax > card.aBaseMax){
+                    card = ITEMS.get(i);
+                }
             }
-
+            removeCard(card);
+            tempList.add(tempList.size(), card);
         }
-        ITEMS = tempList;
+        for(int i = 0; i < tempList.size(); i++){
+            addCard(tempList.get(i));
+        }
+
+        if(order == "descending"){Collections.reverse(ITEMS);}
     }
+
+    public void sortByCost(String order){
+        ArrayList<Card> tempList = new ArrayList<Card>();
+        /**
+         * While the original card list has cards:
+         *      1. Find the highest remaining value
+         *      2. Remove this card from the original list
+         *      3. Place this at the end of the tempList
+         * Then reset the original list to the new tempList
+         */
+        while(!ITEMS.isEmpty()){
+            Card card = ITEMS.get(0);
+            for(int i = 0; i < ITEMS.size(); i++){
+                if(ITEMS.get(i).cost > card.cost){
+                    card = ITEMS.get(i);
+                }
+            }
+            removeCard(card);
+            tempList.add(tempList.size(), card);
+        }
+        for(int i = 0; i < tempList.size(); i++){
+            addCard(tempList.get(i));
+        }
+
+        if(order == "descending"){Collections.reverse(ITEMS);}
+    }
+
+    public void sortBySkill(String order){
+        ArrayList<Card> tempList = new ArrayList<Card>();
+        /**
+         * While the original card list has cards:
+         *      1. Find the highest remaining value
+         *      2. Remove this card from the original list
+         *      3. Place this at the end of the tempList
+         * Then reset the original list to the new tempList
+         */
+        for(int i = 0; i < ITEMS.size(); i++){
+            if(ITEMS.get(i).skill != null){
+                if(ITEMS.get(i).skill != "None"){
+                    tempList.add(tempList.size(), ITEMS.get(i));
+                }
+            }
+        }
+        ITEMS.clear();
+        for(int j = 0; j < tempList.size(); j++){
+            addCard(tempList.get(j));
+        }
+        if(order == "descending"){Collections.reverse(ITEMS);}
+    }
+
 
     /**
      * Record a screen view hit for the visible CardList

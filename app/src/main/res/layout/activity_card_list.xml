@@ -67,7 +67,7 @@
             android:id="@+id/resetStarsButton"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Reset"
+            android:text="View All"
             android:layout_gravity="right"/>
         </LinearLayout>
 

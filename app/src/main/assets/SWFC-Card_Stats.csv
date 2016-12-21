@@ -1,561 +1,581 @@
 Image,Name,Id,Alignment,Stars,numTurns,Cost,Range,Acc,Eva,ABaseMax,DBaseMax,isAwakenable,Skill
-http://android.jacoblehenbauer.com/images/crd/1030610550.png,Aayla Secura,,Light,5,1,32,S,170,90,9260,8660,FALSE,Champion (3-8%)
+http://android.jacoblehenbauer.com/images/crd/1030610550.png,Aayla Secura,1,Light,5,1,32,S,170,90,9260,8660,FALSE,Champion (3-8%)
 http://android.jacoblehenbauer.com/images/crd/1102210350.png,Admiral Ackbar,2,Light,5,1,24,M,160,60,6830,9180,FALSE,All EVA Up [Sml] (10-20%)
 http://android.jacoblehenbauer.com/images/crd/1102210450.png,Admiral Ackbar [It's a Trap!],3,Light,5,1,28,M,150,70,5540,8600,FALSE,Strength in Numbers (5-15%)
 http://android.jacoblehenbauer.com/images/crd/1112810250.png,Ahsoka Tano,4,Light,5,2,34,S,150,80,9110,8240,TRUE,Counter Attack [Max] (100-200-250%)
-http://android.jacoblehenbauer.com/images/crd/1010910950.png,Anakin Skywalker [Dual Wield],5,Light,5,2,27,S,170,60,8850,8610,FALSE,Blitz (20-50%)
-http://android.jacoblehenbauer.com/images/crd/1010911150.png,Anakin Skywalker [Jedi General],6,Light,5,1,36,S,170,80,8760,8810,TRUE,Clone Wars Hero (6-12-15%)
-http://android.jacoblehenbauer.com/images/crd/1010910450.png,Anakin Skywalker [Padawan],7,Light,5,1,17,S,170,80,10290,6610,TRUE,None
-http://android.jacoblehenbauer.com/images/crd/1010911050.png,Anakin Skywalker [Race of Destiny],8,Light,5,1,27,S,160,150,5740,5640,FALSE,Recovery (2-5%)
-http://android.jacoblehenbauer.com/images/crd/1010910750.png,Anakin Skywalker [The Chosen One],9,Light,5,1,21,S,170,80,9200,9250,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1010920850.png,Anakin Skywalker [The Fallen One],10,Dark,5,1,40,S,170,80,8870,8810,FALSE,The Fallen One (5-12%)
-http://android.jacoblehenbauer.com/images/crd/1112920250.png,Asajj Ventress,11,Dark,5,2,36,S,160,100,8730,9400,TRUE,1-Unit Combat Skill Effect Down [Med] (20-40-50%)
-http://android.jacoblehenbauer.com/images/crd/1012820350.png,Aurra Sing,12,Dark,5,2,19,M,240,50,7420,6160,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1012820550.png,Aurra Sing [Hired Gun],13,Dark,5,2,28,M,140,70,8390,6080,FALSE,Barrage (10-30%)
-http://android.jacoblehenbauer.com/images/crd/1040420450.png,Barriss Offee [Fallen Jedi],14,Dark,5,2,37,S,160,90,8700,8390,FALSE,Betrayer (5-20%)
-http://android.jacoblehenbauer.com/images/crd/1118030150.png,BB-8,15,Neutral,5,1,22,S,170,120,5820,5780,TRUE,Little Hero (5-5-5%)
-http://android.jacoblehenbauer.com/images/crd/1013311250.png,Ben Kenobi,16,Light,5,1,36,S,170,90,7840,9370,FALSE,One with the Force (2-5%)
-http://android.jacoblehenbauer.com/images/crd/1013311550.png,Ben Kenobi [Jedi in Hiding],17,Light,5,1,37,S,170,80,8160,9060,TRUE,Watcher of the New Hope (10-20-30%)
-http://android.jacoblehenbauer.com/images/crd/1041720450.png,Boba Fett,18,Dark,5,1,18,M,160,70,10010,6310,TRUE,None
-http://android.jacoblehenbauer.com/images/crd/1041720750.png,Boba Fett [Death for Hire],19,Dark,5,1,29,M,160,60,10080,5980,FALSE,Tempter of Fate (100-200%)
-http://android.jacoblehenbauer.com/images/crd/1041720550.png,Boba Fett [The Relentless Hunter],20,Dark,5,3,32,S,250,60,2190,9970,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1097320350.png,Bossk,21,Dark,5,1,24,M,160,80,8920,6600,FALSE,Regenerate (5-10%)
-http://android.jacoblehenbauer.com/images/crd/1027310650.png,C-3PO,22,Light,5,1,35,S,130,100,3250,8580,FALSE,The Golden God (50-100%)
-http://android.jacoblehenbauer.com/images/crd/1027330750.png,C-3PO & R2-D2 [May the 4th Limited Edition],23,Neutral,5,1 per 2,20,S,130,100,5780,5820,FALSE,Attendant (5-5%)
-http://android.jacoblehenbauer.com/images/crd/1114520150.png,Cad Bane ,24,Dark,5,2,35,M,160,110,8080,6120,FALSE,Die Hard (25-50%)
-http://android.jacoblehenbauer.com/images/crd/1114520250.png,Cad Bane [Steeled Killer],25,Dark,5,1,38,M,160,60,8940,5840,TRUE,Scum at it's Finest (10-20-25%)
-http://android.jacoblehenbauer.com/images/crd/1144020250.png,Captain Phasma,26,Dark,5,1,33,M,160,70,9880,6390,TRUE,Spearhead (20-50-60%)
-http://android.jacoblehenbauer.com/images/crd/1063910350.png,Chewbacca,27,Light,5,1,18,M,240,50,8480,6380,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1063910750.png,Chewbacca [A Hero Returned],28,Light,5,1,39,M,150,50,7910,5290,TRUE,Barrage (10-30-35%)
-http://android.jacoblehenbauer.com/images/crd/1063910550.png,Chewbacca [Hero of Kashyyyk],29,Light,5,1,28,M,160,70,8560,6210,FALSE,3-Unit Wookiee ATK Up [Sml] (7-15%)
-http://android.jacoblehenbauer.com/images/crd/1063910650.png,Chewbacca [Wookiee Warrior],30,Light,5,1,33,S,170,80,6000,10020,FALSE,Self ATK Up [Med] (50-100%)
-http://android.jacoblehenbauer.com/images/crd/1114410150.png,Clone Captain Rex,31,Light,5,2,34,M,160,70,7950,7600,FALSE,Concentrated Fire (20-50%)
-http://android.jacoblehenbauer.com/images/crd/1114410250.png,Clone Captain Rex [Phase 2],32,Dark,5,1,35,M,100,60,12160,7910,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1045920150.png,Clone Commander Appo,33,Light,5,1,28,M,160,70,8730,6070,FALSE,3-Unit Clone Trooper ATK Up [Sml] (7-15%)
-http://android.jacoblehenbauer.com/images/crd/1046010350.png,Clone Commander Cody,34,Light,5,1,35,M,160,70,6220,9330,FALSE,Clone Marshall Commander (15-30%)
-http://android.jacoblehenbauer.com/images/crd/1046020450.png,Clone Commander Cody,35,Dark,5,1,35,M,160,70,6120,9430,FALSE,Clone Marshall Commander (15-30%)
-http://android.jacoblehenbauer.com/images/crd/1046120150.png,Clone Commander Thire,36,Dark,5,1,28,M,160,70,6700,8150,FALSE,3-Unit Clone Trooper DEF Up [Sml] (7-15%)
-http://android.jacoblehenbauer.com/images/crd/1017220150.png,Darth Maul,37,Dark,5,1,18,S,170,80,8740,8490,TRUE,None
-http://android.jacoblehenbauer.com/images/crd/1017220350.png,Darth Maul [Assassin],38,Dark,5,1,20,S,170,80,9260,8440,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1017220650.png,Darth Maul [Malice Reborn],39,Dark,5,1,38,S,170,100,10250,7820,TRUE,Unending Grudge (6-12-15%)
-http://android.jacoblehenbauer.com/images/crd/1017220550.png,Darth Maul [Rage of the Sith],40,Dark,5,1,40,S,170,80,10120,9200,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1020520150.png,Darth Sidious,41,Dark,5,1,34,S,170,80,8970,9170,FALSE,elf DEF Up [Med] (50-100%)
-http://android.jacoblehenbauer.com/images/crd/1020521050.png,Darth Sidious [Ruthless Ambition],42,Dark,5,2,40,S,170,80,8000,8520,FALSE,Rule of Two (20-40%)
-http://android.jacoblehenbauer.com/images/crd/1020520750.png,Darth Sidious [Sith Dictator],43,Dark,5,1,39,S,140,80,8050,7920,FALSE,Dark Absorption (10-20%)
-http://android.jacoblehenbauer.com/images/crd/1062820150.png,Darth Vader,44,Dark,5,1,20,S,170,80,9090,9000,TRUE,None
-http://android.jacoblehenbauer.com/images/crd/1062820550.png,Darth Vader [Cloud City],45,Dark,5,1,32,S,170,80,9100,9040,FALSE,Blaster Reflection [Med] (80-120%)
-http://android.jacoblehenbauer.com/images/crd/1062820750.png,Darth Vader [Galactic Terror],46,Dark,5,1,35,S,170,80,9320,8920,FALSE,Self ATK Up [Med] (50-100%)
-http://android.jacoblehenbauer.com/images/crd/1062821350.png,Darth Vader [His Master's Bidding],47,Dark,5,1,35,M,160,70,6490,6650,FALSE,Self ATK Up [Med] (50-100%)
-http://android.jacoblehenbauer.com/images/crd/1062821050.png,Darth Vader [Master of Evil],48,Dark,5,1,39,S,170,80,9330,8700,FALSE,Jedi Purge (3-10%)
-http://android.jacoblehenbauer.com/images/crd/1062820650.png,Darth Vader [May the 4th Limited Edition],49,Dark,5,1,18,S,170,80,6220,6120,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1062820850.png,Darth Vader [The Dark Usurper],50,Dark,5,1,39,S,170,80,9280,8800,FALSE,Call of the Dark Side (7-15%)
-http://android.jacoblehenbauer.com/images/crd/1062820950.png,Darth Vader [The Penultimate Conflict],51,Dark,5,1,42,S,170,90,10160,9100,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1062821150.png,Darth Vader [TIE Advanced],52,Dark,5,1,18,S,170,100,8600,7590,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1062831250.png,Darth Vader & Emperor Palpatine [2nd Anniversary Limited Edition],53,Neutral,5,0,26,S,0,70,5840,5880,FALSE,Joined Fates (100-100%)
-http://android.jacoblehenbauer.com/images/crd/1078420150.png,Dengar,54,Dark,5,1,31,M,160,60,8220,7320,FALSE,Counter Attack [Med] (100-200%)
-http://android.jacoblehenbauer.com/images/crd/1038520250.png,Dooku,55,Dark,5,1,19,S,170,80,6870,10120,TRUE,None
-http://android.jacoblehenbauer.com/images/crd/1038520550.png,Dooku [Dark Lord],56,Dark,5,1,28,S,140,80,5340,8110,FALSE,Pacify [Med] (10-30%)
-http://android.jacoblehenbauer.com/images/crd/1038520650.png,Dooku [Enemy of the Republic],57,Dark,5,1,28,S,170,90,8550,8290,FALSE,Form 2 (20-40%)
-http://android.jacoblehenbauer.com/images/crd/1038520350.png,Dooku [Sith Lord],58,Dark,5,1,33,S,140,80,8190,7980,FALSE,Self ATK Up [Sml] (50-100%)
-http://android.jacoblehenbauer.com/images/crd/1103120350.png,Droideka,59,Dark,5,1 per 2,48,M,160,0,4600,8520,FALSE,Deflector Shield (40-70%)
-http://android.jacoblehenbauer.com/images/crd/1020520250.png,Emperor Palpatine,60,Dark,5,1,22,S,140,70,8400,7520,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1111420250.png,Emperor's Royal Guard,61,Dark,5,1,28,S,170,100,8270,7870,FALSE,Shield of The Empire (15-30%)
-http://android.jacoblehenbauer.com/images/crd/1147610250.png,Finn,62,Light,5,1,32,S,150,90,7500,8910,TRUE,Protector (30-70-80%)
-http://android.jacoblehenbauer.com/images/crd/1156420150.png,"FN-2199 ""Nines""",63,Dark,5,1,33,S,160,80,8760,8930,TRUE,Suppression (10-20-25%)
-http://android.jacoblehenbauer.com/images/crd/1048620350.png,General Grievous,64,Dark,5,2,20,S,160,125,8880,7030,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1048620550.png,General Grievous [Elusive Commander],65,Dark,5,1,38,S,170,80,10160,6840,FALSE,Minion Shield (5-20%)
-http://android.jacoblehenbauer.com/images/crd/1048620450.png,General Grievous [Last Stand],66,Dark,5,4,34,S,130,135,9050,6540,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1048620650.png,General Grievous [The Atrocious Executioner],67,Dark,5,2,36,S,130,70,9190,8780,FALSE,Counter Attack [Med] (100-200%)
-http://android.jacoblehenbauer.com/images/crd/1141920150.png,General Hux,68,Dark,5,1,35,M,150,60,5740,5680,TRUE,Raise Morale (40-55-60%)
-http://android.jacoblehenbauer.com/images/crd/1141920250.png,General Hux [Calculated Tactician],69,Dark,5,1,,L,,,11490,6020,TRUE,
-http://android.jacoblehenbauer.com/images/crd/1115220150.png,General Kalani,70,Dark,5,1,27,M,150,60,5030,8170,FALSE,Concentrated Fire (20-50%)
-http://android.jacoblehenbauer.com/images/crd/1080320350.png,General Veers,71,Dark,5,1,28,M,150,60,7650,5780,FALSE,Pain for Power (5-15%)
-http://android.jacoblehenbauer.com/images/crd/1057320350.png,Grand Moff Tarkin,72,Dark,5,1,25,M,160,60,7130,9020,FALSE,All EVA Down [Sml] (10-20%)
-http://android.jacoblehenbauer.com/images/crd/1057320450.png,Grand Moff Tarkin [The Merciless],73,Dark,5,1 per 19,128,L,250,60,9370,6070,FALSE,Merciless Execution
-http://android.jacoblehenbauer.com/images/crd/1067010550.png,Han Solo,74,Light,5,1,18,M,160,70,9960,6390,TRUE,None
-http://android.jacoblehenbauer.com/images/crd/1067010950.png,Han Solo [Quick Draw],75,Light,5,1,32,M,160,60,8110,7570,FALSE,Counter Attack [Med] (100-200%)
-http://android.jacoblehenbauer.com/images/crd/1067010750.png,Han Solo [Smuggler for Hire],76,Light,5,2,23,M,155,130,8550,5180,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1082120450.png,IG-88B,77,Dark,5,2,40,M,150,70,8650,5900,FALSE,Neural Inhibitor Launcher (25-50%)
-http://android.jacoblehenbauer.com/images/crd/1016420250.png,Jabba the Hutt,78,Dark,5,1,19,S,170,80,9990,7000,TRUE,None
-http://android.jacoblehenbauer.com/images/crd/1016420450.png,Jabba the Hutt [1st Anniversary Limited Edition],79,Dark,5,1,19,S,175,86,6270,6020,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1016420550.png,Jabba the Hutt [Crime Lord],80,Dark,5,1 per 2,60,S,140,0,2990,12260,FALSE,My Kind of Scum (100-100%)
-http://android.jacoblehenbauer.com/images/crd/1035220250.png,Jango Fett,81,Dark,5,1,18,M,160,80,9880,6300,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1035220550.png,Jango Fett [Assassin Without Peer],82,Dark,5,2,34,M,160,80,8800,6210,TRUE,Kamino Saberdart (30-50-60%)
-http://android.jacoblehenbauer.com/images/crd/1035220450.png,Jango Fett [The Original Warrior],83,Dark,5,2,35,M,170,60,2430,9800,FALSE,3-Unit Combat Skill Effect Down [Med] (7-15%)
-http://android.jacoblehenbauer.com/images/crd/1016210350.png,Jar Jar Binks,84,Light,5,1,16,S,170,160,6960,4090,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1016210450.png,Jar Jar Binks [Gungan Senator],85,Light,5,1,29,S,140,60,5740,8620,FALSE,Skill Effect Down [Med] (20-40%)
-http://android.jacoblehenbauer.com/images/crd/1032810250.png,Kit Fisto,86,Light,5,1,37,S,150,90,7810,8950,FALSE,Force Push [Med] (1-3%)
-http://android.jacoblehenbauer.com/images/crd/1139020150.png,Kylo Ren,87,Dark,5,1,32,S,170,90,9210,8370,TRUE,Heir to the Dark (2-5-6%)
-http://android.jacoblehenbauer.com/images/crd/1139020250.png,Kylo Ren [Starkiller Base],88,Dark,5,1,43,S,170,80,9490,8560,TRUE,Path to the Dark (10-30-40%)
-http://android.jacoblehenbauer.com/images/crd/1080810250.png,Lando Calrissian,89,Light,5,1,24,M,160,80,9010,7810,FALSE,Self ACC Up [Sml] (25-50%)
-http://android.jacoblehenbauer.com/images/crd/1080810450.png,Lando Calrissian [Clever Move],90,Light,5,1,39,M,160,70,9190,6300,FALSE,Swindler (35-70%)
-http://android.jacoblehenbauer.com/images/crd/1071010750.png,Leia Organa,91,Light,5,1,32,L,170,60,6530,6030,FALSE,Self ATK Up [Med] (50-100%)
-http://android.jacoblehenbauer.com/images/crd/1071010950.png,Leia Organa [1st Anniversary Limited Edition],92,Light,5,1,19,S,175,86,6020,6270,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1071011150.png,Leia Organa [A Time to Strike],93,Light,5,0,27,S,0,140,6860,8160,FALSE,Strangle (40-140%)
-http://android.jacoblehenbauer.com/images/crd/1071011250.png,Leia Organa [Speeder Chase],94,Light,5,1,27,M,160,125,7500,6640,FALSE,Rebel Spirit (10-40%)
-http://android.jacoblehenbauer.com/images/crd/1070910150.png,Luke Skywalker,95,Light,5,1,19,S,170,80,8550,8650,TRUE,None
-http://android.jacoblehenbauer.com/images/crd/1070910850.png,Luke Skywalker [Heir to an Empire],96,Light,5,1,38,S,170,80,8780,8200,FALSE,Rogue Leader (2-5%)
-http://android.jacoblehenbauer.com/images/crd/1070911150.png,Luke Skywalker [Jedi Knight],97,Light,5,1,34,S,170,100,8830,8550,FALSE,Form 3 (20-40%)
-http://android.jacoblehenbauer.com/images/crd/1070910950.png,Luke Skywalker [Man of Destiny],98,Light,5,1,41,S,170,90,9440,9950,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1070910750.png,Luke Skywalker [May the 4th Limited Edition],99,Light,5,1,18,S,170,80,6120,6220,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1043010450.png,Luminara Unduli,100,Light,5,1,34,S,240,80,6580,9660,FALSE,3-Unit Combat Skill Effect Down [Med] (7-15%)
-http://android.jacoblehenbauer.com/images/crd/1023610350.png,Mace Windu,101,Light,5,1,32,S,170,80,9000,9030,FALSE,Self ATK Up [Med] (50-100%)
-http://android.jacoblehenbauer.com/images/crd/1023610550.png,Mace Windu [A Jedi Betrayed],102,Light,5,1 per 2,37,S,150,90,11110,7990,TRUE,Force Grip (30-70-80%)
-http://android.jacoblehenbauer.com/images/crd/1023610450.png,Mace Windu [Master of Vaapad],103,Light,5,1 per 3,36,S,180,110,15000,7270,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1106620350.png,MagnaGuard,104,Dark,5,1,29,S,170,80,8220,9390,FALSE,Resolve (60-90%)
-http://android.jacoblehenbauer.com/images/crd/1024410150.png,Master Yoda,105,Light,5,1,20,S,170,80,9140,8840,TRUE,None
-http://android.jacoblehenbauer.com/images/crd/1024411050.png,Master Yoda [Aspect of the Light],106,Light,5,1,35,M,160,60,6130,6940,FALSE,Self ATK Up [Med] (50-100%)
-http://android.jacoblehenbauer.com/images/crd/1024410550.png,Master Yoda [Exile on Dagobah],107,Light,5,1,21,S,170,90,6880,10720,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1024410850.png,Master Yoda [Reluctant General],108,Light,5,1,29,S,170,100,9000,9120,FALSE,Form 4 (20-40%)
-http://android.jacoblehenbauer.com/images/crd/1024410750.png,Master Yoda [The Grand Master],109,Light,5,1,38,S,170,80,8510,8800,FALSE,Defender of the Weak (1-4%)
-http://android.jacoblehenbauer.com/images/crd/1119010150.png,Maz Kanata,110,Light,5,1,28,S,120,80,4140,5880,TRUE,Unveiled Light (10-20-25%)
-http://android.jacoblehenbauer.com/images/crd/1019620450.png,Nute Gunray,111,Dark,5,1,24,S,140,60,5590,6510,FALSE,Adjacent Separatist ATK Up [Med] (12-20%)
-http://android.jacoblehenbauer.com/images/crd/1013310950.png,Obi-Wan Kenobi [Jedi Master],112,Light,5,1,31,S,170,90,7100,10330,FALSE,Blaster Reflection [Med] (80-120%)
-http://android.jacoblehenbauer.com/images/crd/1013311050.png,Obi-Wan Kenobi [Last of the Order],113,Light,5,1,40,S,170,80,8700,8900,FALSE,Last of the Order (5-12%)
-http://android.jacoblehenbauer.com/images/crd/1013310850.png,Obi-Wan Kenobi [Padawan],114,Light,5,1,19,S,170,100,8740,8550,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1013311350.png,Obi-Wan Kenobi [Republic General],115,Light,5,1,35,S,170,80,8520,9150,FALSE,Vehicle Support (80-110%)
-http://android.jacoblehenbauer.com/images/crd/1013311150.png,Obi-Wan Kenobi [Varactyl Cavalry],116,Light,5,2,39,S,160,110,8620,8320,FALSE,Confront Droid Army (10-20%)
-http://android.jacoblehenbauer.com/images/crd/1020310850.png,Padme Amidala [Final Term],117,Light,5,1,27,S,140,80,5080,8150,FALSE,Pacify [Med] (10-30%)
-http://android.jacoblehenbauer.com/images/crd/1020310950.png,Padme Amidala [Resourceful Senator],118,Light,5,1,29,M,160,130,7950,8270,FALSE,Dauntless Heroine (3-30%)
-http://android.jacoblehenbauer.com/images/crd/1020310550.png,Padme Amidala [Senator at War],119,Light,5,1,17,M,160,70,7780,8030,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1021810250.png,Plo Koon [Jedi Pilot],120,Light,5,1,19,S,180,90,8730,7400,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1114920150.png,Pong Krell,121,Dark,5,2,35,S,160,80,8840,9020,FALSE,Friendly Fire (70-90%)
-http://android.jacoblehenbauer.com/images/crd/1115420150.png,Pre Vizsla,122,Dark,5,1,33,S,170,60,7350,9740,FALSE,Darksaber (25-50%)
-http://android.jacoblehenbauer.com/images/crd/1020310650.png,Queen Amidala,123,Light,5,1,25,S,140,60,5680,6520,FALSE,3-Unit Light Side All Stats Up [Med] (8-15%)
-http://android.jacoblehenbauer.com/images/crd/1015110150.png,Qui-Gon Jinn,124,Light,5,1,17,S,170,80,8560,8290,TRUE,None
-http://android.jacoblehenbauer.com/images/crd/1015110450.png,Qui-Gon Jinn [The Final Duel],125,Light,5,1,39,S,170,80,9190,10040,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1115310150.png,Quinlan Vos,126,Light,5,1,32,S,170,80,8750,8450,FALSE,Daredevil (50-110%)
-http://android.jacoblehenbauer.com/images/crd/1029110450.png,R2-D2,127,Light,5,2,31,S,170,80,2640,9210,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1029130550.png,R2-D2 [May the 4th Limited Edition],128,Neutral,5,0,20,S,0,0,6070,6100,TRUE,The Jedi's Whereabouts (15-15-15%)
-http://android.jacoblehenbauer.com/images/crd/1165010150.png,Rako Hardeen,129,Light,5,1,29,M,170,70,7080,7980,TRUE,Disguised Bounty Hunter (10-25-35%)
-http://android.jacoblehenbauer.com/images/crd/1090230450.png,Rancor,130,Neutral,5,1,37,S,130,60,10980,8120,FALSE,Predator (20-50%)
-http://android.jacoblehenbauer.com/images/crd/1128010150.png,Rey,131,Light,5,1,31,S,170,80,7010,9790,TRUE,One Who Seeks the Light (2-5-6%)
-http://android.jacoblehenbauer.com/images/crd/1128010350.png,Rey [Starkiller Base],132,Light,5,1,42,S,170,80,8700,9220,TRUE,The Awakening (10-30-40%)
-http://android.jacoblehenbauer.com/images/crd/1017120350.png,Sebulba,133,Neutral,5,2,28,S,240,160,2880,5700,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1020510550.png,Senator Palpatine,134,Dark,5,1,24,S,140,60,5540,6600,FALSE,Adjacent Galactic Republic ATK Up [Med] (12-20%)
-http://android.jacoblehenbauer.com/images/crd/1035010350.png,Shaak Ti,135,Light,5,1,35,S,160,80,8350,8600,FALSE,Guardian (20-50%)
-http://android.jacoblehenbauer.com/images/crd/1111820850.png,Shadow Stormtrooper,136,Dark,5,1,35,M,170,70,7800,6080,TRUE,Covert Action (10-25-40%)
-http://android.jacoblehenbauer.com/images/crd/1020520450.png,Supreme Chancellor Palpatine,137,Dark,5,1,26,S,140,60,5790,6390,FALSE,3-Unit Dark Side All Stats Up [Med] (8-15%)
-http://android.jacoblehenbauer.com/images/crd/1057710150.png,Wedge Antilles,138,Light,5,1,17,M,160,70,7680,7630,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1034420350.png,Zam Wesell,139,Dark,5,1 per 2,34,L,230,40,10000,5110,FALSE,None
-http://android.jacoblehenbauer.com/images/crd/1081820140.png,4-LOM,140,Dark,4,1,11,M,140,50,4830,5330,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1030610440.png,Aayla Secura,141,Light,4,1,15,S,150,90,6100,5340,FALSE,Short ATK Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1010810140.png,Adi Gallia,142,Light,4,1,13,S,150,60,6040,5790,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1031710140.png,Agen Kolar,143,Light,4,1,13,S,150,60,6250,5680,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1010910140.png,Anakin Skywalker,144,Light,4,1,10,S,150,60,5220,5320,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1115710140.png,ARC Trooper Fives,145,Light,4,1,19,M,140,50,7680,4390,FALSE,Clone Trooper ATK Up [Sml] (10-20%)  
-http://android.jacoblehenbauer.com/images/crd/1012820140.png,Aurra Sing,146,Dark,4,1,12,M,140,50,4040,7330,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1012820440.png,Aurra Sing [Sniper],147,Dark,4,1,22,L,150,40,6300,3840,FALSE,Self ATK Up [Sml] (50-100%)   
-http://android.jacoblehenbauer.com/images/crd/1164020140.png,Bala-Tik,148,Dark,4,1,16,M,130,50,5950,5430,TRUE,Gang's Frontman (5-15-18%)     
-http://android.jacoblehenbauer.com/images/crd/1096420140.png,Bane Malar,149,Dark,4,1,18,M,155,50,6830,4600,FALSE,Same Column EVA Down [Sml] (5-15%)  
-http://android.jacoblehenbauer.com/images/crd/1040410340.png,Barriss Offee [Healer],150,Light,4,1,30,S,150,50,1510,4500,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1013310140.png,Ben Kenobi,151,Light,4,1,13,S,150,60,5880,6180,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1013310640.png,Ben Kenobi [Death Star],152,Light,4,1,13,S,150,60,5580,6660,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1020930140.png,Bib Fortuna,153,Neutral,4,1,10,S,150,60,4810,4560,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1020920340.png,Bib Fortuna [Majordomo],154,Dark,4,1,19,S,150,60,4610,4560,FALSE,3-Unit Jabba's Crime Syndicate ATK Up [Sml] (7-15%)
-http://android.jacoblehenbauer.com/images/crd/1041720140.png,Boba Fett,155,Dark,4,1,14,M,140,50,5840,6500,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1025710340.png,Boss Nass,156,Light,4,1,15,S,150,60,4910,6010,FALSE,Gungan ATK Up [Med] (15-30%)   
-http://android.jacoblehenbauer.com/images/crd/1097320140.png,Bossk,157,Dark,4,1,11,M,140,50,4070,6190,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1095630140.png,Boushh,158,Neutral,4,1,11,M,140,50,5010,5520,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1095610340.png,Boushh [Fearless and Inventive],159,Light,4,1,18,M,140,70,4040,6710,FALSE,Same Column ACC Down [Sml] (5-15%)  
-http://android.jacoblehenbauer.com/images/crd/1115620140.png,BX Droid Commando,160,Dark,4,1,17,S,150,100,7320,3540,FALSE,Dual-Range (90-110%)      
-http://android.jacoblehenbauer.com/images/crd/1027310140.png,C-3PO,161,Light,4,1,10,S,150,60,2250,6840,FALSE,All ATK Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1020410340.png,Captain Panaka,162,Light,4,1,21,L,150,40,5830,5030,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1144020140.png,Captain Phasma,163,Dark,4,1,16,M,140,50,7410,5030,TRUE,Merciless Commander (2-6-7%)     
-http://android.jacoblehenbauer.com/images/crd/1033410340.png,Captain Typho,164,Light,4,1,18,M,150,50,6530,4650,FALSE,Galactic Republic EVA Up [Sml] (14-20%)  
-http://android.jacoblehenbauer.com/images/crd/1063930140.png,Chewbacca,165,Neutral,4,1,12,M,140,50,5360,5850,FALSE,Neutral ATK Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1063910440.png,Chewbacca [Mechanic],166,Light,4,1,33,S,150,50,1480,4030,FALSE,Self HEA/REP Up [Med] (10-50%)   
-http://android.jacoblehenbauer.com/images/crd/1050310140.png,Cin Drallig,167,Light,4,1,16,S,150,110,7160,3720,FALSE,Jedi ATK Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1046510140.png,Clone Commander Bacara,168,Light,4,1,14,M,140,50,6770,4580,FALSE,Dark DEF Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1046520240.png,Clone Commander Bacara,169,Dark,4,1,14,M,140,50,6980,4380,FALSE,Light DEF Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1046220240.png,Clone Commander Bly,170,Dark,4,1,13,M,140,50,6770,4340,FALSE,Light EVA Down [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1046210140.png,Clone Commander Bly,171,Light,4,1,13,M,140,50,6560,4550,FALSE,Light ACC Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1046020140.png,Clone Commander Cody,172,Dark,4,1,12,M,140,50,4240,6550,FALSE,Short DEF Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1046010240.png,Clone Commander Cody,173,Light,4,1,12,M,140,50,4040,6750,FALSE,Medium DEF Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1045810140.png,Clone Commander Gree,174,Light,4,1,14,M,150,60,6750,3970,FALSE,Dark ACC Down [Med] (16-32%)   
-http://android.jacoblehenbauer.com/images/crd/1045820240.png,Clone Commander Gree,175,Dark,4,1,14,M,150,50,6860,3860,FALSE,Light ACC Down [Med] (16-32%)   
-http://android.jacoblehenbauer.com/images/crd/1046310140.png,Clone Commander Neyo,176,Light,4,1,14,M,140,60,6160,4740,FALSE,Dark EVA Down [Med] (16-32%)   
-http://android.jacoblehenbauer.com/images/crd/1046320240.png,Clone Commander Neyo,177,Dark,4,1,14,M,140,60,6270,4630,FALSE,Dark EVA Up [Med] (16-32%)   
-http://android.jacoblehenbauer.com/images/crd/1115510140.png,Clone Commander Wolffe,178,Light,4,1,18,M,120,80,6390,4400,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1046420140.png,Clone Sergeant Fox,179,Dark,4,1,16,M,140,50,6230,4150,TRUE,Terminate the Jedi (8-25-0%)    
-http://android.jacoblehenbauer.com/images/crd/1020520940.png,Darth Sidious,180,Dark,4,1,17,S,150,60,6100,7100,FALSE,Sith DEF Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1062820440.png,Darth Vader [Death Star],181,Dark,4,1,13,S,150,60,6920,5680,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1108220140.png,DD-13 [Healer],182,Dark,4,1,32,S,150,50,1440,3950,FALSE,Self HEA/REP Up [Med] (10-50%)   
-http://android.jacoblehenbauer.com/images/crd/1038520440.png,Dooku,183,Dark,4,1,16,S,150,60,6300,6590,TRUE,Sith ATK Up [Sml] (10-20-25%)   
-http://android.jacoblehenbauer.com/images/crd/1103120240.png,Droideka,184,Dark,4,1,14,M,140,50,3280,8320,FALSE,Droid DEF Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1105520140.png,Dwarf Spider Droid,185,Dark,4,1,18,M,140,50,5760,6210,FALSE,Self Destruction (30-70%)     
-http://android.jacoblehenbauer.com/images/crd/1111420140.png,Emperor's Royal Guard,186,Dark,4,1,15,S,150,60,5070,6750,FALSE,Dark DEF Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1147610140.png,Finn,187,Light,4,1,15,M,140,70,6530,5600,TRUE,Deserter (30-60-70%)      
-http://android.jacoblehenbauer.com/images/crd/1163520140.png,First Order TIE Fighter Pilot,188,Dark,4,1,14,M,140,50,7180,4110,TRUE,Long ATK & ACC Up [Sml] (5-15-20%) 
-http://android.jacoblehenbauer.com/images/crd/1058910140.png,Garven Dreis,189,Light,4,1,18,M,140,50,5120,7360,FALSE,Long DEF Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1013830240.png,Gasgano,190,Neutral,4,1,14,S,150,120,4590,3360,FALSE,Podracer EVA Up [Sml] (14-20%)   
-http://android.jacoblehenbauer.com/images/crd/1085210140.png,General Cracken,191,Light,4,1,15,M,140,60,5760,5610,FALSE,Galactic Empire DEF Down [Sml] (10-20%)  
-http://android.jacoblehenbauer.com/images/crd/1048620240.png,General Grievous,192,Dark,4,2,15,S,150,100,6260,4500,FALSE,Droid EVA Up [Sml] (14-20%)   
-http://android.jacoblehenbauer.com/images/crd/1075610140.png,General Rieekan,193,Light,4,1,14,M,140,50,4200,7310,FALSE,Light DEF Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1059220240.png,General Tagge,194,Dark,4,1,16,M,140,50,4980,6710,FALSE,Galactic Empire ATK Up [Sml] (10-20%)  
-http://android.jacoblehenbauer.com/images/crd/1080320140.png,General Veers,195,Dark,4,1,14,M,140,50,7370,4150,FALSE,Long ATK Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1057320140.png,Grand Moff Tarkin,196,Dark,4,1,10,M,140,50,2920,6790,FALSE,All DEF Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1067030140.png,Han Solo,197,Neutral,4,1,12,M,140,50,4260,7470,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1067010840.png,Han Solo [Back of Beyond],198,Light,4,1,16,M,140,50,6000,5450,FALSE,Rebel Alliance ACC Up [Sml] (14-20%)  
-http://android.jacoblehenbauer.com/images/crd/1067011040.png,Han Solo [Double Dealer],199,Light,4,1,17,M,140,30,5020,4100,TRUE,Resistance ATK Up [Sml] (10-20-25%)   
-http://android.jacoblehenbauer.com/images/crd/1067030640.png,Han Solo [In Carbonite],200,Neutral,4,0,100,S,0,0,0,0,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1114610140.png,Hardcase,201,Light,4,3,20,M,120,60,5940,4750,FALSE,Counter Attack [Sml] (100-200%)    
-http://android.jacoblehenbauer.com/images/crd/1114720140.png,IG-86,202,Dark,4,1,19,M,140,60,7300,3150,FALSE,Counter Attack [Sml] (100-200%)    
-http://android.jacoblehenbauer.com/images/crd/1082120140.png,IG-88B,203,Dark,4,1,11,M,140,50,6470,4060,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1016420340.png,Jabba the Hutt,204,Dark,4,1,15,S,150,60,5270,6420,FALSE,Bounty Hunter ACC Up [Sml] (7-10%)  
-http://android.jacoblehenbauer.com/images/crd/1062010140.png,Jan Dodonna,205,Light,4,1,14,M,140,50,5100,6000,FALSE,All ATK Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1035320240.png,Jango Fett,206,Dark,4,1,15,M,140,50,7520,5170,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1014010140.png,Ki-Adi-Mundi,207,Light,4,1,15,S,150,60,6810,5350,FALSE,Light ATK Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1032810140.png,Kit Fisto,208,Light,4,1,15,S,150,60,5360,6840,FALSE,Short EVA Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1080810140.png,Lando Calrissian,209,Light,4,1,15,M,140,50,6140,5580,FALSE,Medium ATK Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1080810340.png,Lando Calrissian [Palace Guard],210,Light,4,1,16,S,150,60,4650,7350,FALSE,Jabba's Crime Syndicate ATK Down [Med] (15-30%) 
-http://android.jacoblehenbauer.com/images/crd/1071010540.png,Leia Organa [Endor Celebration],211,Light,4,1,14,M,140,50,6000,6240,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1071010640.png,Leia Organa [Slave Leia],212,Light,4,1,14,S,150,90,6800,4880,FALSE,Male DEF Down [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1070911040.png,Luke Skywalker [A New Hope],213,Light,4,1 per 2,18,M,150,60,8220,4450,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1070910640.png,Luke Skywalker [X-wing pilot],214,Light,4,1,15,M,140,60,6170,5990,FALSE,Long ATK Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1043010140.png,Luminara Unduli,215,Light,4,1,13,S,150,60,5930,5800,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1023610240.png,Mace Windu,216,Light,4,1,15,S,150,60,6670,6250,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1106620240.png,MagnaGuard,217,Dark,4,1,14,S,150,60,4400,7150,FALSE,Short DEF Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1024410640.png,Master Yoda,218,Light,4,1,17,S,150,60,6240,6720,TRUE,Jedi DEF Up [Sml] (10-20-25%)   
-http://android.jacoblehenbauer.com/images/crd/1156820140.png,Megablaster Heavy Assault Trooper,219,Dark,4,3,19,M,130,50,5610,4620,TRUE,Self ATK Up [Sml] (50-100-0%)   
-http://android.jacoblehenbauer.com/images/crd/1077820140.png,Moff Jerjerrod,220,Dark,4,1,15,M,140,50,5070,6500,FALSE,Galactic Empire DEF Up [Sml] (10-20%)  
-http://android.jacoblehenbauer.com/images/crd/1053810240.png,Mon Mothma,221,Light,4,1,20,S,130,50,3620,5870,FALSE,1-Card Light Side & Neutral Accelaration [Sml] (10-20%)
-http://android.jacoblehenbauer.com/images/crd/1019620340.png,Nute Gunray,222,Dark,4,1,14,M,140,50,4200,6530,FALSE,Droid ATK Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1013310340.png,Obi-Wan Kenobi [Padawan],223,Light,4,1,14,S,150,60,6940,5480,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1012920140.png,Orn Free Taa,224,Dark,4,1,20,S,130,50,3760,5700,FALSE,1-Card Dark Side & Neutral Accelaration [Sml] (10-20%)
-http://android.jacoblehenbauer.com/images/crd/1086010140.png,Orrimaarko,225,Light,4,1,21,M,120,40,3510,5260,FALSE,Adjacent Rebel Alliance ATK Up [Sml] (7-15%) 
-http://android.jacoblehenbauer.com/images/crd/1020310740.png,Padme Amidala [Battle of Theed],226,Light,4,1,14,M,150,50,6460,5130,FALSE,Dark ATK Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1021810140.png,Plo Koon,227,Light,4,1,15,S,150,60,6310,5910,FALSE,Blaster Reflection [Sml] (80-120%)    
-http://android.jacoblehenbauer.com/images/crd/1148810140.png,Poe Dameron,228,Light,4,1,16,M,140,60,6230,5800,TRUE,Long ATK & ACC Up [Sml] (5-15-20%) 
-http://android.jacoblehenbauer.com/images/crd/1046930140.png,Queen Apailana,229,Neutral,4,1,18,S,130,50,3010,5640,FALSE,Force Bonus Up [Sml] (100-250%)   
-http://android.jacoblehenbauer.com/images/crd/1035130140.png,Queen Jamillia,230,Neutral,4,1,19,S,130,50,3360,5730,FALSE,Morale Boost Up [Sml] (100-250%)   
-http://android.jacoblehenbauer.com/images/crd/1029110140.png,R2-D2,231,Light,4,1,10,S,150,60,3740,5690,FALSE,All DEF Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1029110340.png,R2-D2 [Mechanic],232,Light,4,1,30,S,150,50,1560,4330,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1090230340.png,Rancor,233,Neutral,4,1,18,S,130,40,7000,5800,FALSE,Self ATK Up [Med] (50-100%)   
-http://android.jacoblehenbauer.com/images/crd/1128010240.png,Rey,234,Light,4,1,16,M,140,60,5850,5740,TRUE,Barrage (10-30-50%)      
-http://android.jacoblehenbauer.com/images/crd/1017010140.png,Saesee Tiin,235,Light,4,1,15,S,150,60,5700,6010,FALSE,Long ACC Down [Med] (16-32%)   
-http://android.jacoblehenbauer.com/images/crd/1034520240.png,San Hill,236,Dark,4,1,18,S,140,50,4330,5500,FALSE,Galactic Republic EVA Down [Med] (20-32%)  
-http://android.jacoblehenbauer.com/images/crd/1111720540.png,Sandtrooper,237,Dark,4,1,19,S,135,50,3450,8070,FALSE,Self DEF Up [Med] (50-100%)   
-http://android.jacoblehenbauer.com/images/crd/1111520340.png,Scout Trooper & 74-Z Speeder Bike,238,Dark,4,1,16,M,140,110,5650,3000,FALSE,Self EVA Up [Med] (50-100%)   
-http://android.jacoblehenbauer.com/images/crd/1017120140.png,Sebulba,239,Dark,4,1,9,S,150,60,4840,4740,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1111130140.png,Senate Guard,240,Neutral,4,1,14,M,140,50,4800,6660,FALSE,Neutral DEF Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1035010240.png,Shaak Ti,241,Light,4,1,14,S,150,60,5440,6420,FALSE,Light EVA Up [Med] (16-32%)   
-http://android.jacoblehenbauer.com/images/crd/1111620640.png,Shadow Stormtrooper,242,Dark,4,1,13,M,140,70,7350,4280,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1035320240.png,Shu Mai,243,Dark,4,1,16,S,140,50,4110,5570,FALSE,Separatist EVA Up [Sml] (14-20%)   
-http://android.jacoblehenbauer.com/images/crd/1090020140.png,Sim Aloo,244,Dark,4,1,20,M,120,40,3580,5590,FALSE,Adjacent Galactic Empire ATK Up [Sml] (7-15%) 
-http://android.jacoblehenbauer.com/images/crd/1111820540.png,Snowtrooper,245,Dark,4,3,18,M,120,50,6110,4960,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1020520640.png,Supreme Chancellor Palpatine,246,Dark,4,1,18,S,140,60,4760,7140,FALSE,Skill Effect Down [Sml] (15-30%)   
-http://android.jacoblehenbauer.com/images/crd/1114820140.png,Tactical Droid,247,Dark,4,1,15,S,150,60,4400,6100,FALSE,Separatist ATK Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1051110140.png,Tarfful,248,Light,4,1,16,M,140,50,7210,4700,FALSE,Droid DEF Down [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1018130240.png,Teemto Pagalies,249,Neutral,4,1,14,S,150,120,4380,3420,FALSE,All ACC Down [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1113520140.png,TIE Fighter Pilot,250,Dark,4,1,13,M,140,50,7290,4350,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1051710240.png,Tion Medon,251,Light,4,1,18,S,140,50,4410,6090,FALSE,Separatist EVA Down [Med] (20-32%)   
-http://android.jacoblehenbauer.com/images/crd/1115820140.png,Umbaran Soldier,252,Dark,4,1,18,M,150,70,7490,4510,FALSE,Galactic Republic DEF Down [Sml] (10-20%)  
-http://android.jacoblehenbauer.com/images/crd/1113620140.png,Vulture Droid Starfighter,253,Dark,4,1,19,L,130,30,6700,6300,FALSE,Long DEF Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1047210140.png,Whie Malreaux,254,Light,4,1,15,S,150,80,5680,5770,TRUE,Final Resistance (10-30-50%)     
-http://android.jacoblehenbauer.com/images/crd/1083830140.png,Wicket W Warrick,255,Light,4,1,13,S,150,60,6020,4610,FALSE,Ewok ATK Up [Med] (15-30%)   
-http://android.jacoblehenbauer.com/images/crd/1034420240.png,Zam Wesell,256,Dark,4,1,13,M,140,50,6460,4690,FALSE,Self ATK Up [Sml] (50-100%)   
-http://android.jacoblehenbauer.com/images/crd/1076420140.png,Zuckuss,257,Dark,4,1,11,M,140,50,4640,5530,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1081730130.png,2-1B [Healer],258,Light,3,1,20,S,140,50,1470,3410,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1030610130.png,Aayla Secura,259,Light,3,1,10,S,140,50,5260,3440,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1030610330.png,Aayla Secura [Jedi General],260,Light,3,1,12,S,140,60,4420,4590,FALSE,Self EVA Up [Sml] (50-100%)   
-http://android.jacoblehenbauer.com/images/crd/1112230130.png,Acklay,261,Neutral,3,1,16,S,140,50,6140,3660,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1102210130.png,Admiral Ackbar,262,Light,3,1,7,M,130,40,2530,4250,FALSE,Dark ATK Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1076220130.png,Admiral Ozzel,263,Dark,3,1,7,M,130,40,2480,4000,FALSE,Long ATK Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1079820130.png,Admiral Piett,264,Dark,3,1,7,M,130,40,2460,4120,FALSE,Long ATK Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1112810130.png,Ahsoka Tano,265,Light,3,1,12,S,140,120,4990,1350,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1010910630.png,Anakin Skywalker [Jedi Initiate],266,Light,3,1,10,S,140,60,4410,4560,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1010910330.png,Anakin Skywalker [Padawan],267,Light,3,1,10,S,140,50,5420,3420,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1010920530.png,Anakin Skywalker [Sith],268,Light,3,1,11,S,140,50,5990,3480,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1112920130.png,Asajj Ventress,269,Dark,3,1,12,S,140,50,4990,4290,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1103020930.png,Assault Battle Droid,270,Dark,3,1,16,S,100,30,6560,2170,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1112720130.png,AT-AT Pilot,271,Dark,3,1,11,M,130,40,4790,3400,FALSE,Long ACC Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1097420130.png,AT-ST pilot,272,Dark,3,1,12,M,140,40,5010,3130,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1103020430.png,B1 Battle Droid,273,Dark,3,1,8,M,130,40,4610,2800,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1103020530.png,B1 Battle Droid [STAP Pilot],274,Dark,3,1,11,M,130,40,4710,4210,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1103020330.png,B1 Battle Droid: C-3PO,275,Dark,3,1 per 2,8,M,130,40,4680,3880,FALSE,Medium ACC Down [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1105220330.png,B2 Super Battle Droid,276,Dark,3,1,9,M,130,40,4810,3020,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1041410130.png,Bail Organa,277,Light,3,1,13,S,130,40,2720,4430,FALSE,3-Unit Light Side All Stats Up [Sml] (5-10%)
-http://android.jacoblehenbauer.com/images/crd/1040410130.png,Barriss Offee,278,Light,3,1,10,S,140,50,4420,4180,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1052320130.png,Barrow Oicunn,279,Dark,3,1,13,M,130,40,2560,5010,TRUE,Adjacent Galactic Empire ACC Up [Sml] (8-17-30%) 
-http://android.jacoblehenbauer.com/images/crd/1103020630.png,Battle Droid Assassin,280,Dark,3,1 per 2,16,L,140,30,6070,2320,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1118010230.png,BB-8,281,Light,3,1,11,S,140,120,3170,2400,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1041720330.png,Boba Fett,282,Dark,3,1,10,M,130,40,5400,3250,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1041720630.png,Boba Fett [Childhood],283,Dark,3,1,12,S,140,50,3100,4790,FALSE,3-Unit Bounty Hunter DEF Up [Sml] (7-15%) 
-http://android.jacoblehenbauer.com/images/crd/1025730130.png,Boss Nass,284,Neutral,3,1,9,S,140,50,3780,3680,FALSE,Medium DEF Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1052810130.png,Breha Organa,285,Light,3,0,13,S,0,40,1960,5520,TRUE,Pacify [Sml] (5-15-0%)     
-http://android.jacoblehenbauer.com/images/crd/1040510130.png,Bultar Swan,286,Light,3,1,12,S,140,50,4340,4600,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1107320130.png,Buzz Droid,287,Dark,3,3,10,S,130,120,2260,1030,FALSE,Long ACC Down [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1027310530.png,C-3PO,288,Light,3,1,11,S,140,50,2030,6170,FALSE,Light EVA Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1027310830.png,C-3PO [Trusted Companion],289,Light,3,1,12,S,130,40,1900,5500,TRUE,3-Unit Resistance DEF Up [Sml] (7-15-18%)  
-http://android.jacoblehenbauer.com/images/crd/1027330430.png,C-3PO [Without Coverings],290,Neutral,3,1,7,S,140,50,2120,4870,FALSE,Droid DEF Down [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1027330330.png,C-3PO: Battle Droid,291,Neutral,3,2,8,M,130,40,2690,2880,FALSE,Short ACC Down [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1075710130.png,Cal Alder,292,Light,3,1,10,M,130,40,2810,4860,FALSE,Rebel Alliance EVA Up [Sml] (14-20%)  
-http://android.jacoblehenbauer.com/images/crd/1081120130.png,Captain Needa,293,Dark,3,1,13,M,130,40,3590,4910,FALSE,Galactic Empire EVA Up [Sml] (14-20%)  
-http://android.jacoblehenbauer.com/images/crd/1020410130.png,Captain Panaka,294,Light,3,1,10,M,130,40,5260,2920,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1025810130.png,Captain Tarpals,295,Light,3,1,16,S,130,50,3200,3880,FALSE,3-Unit Gungan All Stats Up [Sml] (7-10%) 
-http://android.jacoblehenbauer.com/images/crd/1033410130.png,Captain Typho,296,Light,3,1,9,M,130,40,3560,4180,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1091830130.png,Chief Chirpa,297,Neutral,3,1,11,M,130,60,3010,4400,FALSE,Ewok DEF Up [Med] (15-30%)   
-http://android.jacoblehenbauer.com/images/crd/1030130130.png,Clone Commander Ponds,298,Neutral,3,1,11,M,130,40,4170,3920,FALSE,Medium ACC Up [Sml] (5-10%)   
-http://android.jacoblehenbauer.com/images/crd/1046630130.png,Clone Pilot,299,Neutral,3,1,11,M,130,40,4790,3520,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1111920830.png,Clone Shock Trooper,300,Dark,3,1,12,M,140,40,4400,4660,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1111930330.png,Clone Trooper,301,Neutral,3,1,9,M,130,40,3850,3850,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1111931030.png,Clone Trooper: 212th Attack Battalion,302,Neutral,3,1,12,M,130,40,4680,4390,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1111930930.png,Clone Trooper: 41st Elite Corps,303,Neutral,3,1,11,M,145,50,4500,4210,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1111931530.png,Clone Trooper: 501st Legion,304,Neutral,3,1,13,M,130,40,4900,4400,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1111931230.png,Clone Trooper: 91st Reconnaissance Corps,305,Neutral,3,1,12,M,130,60,4740,4240,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1111930730.png,Clone Trooper: Galactic Marine,306,Neutral,3,1,11,M,140,50,4590,4090,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1111930630.png,Clone Trooper: Phase 2 Armor,307,Neutral,3,1,10,M,130,40,4200,4200,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1033910130.png,Coleman Trebor,308,Light,3,1,11,S,140,50,4440,4270,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1091920130.png,Colonel Dyer,309,Dark,3,1,11,M,130,40,4510,3660,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1077510130.png,Dak Ralter,310,Light,3,1,12,M,130,40,4690,4500,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1017220430.png,Darth Maul,311,Dark,3,1,12,S,140,50,5010,4540,FALSE,Self ATK Up [Sml] (50-100%)   
-http://android.jacoblehenbauer.com/images/crd/1020520330.png,Darth Sidious,312,Dark,3,1,12,S,140,60,5070,4920,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1062820330.png,Darth Vader,313,Dark,3,1,11,S,140,50,5940,3580,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1063230130.png,Dathcha,314,Neutral,3,1,9,M,130,40,2830,4610,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1019020130.png,Daultay Dofine,315,Dark,3,1,6,M,130,40,2200,3400,FALSE,Long DEF Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1114220130.png,Death Star Gunner,316,Dark,3,1,14,M,190,30,4470,3440,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1018510130.png,Depa Billaba,317,Light,3,1,11,S,140,70,4400,4000,FALSE,Self ATK Up [Sml] (50-100%)   
-http://android.jacoblehenbauer.com/images/crd/1038230130.png,Dexter Jettster,318,Neutral,3,1,6,S,140,50,3050,2870,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1038520130.png,Dooku,319,Dark,3,1,11,S,140,50,3570,5700,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1104620130.png,DRK-1 Dark Eye Probe Droid,320,Dark,3,1,10,M,130,60,2850,4210,FALSE,Dark ACC Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1103120130.png,Droideka,321,Dark,3,1,9,M,130,40,2210,5870,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1101630130.png,EV-9D9,322,Neutral,3,1,10,S,140,50,2540,4380,FALSE,Droid All Stats Down [Sml] (7-10%)  
-http://android.jacoblehenbauer.com/images/crd/1113030130.png,Fambaa,323,Neutral,3,1,15,S,140,50,2290,6170,FALSE,Medium DEF Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1157220130.png,First Order Flametrooper,324,Dark,3,3,11,S,140,50,1760,5140,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1158220130.png,First Order Snowtrooper,325,Dark,3,2,12,M,130,40,4670,3510,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1156220130.png,First Order Stormtrooper,326,Dark,3,1,10,M,130,40,5330,3460,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1054620130.png,FX-6 [Healer],327,Dark,3,1,22,S,140,50,1170,3230,FALSE,Self HEA/REP Up [Sml] (10-50%)   
-http://android.jacoblehenbauer.com/images/crd/1113410130.png,G8-R3 [Mechanic],328,Light,3,1,21,S,140,50,1200,3120,FALSE,Self HEA/REP Up [Sml] (10-50%)   
-http://android.jacoblehenbauer.com/images/crd/1085730330.png,Gamorrean Guard,329,Neutral,3,1,12,S,140,50,2960,5840,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1017430130.png,General Ceel,330,Neutral,3,1,8,S,140,50,3450,3350,FALSE,Medium ATK Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1048620130.png,General Grievous,331,Dark,3,1,11,S,140,50,5780,3770,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1087910130.png,General Madine,332,Light,3,1,12,M,130,40,4570,4120,FALSE,Rebel Alliance ATK Up [Sml] (10-20%)  
-http://android.jacoblehenbauer.com/images/crd/1080320230.png,General Veers,333,Dark,3,1,12,M,130,40,5140,3730,FALSE,Rebel Alliance DEF Down [Sml] (10-20%)  
-http://android.jacoblehenbauer.com/images/crd/1014720130.png,Greedo,334,Dark,3,1,8,S,140,50,3540,3060,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1067010430.png,Han Solo [Death Star],335,Light,3,1,9,M,130,40,5270,3100,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1082120330.png,IG-88B,336,Dark,3,1,9,M,130,40,4060,3670,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1016430130.png,Jabba the Hut,337,Neutral,3,1,11,S,140,50,4080,4370,FALSE,Neutral DEF Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1035220230.png,Jango Fett,338,Dark,3,1,10,M,130,40,4720,3900,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1016210130.png,Jar Jar Binks,339,Light,3,1,6,S,140,50,2800,3100,FALSE,Medium ATK Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1157110130.png,Jessika Pava,340,Light,3,1,11,M,130,40,4220,4960,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1035410130.png,Jocasta Nu,341,Light,3,1,8,S,140,50,3060,4340,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1014010230.png,Ki-Adi-Mundi,342,Light,3,1,12,S,140,60,2220,6820,FALSE,Blaster Reflection [Sml] (80-120%)    
-http://android.jacoblehenbauer.com/images/crd/1054130130.png,Lachichuk,343,Neutral,3,1,9,S,140,50,4010,3390,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1042330130.png,Lama Su,344,Neutral,3,1,8,M,130,40,2850,3910,FALSE,Short DEF Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1071010130.png,Leia Organa,345,Light,3,1,8,M,130,40,2860,4400,TRUE,Light ATK Up [Sml] (5-20-25%)   
-http://android.jacoblehenbauer.com/images/crd/1071010430.png,Leia Organa [Award Ceremony],346,Light,3,1,12,S,140,50,3130,5290,FALSE,Rebel Alliance DEF Up [Sml] (10-20%)  
-http://android.jacoblehenbauer.com/images/crd/1071010330.png,Leia Organa [Death Star],347,Light,3,1,8,M,130,40,2980,4800,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1071010830.png,Leia Organa [Princess in Captivity],348,Light,3,1,11,S,140,60,2080,6780,FALSE,Female DEF Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1107120130.png,LM-432 Crab Droid,349,Dark,3,1,14,M,130,40,3850,5420,FALSE,Self DEF Up [Sml] (50-100%)   
-http://android.jacoblehenbauer.com/images/crd/1081330130.png,Lobot,350,Neutral,3,1,7,M,130,40,2710,3970,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1100530130.png,Logray,351,Neutral,3,1,10,M,130,60,2990,4100,FALSE,Ewok EVA Up [Med] (20-32%)   
-http://android.jacoblehenbauer.com/images/crd/1026320130.png,Lott Dod,352,Dark,3,1,6,M,130,40,2100,3500,TRUE,Dark ATK Up [Sml] (5-20-25%)   
-http://android.jacoblehenbauer.com/images/crd/1070910430.png,Luke Skywalker [Death Star],353,Light,3,1,10,M,130,40,4280,4350,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1070910530.png,Luke Skywalker [On a Tauntaun],354,Light,3,1,13,S,140,50,4830,5190,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1043010330.png,Luminara Unduli,355,Light,3,1,12,S,140,50,4360,4500,FALSE,Droid EVA Down [Sml] (14-20%)   
-http://android.jacoblehenbauer.com/images/crd/1023610130.png,Mace Windu,356,Light,3,1,12,S,150,50,5150,4800,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1106620130.png,MagnaGuard,357,Dark,3,1,10,S,140,50,4260,4180,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1097830230.png,Malakili,358,Neutral,3,1,14,S,130,40,2900,3900,FALSE,3-Unit Beast All Stats Up [Sml] (7-10%) 
-http://android.jacoblehenbauer.com/images/crd/1023320130.png,Mas Amedda,359,Dark,3,1,13,S,130,40,2960,4170,FALSE,3-Unit Dark Side All Stats Up [Sml] (5-10%)
-http://android.jacoblehenbauer.com/images/crd/1024410430.png,Master Yoda [Jedi Council],360,Light,3,1,12,S,140,50,4870,4920,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1053810130.png,Mon Mothma,361,Light,3,1,13,M,130,40,3500,5560,FALSE,Galactic Empire ATK Down [Sml] (10-20%)  
-http://android.jacoblehenbauer.com/images/crd/1066230130.png,Nebit,362,Neutral,3,1,9,M,130,40,2630,4710,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1112330130.png,Nexu,363,Neutral,3,1,16,S,140,120,7100,1710,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1039210130.png,Nicanas Tassu,364,Light,3,1,8,S,140,50,3600,3800,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1093510130.png,Nien Nunb,365,Light,3,1,12,M,13,6,3900,5200,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1019620130.png,Nute Gunray,366,Dark,3,1,8,M,130,40,3240,3520,FALSE,"DEF Down [Sml] (5-20%)5,213    "
-http://android.jacoblehenbauer.com/images/crd/1013310530.png,Obi-Wan Kenobi [General],367,Light,3,1,11,S,140,50,5640,3960,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1013310730.png,Obi-Wan Kenobi [Jedi Knight],368,Light,3,1,10,S,140,50,4390,4500,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1106920130.png,Octuptarra Combat Tri-Droid,369,Dark,3,2,15,M,120,40,5510,2830,FALSE,Self ACC Up [Sml] (25-50%)   
-http://android.jacoblehenbauer.com/images/crd/1103320130.png,OOM Pilot Battle Droid,370,Dark,3,1,12,M,130,40,4520,4140,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1028320130.png,OOM-9,371,Dark,3,1,9,M,130,40,3860,4180,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1013410130.png,Oppo Rancisis,372,Light,3,1,11,M,130,40,3420,5270,FALSE,Stun
-http://android.jacoblehenbauer.com/images/crd/1012630130.png,Orr'UrRuuR'R,373,Neutral,3,1,15,L,140,30,5200,2190,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1040210130.png,Pablo-Jill,374,Light,3,1,10,S,140,50,4790,3110,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1020310330.png,Padme Amidala,375,Light,3,1,11,S,130,40,3820,4170,FALSE,Female ATK Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1020310130.png,Padme Amidala [In Disguise],376,Light,3,1,8,M,130,40,2720,4440,FALSE,Light DEF Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1116530130.png,Pagetti Rook,377,Neutral,3,1,13,S,140,50,1310,6650,FALSE,Adjacent Jabba's Crime Syndicate DEF Up [Sml] (7-15%)
-http://android.jacoblehenbauer.com/images/crd/1114010130.png,Pau'an Warrior,378,Light,3,1,11,S,140,50,1920,5920,FALSE,Self DEF Up [Sml] (50-100%)   
-http://android.jacoblehenbauer.com/images/crd/1021110130.png,Perosei,379,Light,3,1,8,M,130,40,2400,4160,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1103930230.png,Pit Droid [Mechanic],380,Neutral,3,1,19,S,140,50,1350,3660,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1041620130.png,Poggle the Lesser,381,Dark,3,1,8,S,140,50,4120,2680,FALSE,Light ATK Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1015110330.png,Qui-Gon Jinn,382,Light,3,1,10,S,140,50,3690,5290,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1101720130.png,R2-Q5,383,Dark,3,1,12,S,140,50,2770,4090,FALSE,Adjacent Dark ACC Up [Med] (20-50%)  
-http://android.jacoblehenbauer.com/images/crd/1055010130.png,R4-G9,384,Light,3,1,12,S,140,50,2590,4130,FALSE,Adjacent Light ACC Up [Med] (20-50%)  
-http://android.jacoblehenbauer.com/images/crd/1116410130.png,R7-D4,385,Light,3,1,13,S,140,50,3470,3590,FALSE,Galactic Republic ACC Up [Sml] (14-20%)  
-http://android.jacoblehenbauer.com/images/crd/1109720130.png,RA-7,386,Dark,3,1,12,S,140,50,2910,5070,FALSE,Galactic Empire ACC Up [Sml] (14-20%)  
-http://android.jacoblehenbauer.com/images/crd/1090230130.png,Rancor,387,Neutral,3,1,7,S,140,50,4410,2690,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1112610330.png,Rebel Commando,388,Light,3,1,13,M,130,40,3380,5220,FALSE,Medium EVA Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1112430130.png,Reek,389,Neutral,3,1,16,S,140,50,3610,6390,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1156110130.png,Resistance Trooper,390,Light,3,1,10,M,130,40,3890,4750,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1025510230.png,Ric Olie,391,Light,3,1,12,M,130,40,4350,4200,FALSE,Long ACC Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1025920230.png,Rune Haako,392,Dark,3,1,10,M,130,40,3030,4030,FALSE,Droid ACC Up [Sml] (14-20%)   
-http://android.jacoblehenbauer.com/images/crd/1111720230.png,Sandtrooper,393,Dark,3,1,9,M,130,40,4200,3560,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1111520130.png,Scout Trooper & 74-Z Speeder Bike,394,Dark,3,1,9,S,140,50,4720,3080,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1103420130.png,Security Battle Droid,395,Dark,3,1,10,M,140,40,4780,2800,FALSE,Self ATK Up [Sml] (50-100%)   
-http://android.jacoblehenbauer.com/images/crd/1164120130.png,Security Soldier,396,Dark,3,1,11,M,130,40,4390,3970,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1036610130.png,Sephjet Josall,397,Light,3,1,8,S,140,50,3740,3660,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1112530130.png,Shaak,398,Neutral,3,1,80,S,0,0,0,0,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1035010130.png,Shaak Ti,399,Light,3,1,11,S,140,50,4020,4850,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1036020130.png,Sly Moore,400,Dark,3,1,11,M,130,40,4000,3770,FALSE,Light ACC Down [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1111820230.png,Snowtrooper,401,Dark,3,1,9,M,130,40,3560,4080,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1035910230.png,Stass Allie [Healer],402,Light,3,1,21,S,140,60,1030,3600,FALSE,Self HEA/REP Up [Sml] (10-50%)   
-http://android.jacoblehenbauer.com/images/crd/1111620230.png,Stormtrooper,403,Dark,3,1,9,M,130,40,4080,3760,TRUE,None       
-http://android.jacoblehenbauer.com/images/crd/1111620530.png,Stormtrooper [Death Star],404,Dark,3,1,8,M,130,40,3000,4320,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1111620730.png,Stormtrooper [Stun Blaster],405,Dark,3,1,10,M,130,4,3530,4700,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1038730130.png,Taun We,406,Neutral,3,1,8,M,130,40,2610,4020,FALSE,Short ATK Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1092030130.png,Teebo,407,Neutral,3,1,10,S,140,70,4180,2930,FALSE,Ewok ACC Up [Med] (10-16%)   
-http://android.jacoblehenbauer.com/images/crd/1092710130.png,Ten Numb,408,Light,3,1,14,M,130,60,5100,4220,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1056430130.png,URoRRuR'R'R,409,Neutral,3,1,9,M,130,40,3150,4490,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1110020130.png,Viper Probe Droid,410,Dark,3,1,9,M,130,40,3030,3910,FALSE,Dark EVA Up [Sml] (10-20%)   
-http://android.jacoblehenbauer.com/images/crd/1084930130.png,Wam Lufba,411,Neutral,3,1,14,L,130,30,5430,2000,FALSE,Self ACC Up [Sml] (25-50%)   
-http://android.jacoblehenbauer.com/images/crd/1081630130.png,Wampa,412,Neutral,3,1,7,S,140,50,4190,2810,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1044220130.png,Wat Tambor,413,Dark,3,1,7,S,140,50,3060,3160,FALSE,Dark DEF Up [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1026630130.png,Watto,414,Neutral,3,1,6,M,130,40,2250,3450,FALSE,Long DEF Down [Sml] (5-20%)   
-http://android.jacoblehenbauer.com/images/crd/1034420130.png,Zam Wesell,415,Dark,3,1,11,M,130,40,5200,3600,FALSE,None       
-http://android.jacoblehenbauer.com/images/crd/1114330130.png,Zephee,416,Neutral,3,1,14,S,130,40,1390,3730,FALSE,3-Unit Ewok All Stats Up [Med] (10-15%) 
-,4-LOM,417,,2,1,5,M,110,20,2110,2180,FALSE,-
-,Adi Gallia,418,,2,1,6,S,120,30,2700,2600,FALSE,-
-,Agen Kolar,419,,2,1,6,S,120,30,3150,2350,FALSE,-
-,Anakin Skywalker,420,,2,1,3,S,120,30,1640,1410,FALSE,-
-,Ashla,421,,2,1,1,S,120,30,440,460,FALSE,-
-,Aurra Sing,422,,2,1,5,M,110,20,1910,2690,FALSE,-
-,Bail Organa,423,,2,1,10,S,110,20,1200,2150,FALSE,3-Unit Light Side All Stats Up [Sml]
-,Ben Kenobi,424,,2,1,6,S,120,30,2650,2750,FALSE,-
-,Beru Lars,425,,2,1,2,S,120,30,,,FALSE,Tatooinian EVA Up [Sml]
-,Beru Lars [Young],426,,2,1,1,M,110,20,540,580,FALSE,-
-,Bib Fortuna,427,,2,1,3,S,120,30,1450,1380,FALSE,-
-,Boba Fett,428,,2,1,7,M,110,20,2790,3020,FALSE,-
-,Bossk,429,,2,1,5,M,110,20,1940,2450,FALSE,-
-,Boushh,430,,2,1,5,M,110,20,2090,2260,FALSE,-
-,C-3PO,431,,2,1,3,S,120,30,750,2320,FALSE,-
-,Capitan Antilles,432,,2,1,3,M,110,20,1370,1530,FALSE,-
-,Cariso Smadis,433,,2,1,4,M,110,20,1360,2220,FALSE,-
-,Chachi De Maal,434,,2,1,2,S,120,30,1150,700,FALSE,-
-,Chewbacca,435,,2,1,5,M,110,20,2170,2650,FALSE,-
-,Cliegg Lars,436,,2,1,1,M,110,20,570,550,FALSE,-
-,Cordé,437,,2,1,5,M,110,20,1910,2310,FALSE,Nabooan EVA Up [Sml]
-,Darth Maul,438,,2,1,6,S,120,30,3400,2300,FALSE,-
-,Darth Vader,439,,2,1,7,S,120,30,3720,2500,FALSE,-
-,Del Goren,440,,2,1,2,M,110,20,720,1120,FALSE,-
-,Denaria Kee,441,,2,1,1,S,120,30,530,370,FALSE,-
-,Djas Puhr,442,,2,1,4,S,120,30,1970,1630,FALSE,-
-,Dormé,443,,2,1,5,M,110,20,1750,2570,FALSE,Nabooan DEF Up [Sml]
-,Fode and Beed,444,,2,1,3,S,120,30,1480,1270,FALSE,-
-,Garindan,445,,2,1,3,M,110,20,1120,1550,FALSE,-
-,General Tagge,446,,2,1,2,M,110,20,1040,1100,FALSE,-
-,Gragra,447,,2,1,4,S,120,30,2210,1390,FALSE,-
-,Grand Moff Tarkin,448,,2,1,4,M,110,20,1600,2430,FALSE,-
-,Han Solo,449,,2,1,6,M,110,20,2200,3300,FALSE,-
-,Horox Ryyder,450,,2,1,2,M,110,20,770,1170,FALSE,-
-,IG-88B,451,,2,1,5,M,110,20,2730,1720,FALSE,-
-,J'Quille,452,,2,1,3,M,110,20,1330,1440,FALSE,-
-,Jobal Naberrie,453,,2,1,4,S,120,30,,,FALSE,Nabooan ACC Up [Sml]
-,Kardue'sai'Malloc,454,,2,1,4,S,120,30,2090,1510,FALSE,-
-,Leia Organa,455,,2,1,9,L,120,10,,,FALSE,-
-,Luke Skywalker,456,,2,1,7,S,120,30,3070,3010,FALSE,-
-,Luminara Unduli,457,,2,1,6,S,120,30,2700,2700,FALSE,-
-,Mas Amedda,458,,2,1,10,S,110,20,1540,2040,FALSE,3-Unit Dark Side All Stats Up [Sml]
-,Master Yoda,459,,2,1,8,S,120,30,3080,3280,FALSE,-
-,Myo,460,,2,1,5,S,120,30,2130,2030,FALSE,-
-,Neesh,461,,2,1,3,M,110,20,1230,1450,FALSE,-
-,Nizuc Bek,462,,2,1,2,M,110,20,950,990,FALSE,-
-,Obi-Wan Kenobi [Padawan],463,,2,1,7,S,120,30,3620,2430,FALSE,-
-,Ohwun De Maal,464,,2,1,2,S,120,30,1050,810,FALSE,-
-,Owen Lars,465,,2,1,5,S,120,30,2050,2090,FALSE,Tatooinian DEF Up [Sml]
-,Owen Lars [Young],466,,2,1,4,S,120,30,1850,1750,FALSE,-
-,Passel Argente,467,,2,1,1,S,120,30,550,350,FALSE,-
-,Po Nudo,468,,2,1,2,M,110,20,1060,980,FALSE,-
-,Porro Dolphe,469,,2,1,4,M,110,20,1620,1960,FALSE,-
-,Qui-Gon Jinn,470,,2,1,7,S,120,30,3610,2510,FALSE,-
-,R2-D2,471,,2,1,3,S,120,30,860,2330,FALSE,-
-,Rabé,472,,2,1,4,S,120,30,1830,1710,FALSE,-
-,Rep Teers,473,,2,1,3,S,120,30,1380,1280,FALSE,-
-,Rune Haako,474,,2,1,1,M,110,20,520,500,FALSE,-
-,Rute Gunnay,475,,2,1,1,M,110,20,550,470,FALSE,-
-,Ruwee Naberrie,476,,2,1,4,S,120,30,1770,1520,FALSE,Nabooan ATK Up [Sml]
-,Sabé,477,,2,1,4,S,120,30,1730,1820,FALSE,-
-,San Hill,478,,2,1,2,M,110,20,780,1160,FALSE,-
-,Sebulba,479,,2,1,2,S,120,30,1280,840,FALSE,-
-,Shmi Skywalker,480,,2,1,1,M,110,20,510,610,FALSE,-
-,Shu Mai,481,,2,1,2,M,110,20,1111,1168,FALSE,-
-,Sio Bibble,482,,2,1,1,M,110,20,360,660,FALSE,-
-,Tion Medon,483,,2,1,4,S,120,30,1830,1870,FALSE,-
-,Trey Callum,484,,2,1,4,M,110,20,1480,2300,FALSE,-
-,Zam Wesell,485,,2,1,9,L,120,10,4180,1490,FALSE,-
-,Zuckuss,486,,2,1,5,M,110,20,2020,2360,FALSE,-
-,2-1B [Healer],487,,1,1,1,S,110,20,350,400,FALSE,Heal Non-Droid
-,Aayla Secura,488,,1,1,5,S,110,20,2250,1580,FALSE,-
-,Admiral Ackbar,489,,1,1,2,M,100,10,600,1200,FALSE,-
-,Admiral Motti,490,,1,1,1,M,100,10,400,450,FALSE,-
-,Admiral Ozzel,491,,1,1,2,M,100,10,800,900,FALSE,-
-,Admiral Piett,492,,1,1,2,M,100,10,750,950,FALSE,-
-,Ann Gella,493,,1,1,1,M,100,10,400,450,FALSE,-
-,Antidar Williams,494,,1,1,1,M,100,10,360,642,FALSE,-
-,Ark Roose,495,,1,1,3,S,110,20,1170,1020,FALSE,-
-,Barriss Offee,496,,1,1,5,S,110,20,1830,1800,FALSE,-
-,Ben Quadinaros,497,,1,1,2,S,110,20,700,800,FALSE,-
-,Boles Roor,498,,1,1,3,S,110,20,1000,1180,FALSE,-
-,Bom Vimdin,499,,1,1,4,S,110,20,1650,1050,FALSE,-
-,BoShek,500,,1,1,2,M,100,10,600,900,FALSE,-
-,Boss Nass,501,,1,1,4,S,110,20,1800,1300,FALSE,-
-,Captain Panaka,502,,1,1,5,M,100,10,1400,2100,FALSE,-
-,Captain Typho,503,,1,1,4,M,100,10,1200,1700,FALSE,-
-,Clegg Holdfast,504,,1,1,3,S,110,20,1300,980,FALSE,-
-,Dathcha,505,,1,1,4,M,100,10,1250,1850,FALSE,-
-,Daultay Dofine,506,,1,1,1,M,100,10,450,400,FALSE,-
-,Dexter Jettster,507,,1,1,3,S,110,20,1230,1150,FALSE,-
-,Dice Ibegon,508,,1,1,2,S,110,20,850,650,FALSE,-
-,Dr. Evazan,509,,1,1,4,S,110,20,1450,1550,FALSE,-
-,Dud Bolt,510,,1,1,3,S,110,20,1250,1000,FALSE,-
-,Gasgano,511,,1,1,3,S,110,20,1140,1040,FALSE,-
-,General Ceel,512,,1,1,4,S,110,20,1500,1500,FALSE,-
-,Greedo,513,,1,1,2,S,110,20,910,610,FALSE,-
-,Hermi Odle,514,,1,1,1,M,100,10,430,430,FALSE,-
-,Jar Jar Binks,515,,1,1,1,S,110,20,400,550,FALSE,-
-,Jocasta Nu,516,,1,1,3,S,110,20,1100,1480,FALSE,-
-,Lachichuk,517,,1,1,4,S,110,20,1600,1400,FALSE,-
-,Lak Sivrak,518,,1,1,4,S,110,20,1650,1150,FALSE,-
-,Lama Su,519,,1,1,3,M,100,10,880,1400,FALSE,-
-,Lampay Fay,520,,1,1,2,S,110,20,750,750,FALSE,-
-,Leia Organa,521,,1,1,3,M,100,10,1030,1550,FALSE,-
-,Lieutenant Sheckil,522,,1,1,2,M,100,10,800,700,FALSE,-
-,Lieutenant Suba,523,,1,1,2,M,100,10,,,FALSE,-
-,Lobot,524,,1,1,2,M,100,10,650,950,FALSE,-
-,Lott Dod,525,,1,1,1,M,100,10,430,430,FALSE,-
-,Malakili,526,,1,1,2,S,110,20,900,600,FALSE,-
-,Mars Guo,527,,1,1,3,S,110,20,1080,1100,FALSE,-
-,Mawhonic,528,,1,1,3,S,110,20,1090,1090,FALSE,-
-,Muftak,529,,1,1,3,S,110,20,1120,1070,FALSE,-
-,Nabrun Leids,530,,1,1,1,M,100,10,300,500,FALSE,-
-,Nebit,531,,1,1,4,M,100,10,1150,1750,FALSE,-
-,Neva Kee,532,,1,1,3,S,110,20,1320,970,FALSE,-
-,Nicanas Tassu,533,,1,1,3,S,110,20,,,FALSE,-
-,Nute Gunray,534,,1,1,3,M,100,10,1000,1150,FALSE,-
-,OOM-9,535,,1,1,4,M,100,10,1600,1600,FALSE,-
-,Pablo-Jill,536,,1,1,5,S,110,20,2040,1590,FALSE,-
-,Padmé Amidala [In Disguise],537,,1,1,3,M,100,10,940,1650,FALSE,-
-,Perosei,538,,1,1,2,M,100,10,610,920,FALSE,-
-,Pit Droid [Mechanic],539,,1,1,1,S,110,20,370,370,FALSE,Heal Droid
-,Poggle the Lesser,540,,1,1,3,S,110,20,1450,930,FALSE,-
-,Ponda Baba,541,,1,1,2,M,100,10,850,850,FALSE,-
-,R1-G4,542,,1,1,1,S,110,20,300,400,FALSE,-
-,Rancor,543,,1,1,4,S,110,20,1950,1250,FALSE,-
-,Ratts Tyerell,544,,1,1,3,S,110,20,1230,1050,FALSE,-
-,Ric Olié,545,,1,1,2,M,100,10,600,960,FALSE,-
-,Sandtrooper,546,,1,1,4,M,100,10,2000,1200,FALSE,-
-,Scout Trooper,547,,1,1,4,S,110,20,1800,1200,FALSE,-
-,Sephjet Josall,548,,1,1,3,S,110,20,1180,1200,FALSE,-
-,Snowtrooper,549,,1,1,4,M,100,10,1500,1600,FALSE,-
-,Stormtrooper,550,,1,1,4,M,100,10,1600,1500,FALSE,-
-,Tann Gella,551,,1,1,1,M,100,10,380,480,FALSE,-
-,Tanus Spijek,552,,1,1,2,M,100,10,800,900,FALSE,-
-,Taun We,553,,1,1,3,M,100,10,970,1320,FALSE,-
-,Teemto Pagalies,554,,1,1,3,S,110,20,1400,880,FALSE,-
-,Tigran Jamiro,555,,1,1,2,M,100,10,650,950,FALSE,-
-,Ugloste,556,,1,1,1,S,110,20,380,380,FALSE,-
-,URoRRuR'R'R,557,,1,1,4,M,100,10,1350,1750,FALSE,-
-,Wampa,558,,1,1,4,S,110,20,1900,1200,FALSE,-
-,Wat Tambor,559,,1,1,1,S,110,20,480,330,FALSE,-
-,Watto,560,,1,1,2,M,100,10,660,970,FALSE,-
+http://android.jacoblehenbauer.com/images/crd/2112411580.png,Ahsoka Tano [Dual Green],5,Light,5,,,,,,6340,7370,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1010910950.png,Anakin Skywalker [Dual Wield],6,Light,5,2,27,S,170,60,8850,8610,FALSE,Blitz (20-50%)
+http://android.jacoblehenbauer.com/images/crd/1010911150.png,Anakin Skywalker [Jedi General],7,Light,5,1,36,S,170,80,8760,8810,TRUE,Clone Wars Hero (6-12-15%)
+http://android.jacoblehenbauer.com/images/crd/1010910450.png,Anakin Skywalker [Padawan],8,Light,5,1,17,S,170,80,10290,6610,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1010911050.png,Anakin Skywalker [Race of Destiny],9,Light,5,1,27,S,160,150,5740,5640,FALSE,Recovery (2-5%)
+http://android.jacoblehenbauer.com/images/crd/1010910750.png,Anakin Skywalker [The Chosen One],10,Light,5,1,21,S,170,80,9200,9250,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1010920850.png,Anakin Skywalker [The Fallen One],11,Dark,5,1,40,S,170,80,8870,8810,FALSE,The Fallen One (5-12%)
+http://android.jacoblehenbauer.com/images/crd/1112920250.png,Asajj Ventress,12,Dark,5,2,36,S,160,100,8730,9400,TRUE,1-Unit Combat Skill Effect Down [Med] (20-40-50%)
+http://android.jacoblehenbauer.com/images/crd/1012820350.png,Aurra Sing,13,Dark,5,2,19,M,240,50,7420,6160,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1012820550.png,Aurra Sing [Hired Gun],14,Dark,5,2,28,M,140,70,8390,6080,FALSE,Barrage (10-30%)
+http://android.jacoblehenbauer.com/images/crd/1040420450.png,Barriss Offee [Fallen Jedi],15,Dark,5,2,37,S,160,90,8700,8390,FALSE,Betrayer (5-20%)
+http://android.jacoblehenbauer.com/images/crd/1118030150.png,BB-8,16,Neutral,5,1,22,S,170,120,5820,5780,TRUE,Little Hero (5-5-5%)
+http://android.jacoblehenbauer.com/images/crd/1013311250.png,Ben Kenobi,17,Light,5,1,36,S,170,90,7840,9370,FALSE,One with the Force (2-5%)
+http://android.jacoblehenbauer.com/images/crd/1013311550.png,Ben Kenobi [Jedi in Hiding],18,Light,5,1,37,S,170,80,8160,9060,TRUE,Watcher of the New Hope (10-20-30%)
+http://android.jacoblehenbauer.com/images/crd/2112411570.png,Black Krrsantan,19,Dark,5,,,,,,6130,9720,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1041720450.png,Boba Fett,20,Dark,5,1,18,M,160,70,10010,6310,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1041720750.png,Boba Fett [Death for Hire],21,Dark,5,1,29,M,160,60,10080,5980,FALSE,Tempter of Fate (100-200%)
+http://android.jacoblehenbauer.com/images/crd/1041720550.png,Boba Fett [The Relentless Hunter],22,Dark,5,3,32,S,250,60,2190,9970,FALSE,
+http://android.jacoblehenbauer.com/images/crd/2112411581.png,Boba Fett [Young],23,Dark,5,,,,,,9390,6680,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1097320350.png,Bossk,24,Dark,5,1,24,M,160,80,8920,6600,FALSE,Regenerate (5-10%)
+http://android.jacoblehenbauer.com/images/crd/1027310650.png,C-3PO,25,Light,5,1,35,S,130,100,3250,8580,FALSE,The Golden God (50-100%)
+http://android.jacoblehenbauer.com/images/crd/1027330750.png,C-3PO & R2-D2 [May the 4th Limited Edition],26,Neutral,5,1 per 2,20,S,130,100,5780,5820,FALSE,Attendant (5-5%)
+http://android.jacoblehenbauer.com/images/crd/1114520150.png,Cad Bane ,27,Dark,5,2,35,M,160,110,8080,6120,FALSE,Die Hard (25-50%)
+http://android.jacoblehenbauer.com/images/crd/1114520250.png,Cad Bane [Steeled Killer],28,Dark,5,1,38,M,160,60,8940,5840,TRUE,Scum at it's Finest (10-20-25%)
+http://android.jacoblehenbauer.com/images/crd/1144020250.png,Captain Phasma,29,Dark,5,1,33,M,160,70,9880,6390,TRUE,Spearhead (20-50-60%)
+http://android.jacoblehenbauer.com/images/crd/2112411582.png,Cassian Andor,30,Light,5,,,,,,7740,5680,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1063910350.png,Chewbacca,31,Light,5,1,18,M,240,50,8480,6380,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1063910750.png,Chewbacca [A Hero Returned],32,Light,5,1,39,M,150,50,7910,5290,TRUE,Barrage (10-30-35%)
+http://android.jacoblehenbauer.com/images/crd/1063910550.png,Chewbacca [Hero of Kashyyyk],33,Light,5,1,28,M,160,70,8560,6210,FALSE,3-Unit Wookiee ATK Up [Sml] (7-15%)
+http://android.jacoblehenbauer.com/images/crd/1063910650.png,Chewbacca [Wookiee Warrior],34,Light,5,1,33,S,170,80,6000,10020,FALSE,Self ATK Up [Med] (50-100%)
+http://android.jacoblehenbauer.com/images/crd/1114410150.png,Clone Captain Rex,35,Light,5,2,34,M,160,70,7950,7600,FALSE,Concentrated Fire (20-50%)
+http://android.jacoblehenbauer.com/images/crd/1114410250.png,Clone Captain Rex [Phase 2],36,Dark,5,1,35,M,100,60,12160,7910,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1045920150.png,Clone Commander Appo,37,Light,5,1,28,M,160,70,8730,6070,FALSE,3-Unit Clone Trooper ATK Up [Sml] (7-15%)
+http://android.jacoblehenbauer.com/images/crd/1046010350.png,Clone Commander Cody,38,Light,5,1,35,M,160,70,6220,9330,FALSE,Clone Marshall Commander (15-30%)
+http://android.jacoblehenbauer.com/images/crd/1046020450.png,Clone Commander Cody,39,Dark,5,1,35,M,160,70,6120,9430,FALSE,Clone Marshall Commander (15-30%)
+http://android.jacoblehenbauer.com/images/crd/1046120150.png,Clone Commander Thire,40,Dark,5,1,28,M,160,70,6700,8150,FALSE,3-Unit Clone Trooper DEF Up [Sml] (7-15%)
+http://android.jacoblehenbauer.com/images/crd/2112411572.png,Darth Bane,41,Dark,5,,,,,,3060,6250,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1017220150.png,Darth Maul,42,Dark,5,1,18,S,170,80,8740,8490,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1017220350.png,Darth Maul [Assassin],43,Dark,5,1,20,S,170,80,9260,8440,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1017220650.png,Darth Maul [Malice Reborn],44,Dark,5,1,38,S,170,100,10250,7820,TRUE,Unending Grudge (6-12-15%)
+http://android.jacoblehenbauer.com/images/crd/1017220550.png,Darth Maul [Rage of the Sith],45,Dark,5,1,40,S,170,80,10120,9200,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1020520150.png,Darth Sidious,46,Dark,5,1,34,S,170,80,8970,9170,FALSE,elf DEF Up [Med] (50-100%)
+http://android.jacoblehenbauer.com/images/crd/1020521050.png,Darth Sidious [Ruthless Ambition],47,Dark,5,2,40,S,170,80,8000,8520,FALSE,Rule of Two (20-40%)
+http://android.jacoblehenbauer.com/images/crd/1020520750.png,Darth Sidious [Sith Dictator],48,Dark,5,1,39,S,140,80,8050,7920,FALSE,Dark Absorption (10-20%)
+http://android.jacoblehenbauer.com/images/crd/1062820150.png,Darth Vader,49,Dark,5,1,20,S,170,80,9090,9000,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1062820550.png,Darth Vader [Cloud City],50,Dark,5,1,32,S,170,80,9100,9040,FALSE,Blaster Reflection [Med] (80-120%)
+http://android.jacoblehenbauer.com/images/crd/2112411575.png,Darth Vader [Dagobah],51,Dark,5,,,,,,8410,8220,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1062820750.png,Darth Vader [Galactic Terror],52,Dark,5,1,35,S,170,80,9320,8920,FALSE,Self ATK Up [Med] (50-100%)
+http://android.jacoblehenbauer.com/images/crd/1062821350.png,Darth Vader [His Master's Bidding],53,Dark,5,1,35,M,160,70,6490,6650,FALSE,Self ATK Up [Med] (50-100%)
+http://android.jacoblehenbauer.com/images/crd/1062821050.png,Darth Vader [Master of Evil],54,Dark,5,1,39,S,170,80,9330,8700,FALSE,Jedi Purge (3-10%)
+http://android.jacoblehenbauer.com/images/crd/1062820650.png,Darth Vader [May the 4th Limited Edition],55,Dark,5,1,18,S,170,80,6220,6120,FALSE,
+http://android.jacoblehenbauer.com/images/crd/2112411583.png,Darth Vader [Rogue Hunter],56,Dark,5,,,,,,8110,8380,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1062820850.png,Darth Vader [The Dark Usurper],57,Dark,5,1,39,S,170,80,9280,8800,FALSE,Call of the Dark Side (7-15%)
+http://android.jacoblehenbauer.com/images/crd/1062820950.png,Darth Vader [The Penultimate Conflict],58,Dark,5,1,42,S,170,90,10160,9100,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1062821150.png,Darth Vader [TIE Advanced],59,Dark,5,1,18,S,170,100,8600,7590,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1062831250.png,Darth Vader & Emperor Palpatine [2nd Anniversary Limited Edition],60,Neutral,5,0,26,S,0,70,5840,5880,FALSE,Joined Fates (100-100%)
+http://android.jacoblehenbauer.com/images/crd/2112411579.png,Death Trooper,61,Dark,5,,,,,,9140,7190,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1078420150.png,Dengar,62,Dark,5,1,31,M,160,60,8220,7320,FALSE,Counter Attack [Med] (100-200%)
+http://android.jacoblehenbauer.com/images/crd/1038520250.png,Dooku,63,Dark,5,1,19,S,170,80,6870,10120,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1038520550.png,Dooku [Dark Lord],64,Dark,5,1,28,S,140,80,5340,8110,FALSE,Pacify [Med] (10-30%)
+http://android.jacoblehenbauer.com/images/crd/1038520650.png,Dooku [Enemy of the Republic],65,Dark,5,1,28,S,170,90,8550,8290,FALSE,Form 2 (20-40%)
+http://android.jacoblehenbauer.com/images/crd/1038520350.png,Dooku [Sith Lord],66,Dark,5,1,33,S,140,80,8190,7980,FALSE,Self ATK Up [Sml] (50-100%)
+http://android.jacoblehenbauer.com/images/crd/1103120350.png,Droideka,67,Dark,5,1 per 2,48,M,160,0,4600,8520,FALSE,Deflector Shield (40-70%)
+http://android.jacoblehenbauer.com/images/crd/1020520250.png,Emperor Palpatine,68,Dark,5,1,22,S,140,70,8400,7520,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1111420250.png,Emperor's Royal Guard,69,Dark,5,1,28,S,170,100,8270,7870,FALSE,Shield of The Empire (15-30%)
+http://android.jacoblehenbauer.com/images/crd/1147610250.png,Finn,70,Light,5,1,32,S,150,90,7500,8910,TRUE,Protector (30-70-80%)
+http://android.jacoblehenbauer.com/images/crd/1156420150.png,"FN-2199 ""Nines""",71,Dark,5,1,33,S,160,80,8760,8930,TRUE,Suppression (10-20-25%)
+http://android.jacoblehenbauer.com/images/crd/1048620350.png,General Grievous,72,Dark,5,2,20,S,160,125,8880,7030,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1048620550.png,General Grievous [Elusive Commander],73,Dark,5,1,38,S,170,80,10160,6840,FALSE,Minion Shield (5-20%)
+http://android.jacoblehenbauer.com/images/crd/1048620450.png,General Grievous [Last Stand],74,Dark,5,4,34,S,130,135,9050,6540,FALSE,
+http://android.jacoblehenbauer.com/images/crd/2112411573.png,General Grievous [Separatist],75,Dark,5,,,,,,8590,6110,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1048620650.png,General Grievous [The Atrocious Executioner],76,Dark,5,2,36,S,130,70,9190,8780,FALSE,Counter Attack [Med] (100-200%)
+http://android.jacoblehenbauer.com/images/crd/1141920150.png,General Hux,77,Dark,5,1,35,M,150,60,5740,5680,TRUE,Raise Morale (40-55-60%)
+http://android.jacoblehenbauer.com/images/crd/1141920250.png,General Hux [Calculated Tactician],78,Dark,5,1,,L,,,11490,6020,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1115220150.png,General Kalani,79,Dark,5,1,27,M,150,60,5030,8170,FALSE,Concentrated Fire (20-50%)
+http://android.jacoblehenbauer.com/images/crd/2112411568.png,General Organa,80,Light,5,1,32,M,150,70,5350,7860,TRUE,Rebel for Life (10%-?-?)
+http://android.jacoblehenbauer.com/images/crd/1080320350.png,General Veers,81,Dark,5,1,28,M,150,60,7650,5780,FALSE,Pain for Power (5-15%)
+http://android.jacoblehenbauer.com/images/crd/1057320350.png,Grand Moff Tarkin,82,Dark,5,1,25,M,160,60,7130,9020,FALSE,All EVA Down [Sml] (10-20%)
+http://android.jacoblehenbauer.com/images/crd/1057320450.png,Grand Moff Tarkin [The Merciless],83,Dark,5,1 per 19,128,L,250,60,9370,6070,FALSE,Merciless Execution
+http://android.jacoblehenbauer.com/images/crd/1067010550.png,Han Solo,84,Light,5,1,18,M,160,70,9960,6390,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1067010950.png,Han Solo [Quick Draw],85,Light,5,1,32,M,160,60,8110,7570,FALSE,Counter Attack [Med] (100-200%)
+http://android.jacoblehenbauer.com/images/crd/1067010750.png,Han Solo [Smuggler for Hire],86,Light,5,2,23,M,155,130,8550,5180,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1082120450.png,IG-88B,87,Dark,5,2,40,M,150,70,8650,5900,FALSE,Neural Inhibitor Launcher (25-50%)
+http://android.jacoblehenbauer.com/images/crd/1016420250.png,Jabba the Hutt,88,Dark,5,1,19,S,170,80,9990,7000,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1016420450.png,Jabba the Hutt [1st Anniversary Limited Edition],89,Dark,5,1,19,S,175,86,6270,6020,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1016420550.png,Jabba the Hutt [Crime Lord],90,Dark,5,1 per 2,60,S,140,0,2990,12260,FALSE,My Kind of Scum (100-100%)
+http://android.jacoblehenbauer.com/images/crd/1035220250.png,Jango Fett,91,Dark,5,1,18,M,160,80,9880,6300,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1035220550.png,Jango Fett [Assassin Without Peer],92,Dark,5,2,34,M,160,80,8800,6210,TRUE,Kamino Saberdart (30-50-60%)
+http://android.jacoblehenbauer.com/images/crd/1035220450.png,Jango Fett [The Original Warrior],93,Dark,5,2,35,M,170,60,2430,9800,FALSE,3-Unit Combat Skill Effect Down [Med] (7-15%)
+http://android.jacoblehenbauer.com/images/crd/1016210350.png,Jar Jar Binks,94,Light,5,1,16,S,170,160,6960,4090,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1016210450.png,Jar Jar Binks [Gungan Senator],95,Light,5,1,29,S,140,60,5740,8620,FALSE,Skill Effect Down [Med] (20-40%)
+http://android.jacoblehenbauer.com/images/crd/1032810250.png,Kit Fisto,96,Light,5,1,37,S,150,90,7810,8950,FALSE,Force Push [Med] (1-3%)
+http://android.jacoblehenbauer.com/images/crd/1139020150.png,Kylo Ren,97,Dark,5,1,32,S,170,90,9210,8370,TRUE,Heir to the Dark (2-5-6%)
+http://android.jacoblehenbauer.com/images/crd/1139020250.png,Kylo Ren [Starkiller Base],98,Dark,5,1,43,S,170,80,9490,8560,TRUE,Path to the Dark (10-30-40%)
+http://android.jacoblehenbauer.com/images/crd/1080810250.png,Lando Calrissian,99,Light,5,1,24,M,160,80,9010,7810,FALSE,Self ACC Up [Sml] (25-50%)
+http://android.jacoblehenbauer.com/images/crd/1080810450.png,Lando Calrissian [Clever Move],100,Light,5,1,39,M,160,70,9190,6300,FALSE,Swindler (35-70%)
+http://android.jacoblehenbauer.com/images/crd/1071010750.png,Leia Organa,101,Light,5,1,32,L,170,60,6530,6030,FALSE,Self ATK Up [Med] (50-100%)
+http://android.jacoblehenbauer.com/images/crd/1071010950.png,Leia Organa [1st Anniversary Limited Edition],102,Light,5,1,19,S,175,86,6020,6270,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1071011150.png,Leia Organa [A Time to Strike],103,Light,5,0,27,S,0,140,6860,8160,FALSE,Strangle (40-140%)
+http://android.jacoblehenbauer.com/images/crd/2112411571.png,Leia Organa [Rebel],104,Light,5,,,,,,8420,8670,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1071011250.png,Leia Organa [Speeder Chase],105,Light,5,1,27,M,160,125,7500,6640,FALSE,Rebel Spirit (10-40%)
+http://android.jacoblehenbauer.com/images/crd/1070910150.png,Luke Skywalker,106,Light,5,1,19,S,170,80,8550,8650,TRUE,
+http://android.jacoblehenbauer.com/images/crd/2112411576.png,Luke Skywalker [Dagobah],107,Light,5,,,,,,7650,7370,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1070910850.png,Luke Skywalker [Heir to an Empire],108,Light,5,1,38,S,170,80,8780,8200,FALSE,Rogue Leader (2-5%)
+http://android.jacoblehenbauer.com/images/crd/1070911150.png,Luke Skywalker [Jedi Knight],109,Light,5,1,34,S,170,100,8830,8550,FALSE,Form 3 (20-40%)
+http://android.jacoblehenbauer.com/images/crd/1070910950.png,Luke Skywalker [Man of Destiny],110,Light,5,1,41,S,170,90,9440,9950,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1070910750.png,Luke Skywalker [May the 4th Limited Edition],111,Light,5,1,18,S,170,80,6120,6220,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1043010450.png,Luminara Unduli,112,Light,5,1,34,S,240,80,6580,9660,FALSE,3-Unit Combat Skill Effect Down [Med] (7-15%)
+http://android.jacoblehenbauer.com/images/crd/1023610350.png,Mace Windu,113,Light,5,1,32,S,170,80,9000,9030,FALSE,Self ATK Up [Med] (50-100%)
+http://android.jacoblehenbauer.com/images/crd/1023610550.png,Mace Windu [A Jedi Betrayed],114,Light,5,1 per 2,37,S,150,90,11110,7990,TRUE,Force Grip (30-70-80%)
+http://android.jacoblehenbauer.com/images/crd/1023610450.png,Mace Windu [Master of Vaapad],115,Light,5,1 per 3,36,S,180,110,15000,7270,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1106620350.png,MagnaGuard,116,Dark,5,1,29,S,170,80,8220,9390,FALSE,Resolve (60-90%)
+http://android.jacoblehenbauer.com/images/crd/1024410150.png,Master Yoda,117,Light,5,1,20,S,170,80,9140,8840,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1024411050.png,Master Yoda [Aspect of the Light],118,Light,5,1,35,M,160,60,6130,6940,FALSE,Self ATK Up [Med] (50-100%)
+http://android.jacoblehenbauer.com/images/crd/2112411569.png,Master Yoda [Defiance of Evil],119,Light,5,1,34,S,150,80,5600,6450,TRUE,Defense Against the Dark (15%-?-?)
+http://android.jacoblehenbauer.com/images/crd/1024410550.png,Master Yoda [Exile on Dagobah],120,Light,5,1,21,S,170,90,6880,10720,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1024410850.png,Master Yoda [Reluctant General],121,Light,5,1,29,S,170,100,9000,9120,FALSE,Form 4 (20-40%)
+http://android.jacoblehenbauer.com/images/crd/1024410750.png,Master Yoda [The Grand Master],122,Light,5,1,38,S,170,80,8510,8800,FALSE,Defender of the Weak (1-4%)
+http://android.jacoblehenbauer.com/images/crd/1119010150.png,Maz Kanata,123,Light,5,1,28,S,120,80,4140,5880,TRUE,Unveiled Light (10-20-25%)
+http://android.jacoblehenbauer.com/images/crd/2112411578.png,Mon Mothma,124,Light,5,,,,,,5100,8000,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1019620450.png,Nute Gunray,125,Dark,5,1,24,S,140,60,5590,6510,FALSE,Adjacent Separatist ATK Up [Med] (12-20%)
+http://android.jacoblehenbauer.com/images/crd/1013310950.png,Obi-Wan Kenobi [Jedi Master],126,Light,5,1,31,S,170,90,7100,10330,FALSE,Blaster Reflection [Med] (80-120%)
+http://android.jacoblehenbauer.com/images/crd/1013311050.png,Obi-Wan Kenobi [Last of the Order],127,Light,5,1,40,S,170,80,8700,8900,FALSE,Last of the Order (5-12%)
+http://android.jacoblehenbauer.com/images/crd/1013310850.png,Obi-Wan Kenobi [Padawan],128,Light,5,1,19,S,170,100,8740,8550,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1013311350.png,Obi-Wan Kenobi [Republic General],129,Light,5,1,35,S,170,80,8520,9150,FALSE,Vehicle Support (80-110%)
+http://android.jacoblehenbauer.com/images/crd/1013311150.png,Obi-Wan Kenobi [Varactyl Cavalry],130,Light,5,2,39,S,160,110,8620,8320,FALSE,Confront Droid Army (10-20%)
+http://android.jacoblehenbauer.com/images/crd/1020310850.png,Padme Amidala [Final Term],131,Light,5,1,27,S,140,80,5080,8150,FALSE,Pacify [Med] (10-30%)
+http://android.jacoblehenbauer.com/images/crd/1020310950.png,Padme Amidala [Resourceful Senator],132,Light,5,1,29,M,160,130,7950,8270,FALSE,Dauntless Heroine (3-30%)
+http://android.jacoblehenbauer.com/images/crd/1020310550.png,Padme Amidala [Senator at War],133,Light,5,1,17,M,160,70,7780,8030,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1021810250.png,Plo Koon [Jedi Pilot],134,Light,5,1,19,S,180,90,8730,7400,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1114920150.png,Pong Krell,135,Dark,5,2,35,S,160,80,8840,9020,FALSE,Friendly Fire (70-90%)
+http://android.jacoblehenbauer.com/images/crd/1115420150.png,Pre Vizsla,136,Dark,5,1,33,S,170,60,7350,9740,FALSE,Darksaber (25-50%)
+http://android.jacoblehenbauer.com/images/crd/1020310650.png,Queen Amidala,137,Light,5,1,25,S,140,60,5680,6520,FALSE,3-Unit Light Side All Stats Up [Med] (8-15%)
+http://android.jacoblehenbauer.com/images/crd/1015110150.png,Qui-Gon Jinn,138,Light,5,1,17,S,170,80,8560,8290,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1015110450.png,Qui-Gon Jinn [The Final Duel],139,Light,5,1,39,S,170,80,9190,10040,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1115310150.png,Quinlan Vos,140,Light,5,1,32,S,170,80,8750,8450,FALSE,Daredevil (50-110%)
+http://android.jacoblehenbauer.com/images/crd/1029110450.png,R2-D2,141,Light,5,2,31,S,170,80,2640,9210,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1029130550.png,R2-D2 [May the 4th Limited Edition],142,Neutral,5,0,20,S,0,0,6070,6100,TRUE,The Jedi's Whereabouts (15-15-15%)
+http://android.jacoblehenbauer.com/images/crd/1165010150.png,Rako Hardeen,143,Light,5,1,29,M,170,70,7080,7980,TRUE,Disguised Bounty Hunter (10-25-35%)
+http://android.jacoblehenbauer.com/images/crd/1090230450.png,Rancor,144,Neutral,5,1,37,S,130,60,10980,8120,FALSE,Predator (20-50%)
+http://android.jacoblehenbauer.com/images/crd/1128010150.png,Rey,145,Light,5,1,31,S,170,80,7010,9790,TRUE,One Who Seeks the Light (2-5-6%)
+http://android.jacoblehenbauer.com/images/crd/1128010350.png,Rey [Starkiller Base],146,Light,5,1,42,S,170,80,8700,9220,TRUE,The Awakening (10-30-40%)
+http://android.jacoblehenbauer.com/images/crd/2112411577.png,Savage Opress,147,Dark,5,,,,,,7780,7650,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1017120350.png,Sebulba,148,Neutral,5,2,28,S,240,160,2880,5700,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1020510550.png,Senator Palpatine,149,Dark,5,1,24,S,140,60,5540,6600,FALSE,Adjacent Galactic Republic ATK Up [Med] (12-20%)
+http://android.jacoblehenbauer.com/images/crd/1035010350.png,Shaak Ti,150,Light,5,1,35,S,160,80,8350,8600,FALSE,Guardian (20-50%)
+http://android.jacoblehenbauer.com/images/crd/2112411574.png,Shaak Ti [Other],151,Light,5,,,,,,8230,8430,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1111820850.png,Shadow Stormtrooper,152,Dark,5,1,35,M,170,70,7800,6080,TRUE,Covert Action (10-25-40%)
+http://android.jacoblehenbauer.com/images/crd/1020520450.png,Supreme Chancellor Palpatine,153,Dark,5,1,26,S,140,60,5790,6390,FALSE,3-Unit Dark Side All Stats Up [Med] (8-15%)
+http://android.jacoblehenbauer.com/images/crd/1057710150.png,Wedge Antilles,154,Light,5,1,17,M,160,70,7680,7630,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1034420350.png,Zam Wesell,155,Dark,5,1 per 2,34,L,230,40,10000,5110,FALSE,
+http://android.jacoblehenbauer.com/images/crd/1081820140.png,4-LOM,156,Dark,4,1,11,M,140,50,4830,5330,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1030610440.png,Aayla Secura,157,Light,4,1,15,S,150,90,6100,5340,FALSE,Short ATK Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1010810140.png,Adi Gallia,158,Light,4,1,13,S,150,60,6040,5790,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1031710140.png,Agen Kolar,159,Light,4,1,13,S,150,60,6250,5680,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1010910140.png,Anakin Skywalker,160,Light,4,1,10,S,150,60,5220,5320,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1115710140.png,ARC Trooper Fives,161,Light,4,1,19,M,140,50,7680,4390,FALSE,Clone Trooper ATK Up [Sml] (10-20%)  
+http://android.jacoblehenbauer.com/images/crd/1012820140.png,Aurra Sing,162,Dark,4,1,12,M,140,50,4040,7330,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1012820440.png,Aurra Sing [Sniper],163,Dark,4,1,22,L,150,40,6300,3840,FALSE,Self ATK Up [Sml] (50-100%)   
+http://android.jacoblehenbauer.com/images/crd/1164020140.png,Bala-Tik,164,Dark,4,1,16,M,130,50,5950,5430,TRUE,Gang's Frontman (5-15-18%)     
+http://android.jacoblehenbauer.com/images/crd/1096420140.png,Bane Malar,165,Dark,4,1,18,M,155,50,6830,4600,FALSE,Same Column EVA Down [Sml] (5-15%)  
+http://android.jacoblehenbauer.com/images/crd/1040410340.png,Barriss Offee [Healer],166,Light,4,1,30,S,150,50,1510,4500,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1013310140.png,Ben Kenobi,167,Light,4,1,13,S,150,60,5880,6180,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1013310640.png,Ben Kenobi [Death Star],168,Light,4,1,13,S,150,60,5580,6660,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1020930140.png,Bib Fortuna,169,Neutral,4,1,10,S,150,60,4810,4560,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1020920340.png,Bib Fortuna [Majordomo],170,Dark,4,1,19,S,150,60,4610,4560,FALSE,3-Unit Jabba's Crime Syndicate ATK Up [Sml] (7-15%)
+http://android.jacoblehenbauer.com/images/crd/1041720140.png,Boba Fett,171,Dark,4,1,14,M,140,50,5840,6500,TRUE,       
+,Bodhi Rook,172,Light,4,,,,,,,,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1025710340.png,Boss Nass,173,Light,4,1,15,S,150,60,4910,6010,FALSE,Gungan ATK Up [Med] (15-30%)   
+http://android.jacoblehenbauer.com/images/crd/1097320140.png,Bossk,174,Dark,4,1,11,M,140,50,4070,6190,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1095630140.png,Boushh,175,Neutral,4,1,11,M,140,50,5010,5520,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1095610340.png,Boushh [Fearless and Inventive],176,Light,4,1,18,M,140,70,4040,6710,FALSE,Same Column ACC Down [Sml] (5-15%)  
+http://android.jacoblehenbauer.com/images/crd/1115620140.png,BX Droid Commando,177,Dark,4,1,17,S,150,100,7320,3540,FALSE,Dual-Range (90-110%)      
+http://android.jacoblehenbauer.com/images/crd/1027310140.png,C-3PO,178,Light,4,1,10,S,150,60,2250,6840,FALSE,All ATK Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1020410340.png,Captain Panaka,179,Light,4,1,21,L,150,40,5830,5030,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1144020140.png,Captain Phasma,180,Dark,4,1,16,M,140,50,7410,5030,TRUE,Merciless Commander (2-6-7%)     
+http://android.jacoblehenbauer.com/images/crd/1033410340.png,Captain Typho,181,Light,4,1,18,M,150,50,6530,4650,FALSE,Galactic Republic EVA Up [Sml] (14-20%)  
+http://android.jacoblehenbauer.com/images/crd/1063930140.png,Chewbacca,182,Neutral,4,1,12,M,140,50,5360,5850,FALSE,Neutral ATK Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1063910440.png,Chewbacca [Mechanic],183,Light,4,1,33,S,150,50,1480,4030,FALSE,Self HEA/REP Up [Med] (10-50%)   
+http://android.jacoblehenbauer.com/images/crd/1050310140.png,Cin Drallig,184,Light,4,1,16,S,150,110,7160,3720,FALSE,Jedi ATK Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1046510140.png,Clone Commander Bacara,185,Light,4,1,14,M,140,50,6770,4580,FALSE,Dark DEF Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1046520240.png,Clone Commander Bacara,186,Dark,4,1,14,M,140,50,6980,4380,FALSE,Light DEF Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1046220240.png,Clone Commander Bly,187,Dark,4,1,13,M,140,50,6770,4340,FALSE,Light EVA Down [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1046210140.png,Clone Commander Bly,188,Light,4,1,13,M,140,50,6560,4550,FALSE,Light ACC Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1046020140.png,Clone Commander Cody,189,Dark,4,1,12,M,140,50,4240,6550,FALSE,Short DEF Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1046010240.png,Clone Commander Cody,190,Light,4,1,12,M,140,50,4040,6750,FALSE,Medium DEF Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1045810140.png,Clone Commander Gree,191,Light,4,1,14,M,150,60,6750,3970,FALSE,Dark ACC Down [Med] (16-32%)   
+http://android.jacoblehenbauer.com/images/crd/1045820240.png,Clone Commander Gree,192,Dark,4,1,14,M,150,50,6860,3860,FALSE,Light ACC Down [Med] (16-32%)   
+http://android.jacoblehenbauer.com/images/crd/1046310140.png,Clone Commander Neyo,193,Light,4,1,14,M,140,60,6160,4740,FALSE,Dark EVA Down [Med] (16-32%)   
+http://android.jacoblehenbauer.com/images/crd/1046320240.png,Clone Commander Neyo,194,Dark,4,1,14,M,140,60,6270,4630,FALSE,Dark EVA Up [Med] (16-32%)   
+http://android.jacoblehenbauer.com/images/crd/1115510140.png,Clone Commander Wolffe,195,Light,4,1,18,M,120,80,6390,4400,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1046420140.png,Clone Sergeant Fox,196,Dark,4,1,16,M,140,50,6230,4150,TRUE,Terminate the Jedi (8-25-0%)    
+,Combat Assault Tank Commander,197,Dark,4,,,,,,,,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1020520940.png,Darth Sidious,198,Dark,4,1,17,S,150,60,6100,7100,FALSE,Sith DEF Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1062820440.png,Darth Vader [Death Star],199,Dark,4,1,13,S,150,60,6920,5680,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1108220140.png,DD-13 [Healer],200,Dark,4,1,32,S,150,50,1440,3950,FALSE,Self HEA/REP Up [Med] (10-50%)   
+http://android.jacoblehenbauer.com/images/crd/1038520440.png,Dooku,201,Dark,4,1,16,S,150,60,6300,6590,TRUE,Sith ATK Up [Sml] (10-20-25%)   
+http://android.jacoblehenbauer.com/images/crd/1103120240.png,Droideka,202,Dark,4,1,14,M,140,50,3280,8320,FALSE,Droid DEF Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1105520140.png,Dwarf Spider Droid,203,Dark,4,1,18,M,140,50,5760,6210,FALSE,Self Destruction (30-70%)     
+http://android.jacoblehenbauer.com/images/crd/1111420140.png,Emperor's Royal Guard,204,Dark,4,1,15,S,150,60,5070,6750,FALSE,Dark DEF Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1147610140.png,Finn,205,Light,4,1,15,M,140,70,6530,5600,TRUE,Deserter (30-60-70%)      
+http://android.jacoblehenbauer.com/images/crd/1163520140.png,First Order TIE Fighter Pilot,206,Dark,4,1,14,M,140,50,7180,4110,TRUE,Long ATK & ACC Up [Sml] (5-15-20%) 
+http://android.jacoblehenbauer.com/images/crd/1058910140.png,Garven Dreis,207,Light,4,1,18,M,140,50,5120,7360,FALSE,Long DEF Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1013830240.png,Gasgano,208,Neutral,4,1,14,S,150,120,4590,3360,FALSE,Podracer EVA Up [Sml] (14-20%)   
+http://android.jacoblehenbauer.com/images/crd/1085210140.png,General Cracken,209,Light,4,1,15,M,140,60,5760,5610,FALSE,Galactic Empire DEF Down [Sml] (10-20%)  
+http://android.jacoblehenbauer.com/images/crd/1048620240.png,General Grievous,210,Dark,4,2,15,S,150,100,6260,4500,FALSE,Droid EVA Up [Sml] (14-20%)   
+http://android.jacoblehenbauer.com/images/crd/1075610140.png,General Rieekan,211,Light,4,1,14,M,140,50,4200,7310,FALSE,Light DEF Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1059220240.png,General Tagge,212,Dark,4,1,16,M,140,50,4980,6710,FALSE,Galactic Empire ATK Up [Sml] (10-20%)  
+http://android.jacoblehenbauer.com/images/crd/1080320140.png,General Veers,213,Dark,4,1,14,M,140,50,7370,4150,FALSE,Long ATK Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1057320140.png,Grand Moff Tarkin,214,Dark,4,1,10,M,140,50,2920,6790,FALSE,All DEF Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1067030140.png,Han Solo,215,Neutral,4,1,12,M,140,50,4260,7470,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1067010840.png,Han Solo [Back of Beyond],216,Light,4,1,16,M,140,50,6000,5450,FALSE,Rebel Alliance ACC Up [Sml] (14-20%)  
+http://android.jacoblehenbauer.com/images/crd/1067011040.png,Han Solo [Double Dealer],217,Light,4,1,17,M,140,30,5020,4100,TRUE,Resistance ATK Up [Sml] (10-20-25%)   
+http://android.jacoblehenbauer.com/images/crd/1067030640.png,Han Solo [In Carbonite],218,Neutral,4,0,100,S,0,0,0,0,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1114610140.png,Hardcase,219,Light,4,3,20,M,120,60,5940,4750,FALSE,Counter Attack [Sml] (100-200%)    
+http://android.jacoblehenbauer.com/images/crd/1114720140.png,IG-86,220,Dark,4,1,19,M,140,60,7300,3150,FALSE,Counter Attack [Sml] (100-200%)    
+http://android.jacoblehenbauer.com/images/crd/1082120140.png,IG-88B,221,Dark,4,1,11,M,140,50,6470,4060,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1016420340.png,Jabba the Hutt,222,Dark,4,1,15,S,150,60,5270,6420,FALSE,Bounty Hunter ACC Up [Sml] (7-10%)  
+http://android.jacoblehenbauer.com/images/crd/1062010140.png,Jan Dodonna,223,Light,4,1,14,M,140,50,5100,6000,FALSE,All ATK Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1035320240.png,Jango Fett,224,Dark,4,1,15,M,140,50,7520,5170,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1014010140.png,Ki-Adi-Mundi,225,Light,4,1,15,S,150,60,6810,5350,FALSE,Light ATK Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1032810140.png,Kit Fisto,226,Light,4,1,15,S,150,60,5360,6840,FALSE,Short EVA Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1080810140.png,Lando Calrissian,227,Light,4,1,15,M,140,50,6140,5580,FALSE,Medium ATK Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1080810340.png,Lando Calrissian [Palace Guard],228,Light,4,1,16,S,150,60,4650,7350,FALSE,Jabba's Crime Syndicate ATK Down [Med] (15-30%) 
+http://android.jacoblehenbauer.com/images/crd/1071010540.png,Leia Organa [Endor Celebration],229,Light,4,1,14,M,140,50,6000,6240,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1071010640.png,Leia Organa [Slave Leia],230,Light,4,1,14,S,150,90,6800,4880,FALSE,Male DEF Down [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1070911040.png,Luke Skywalker [A New Hope],231,Light,4,1 per 2,18,M,150,60,8220,4450,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1070910640.png,Luke Skywalker [X-wing pilot],232,Light,4,1,15,M,140,60,6170,5990,FALSE,Long ATK Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1043010140.png,Luminara Unduli,233,Light,4,1,13,S,150,60,5930,5800,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1023610240.png,Mace Windu,234,Light,4,1,15,S,150,60,6670,6250,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1106620240.png,MagnaGuard,235,Dark,4,1,14,S,150,60,4400,7150,FALSE,Short DEF Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1024410640.png,Master Yoda,236,Light,4,1,17,S,150,60,6240,6720,TRUE,Jedi DEF Up [Sml] (10-20-25%)   
+http://android.jacoblehenbauer.com/images/crd/1156820140.png,Megablaster Heavy Assault Trooper,237,Dark,4,3,19,M,130,50,5610,4620,TRUE,Self ATK Up [Sml] (50-100-0%)   
+http://android.jacoblehenbauer.com/images/crd/1077820140.png,Moff Jerjerrod,238,Dark,4,1,15,M,140,50,5070,6500,FALSE,Galactic Empire DEF Up [Sml] (10-20%)  
+http://android.jacoblehenbauer.com/images/crd/1053810240.png,Mon Mothma,239,Light,4,1,20,S,130,50,3620,5870,FALSE,1-Card Light Side & Neutral Accelaration [Sml] (10-20%)
+http://android.jacoblehenbauer.com/images/crd/1019620340.png,Nute Gunray,240,Dark,4,1,14,M,140,50,4200,6530,FALSE,Droid ATK Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1013310340.png,Obi-Wan Kenobi [Padawan],241,Light,4,1,14,S,150,60,6940,5480,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1012920140.png,Orn Free Taa,242,Dark,4,1,20,S,130,50,3760,5700,FALSE,1-Card Dark Side & Neutral Accelaration [Sml] (10-20%)
+http://android.jacoblehenbauer.com/images/crd/1086010140.png,Orrimaarko,243,Light,4,1,21,M,120,40,3510,5260,FALSE,Adjacent Rebel Alliance ATK Up [Sml] (7-15%) 
+http://android.jacoblehenbauer.com/images/crd/1020310740.png,Padme Amidala [Battle of Theed],244,Light,4,1,14,M,150,50,6460,5130,FALSE,Dark ATK Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1021810140.png,Plo Koon,245,Light,4,1,15,S,150,60,6310,5910,FALSE,Blaster Reflection [Sml] (80-120%)    
+http://android.jacoblehenbauer.com/images/crd/1148810140.png,Poe Dameron,246,Light,4,1,16,M,140,60,6230,5800,TRUE,Long ATK & ACC Up [Sml] (5-15-20%) 
+http://android.jacoblehenbauer.com/images/crd/1046930140.png,Queen Apailana,247,Neutral,4,1,18,S,130,50,3010,5640,FALSE,Force Bonus Up [Sml] (100-250%)   
+http://android.jacoblehenbauer.com/images/crd/1035130140.png,Queen Jamillia,248,Neutral,4,1,19,S,130,50,3360,5730,FALSE,Morale Boost Up [Sml] (100-250%)   
+http://android.jacoblehenbauer.com/images/crd/1029110140.png,R2-D2,249,Light,4,1,10,S,150,60,3740,5690,FALSE,All DEF Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1029110340.png,R2-D2 [Mechanic],250,Light,4,1,30,S,150,50,1560,4330,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1090230340.png,Rancor,251,Neutral,4,1,18,S,130,40,7000,5800,FALSE,Self ATK Up [Med] (50-100%)   
+http://android.jacoblehenbauer.com/images/crd/1128010240.png,Rey,252,Light,4,1,16,M,140,60,5850,5740,TRUE,Barrage (10-30-50%)      
+http://android.jacoblehenbauer.com/images/crd/1017010140.png,Saesee Tiin,253,Light,4,1,15,S,150,60,5700,6010,FALSE,Long ACC Down [Med] (16-32%)   
+http://android.jacoblehenbauer.com/images/crd/1034520240.png,San Hill,254,Dark,4,1,18,S,140,50,4330,5500,FALSE,Galactic Republic EVA Down [Med] (20-32%)  
+http://android.jacoblehenbauer.com/images/crd/1111720540.png,Sandtrooper,255,Dark,4,1,19,S,135,50,3450,8070,FALSE,Self DEF Up [Med] (50-100%)   
+http://android.jacoblehenbauer.com/images/crd/1111520340.png,Scout Trooper & 74-Z Speeder Bike,256,Dark,4,1,16,M,140,110,5650,3000,FALSE,Self EVA Up [Med] (50-100%)   
+http://android.jacoblehenbauer.com/images/crd/1017120140.png,Sebulba,257,Dark,4,1,9,S,150,60,4840,4740,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1111130140.png,Senate Guard,258,Neutral,4,1,14,M,140,50,4800,6660,FALSE,Neutral DEF Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1035010240.png,Shaak Ti,259,Light,4,1,14,S,150,60,5440,6420,FALSE,Light EVA Up [Med] (16-32%)   
+http://android.jacoblehenbauer.com/images/crd/1111620640.png,Shadow Stormtrooper,260,Dark,4,1,13,M,140,70,7350,4280,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1035320240.png,Shu Mai,261,Dark,4,1,16,S,140,50,4110,5570,FALSE,Separatist EVA Up [Sml] (14-20%)   
+http://android.jacoblehenbauer.com/images/crd/1090020140.png,Sim Aloo,262,Dark,4,1,20,M,120,40,3580,5590,FALSE,Adjacent Galactic Empire ATK Up [Sml] (7-15%) 
+http://android.jacoblehenbauer.com/images/crd/1111820540.png,Snowtrooper,263,Dark,4,3,18,M,120,50,6110,4960,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1020520640.png,Supreme Chancellor Palpatine,264,Dark,4,1,18,S,140,60,4760,7140,FALSE,Skill Effect Down [Sml] (15-30%)   
+http://android.jacoblehenbauer.com/images/crd/1114820140.png,Tactical Droid,265,Dark,4,1,15,S,150,60,4400,6100,FALSE,Separatist ATK Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1051110140.png,Tarfful,266,Light,4,1,16,M,140,50,7210,4700,FALSE,Droid DEF Down [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1018130240.png,Teemto Pagalies,267,Neutral,4,1,14,S,150,120,4380,3420,FALSE,All ACC Down [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1113520140.png,TIE Fighter Pilot,268,Dark,4,1,13,M,140,50,7290,4350,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1051710240.png,Tion Medon,269,Light,4,1,18,S,140,50,4410,6090,FALSE,Separatist EVA Down [Med] (20-32%)   
+http://android.jacoblehenbauer.com/images/crd/1115820140.png,Umbaran Soldier,270,Dark,4,1,18,M,150,70,7490,4510,FALSE,Galactic Republic DEF Down [Sml] (10-20%)  
+http://android.jacoblehenbauer.com/images/crd/1113620140.png,Vulture Droid Starfighter,271,Dark,4,1,19,L,130,30,6700,6300,FALSE,Long DEF Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1047210140.png,Whie Malreaux,272,Light,4,1,15,S,150,80,5680,5770,TRUE,Final Resistance (10-30-50%)     
+http://android.jacoblehenbauer.com/images/crd/1083830140.png,Wicket W Warrick,273,Light,4,1,13,S,150,60,6020,4610,FALSE,Ewok ATK Up [Med] (15-30%)   
+http://android.jacoblehenbauer.com/images/crd/1034420240.png,Zam Wesell,274,Dark,4,1,13,M,140,50,6460,4690,FALSE,Self ATK Up [Sml] (50-100%)   
+http://android.jacoblehenbauer.com/images/crd/1076420140.png,Zuckuss,275,Dark,4,1,11,M,140,50,4640,5530,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1081730130.png,2-1B [Healer],276,Light,3,1,20,S,140,50,1470,3410,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1030610130.png,Aayla Secura,277,Light,3,1,10,S,140,50,5260,3440,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1030610330.png,Aayla Secura [Jedi General],278,Light,3,1,12,S,140,60,4420,4590,FALSE,Self EVA Up [Sml] (50-100%)   
+http://android.jacoblehenbauer.com/images/crd/1112230130.png,Acklay,279,Neutral,3,1,16,S,140,50,6140,3660,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1102210130.png,Admiral Ackbar,280,Light,3,1,7,M,130,40,2530,4250,FALSE,Dark ATK Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1076220130.png,Admiral Ozzel,281,Dark,3,1,7,M,130,40,2480,4000,FALSE,Long ATK Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1079820130.png,Admiral Piett,282,Dark,3,1,7,M,130,40,2460,4120,FALSE,Long ATK Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1112810130.png,Ahsoka Tano,283,Light,3,1,12,S,140,120,4990,1350,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1010910630.png,Anakin Skywalker [Jedi Initiate],284,Light,3,1,10,S,140,60,4410,4560,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1010910330.png,Anakin Skywalker [Padawan],285,Light,3,1,10,S,140,50,5420,3420,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1010920530.png,Anakin Skywalker [Sith],286,Light,3,1,11,S,140,50,5990,3480,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1112920130.png,Asajj Ventress,287,Dark,3,1,12,S,140,50,4990,4290,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1103020930.png,Assault Battle Droid,288,Dark,3,1,16,S,100,30,6560,2170,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1112720130.png,AT-AT Pilot,289,Dark,3,1,11,M,130,40,4790,3400,FALSE,Long ACC Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1097420130.png,AT-ST pilot,290,Dark,3,1,12,M,140,40,5010,3130,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1103020430.png,B1 Battle Droid,291,Dark,3,1,8,M,130,40,4610,2800,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1103020530.png,B1 Battle Droid [STAP Pilot],292,Dark,3,1,11,M,130,40,4710,4210,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1103020330.png,B1 Battle Droid: C-3PO,293,Dark,3,1 per 2,8,M,130,40,4680,3880,FALSE,Medium ACC Down [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1105220330.png,B2 Super Battle Droid,294,Dark,3,1,9,M,130,40,4810,3020,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1041410130.png,Bail Organa,295,Light,3,1,13,S,130,40,2720,4430,FALSE,3-Unit Light Side All Stats Up [Sml] (5-10%)
+http://android.jacoblehenbauer.com/images/crd/1040410130.png,Barriss Offee,296,Light,3,1,10,S,140,50,4420,4180,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1052320130.png,Barrow Oicunn,297,Dark,3,1,13,M,130,40,2560,5010,TRUE,Adjacent Galactic Empire ACC Up [Sml] (8-17-30%) 
+http://android.jacoblehenbauer.com/images/crd/1103020630.png,Battle Droid Assassin,298,Dark,3,1 per 2,16,L,140,30,6070,2320,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1118010230.png,BB-8,299,Light,3,1,11,S,140,120,3170,2400,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1041720330.png,Boba Fett,300,Dark,3,1,10,M,130,40,5400,3250,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1041720630.png,Boba Fett [Childhood],301,Dark,3,1,12,S,140,50,3100,4790,FALSE,3-Unit Bounty Hunter DEF Up [Sml] (7-15%) 
+http://android.jacoblehenbauer.com/images/crd/1025730130.png,Boss Nass,302,Neutral,3,1,9,S,140,50,3780,3680,FALSE,Medium DEF Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1052810130.png,Breha Organa,303,Light,3,0,13,S,0,40,1960,5520,TRUE,Pacify [Sml] (5-15-0%)     
+http://android.jacoblehenbauer.com/images/crd/1040510130.png,Bultar Swan,304,Light,3,1,12,S,140,50,4340,4600,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1107320130.png,Buzz Droid,305,Dark,3,3,10,S,130,120,2260,1030,FALSE,Long ACC Down [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1027310530.png,C-3PO,306,Light,3,1,11,S,140,50,2030,6170,FALSE,Light EVA Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1027310830.png,C-3PO [Trusted Companion],307,Light,3,1,12,S,130,40,1900,5500,TRUE,3-Unit Resistance DEF Up [Sml] (7-15-18%)  
+http://android.jacoblehenbauer.com/images/crd/1027330430.png,C-3PO [Without Coverings],308,Neutral,3,1,7,S,140,50,2120,4870,FALSE,Droid DEF Down [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1027330330.png,C-3PO: Battle Droid,309,Neutral,3,2,8,M,130,40,2690,2880,FALSE,Short ACC Down [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1075710130.png,Cal Alder,310,Light,3,1,10,M,130,40,2810,4860,FALSE,Rebel Alliance EVA Up [Sml] (14-20%)  
+http://android.jacoblehenbauer.com/images/crd/1081120130.png,Captain Needa,311,Dark,3,1,13,M,130,40,3590,4910,FALSE,Galactic Empire EVA Up [Sml] (14-20%)  
+http://android.jacoblehenbauer.com/images/crd/1020410130.png,Captain Panaka,312,Light,3,1,10,M,130,40,5260,2920,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1025810130.png,Captain Tarpals,313,Light,3,1,16,S,130,50,3200,3880,FALSE,3-Unit Gungan All Stats Up [Sml] (7-10%) 
+http://android.jacoblehenbauer.com/images/crd/1033410130.png,Captain Typho,314,Light,3,1,9,M,130,40,3560,4180,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1091830130.png,Chief Chirpa,315,Neutral,3,1,11,M,130,60,3010,4400,FALSE,Ewok DEF Up [Med] (15-30%)   
+http://android.jacoblehenbauer.com/images/crd/1030130130.png,Clone Commander Ponds,316,Neutral,3,1,11,M,130,40,4170,3920,FALSE,Medium ACC Up [Sml] (5-10%)   
+http://android.jacoblehenbauer.com/images/crd/1046630130.png,Clone Pilot,317,Neutral,3,1,11,M,130,40,4790,3520,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1111920830.png,Clone Shock Trooper,318,Dark,3,1,12,M,140,40,4400,4660,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1111930330.png,Clone Trooper,319,Neutral,3,1,9,M,130,40,3850,3850,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1111931030.png,Clone Trooper: 212th Attack Battalion,320,Neutral,3,1,12,M,130,40,4680,4390,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1111930930.png,Clone Trooper: 41st Elite Corps,321,Neutral,3,1,11,M,145,50,4500,4210,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1111931530.png,Clone Trooper: 501st Legion,322,Neutral,3,1,13,M,130,40,4900,4400,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1111931230.png,Clone Trooper: 91st Reconnaissance Corps,323,Neutral,3,1,12,M,130,60,4740,4240,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1111930730.png,Clone Trooper: Galactic Marine,324,Neutral,3,1,11,M,140,50,4590,4090,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1111930630.png,Clone Trooper: Phase 2 Armor,325,Neutral,3,1,10,M,130,40,4200,4200,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1033910130.png,Coleman Trebor,326,Light,3,1,11,S,140,50,4440,4270,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1091920130.png,Colonel Dyer,327,Dark,3,1,11,M,130,40,4510,3660,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1077510130.png,Dak Ralter,328,Light,3,1,12,M,130,40,4690,4500,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1017220430.png,Darth Maul,329,Dark,3,1,12,S,140,50,5010,4540,FALSE,Self ATK Up [Sml] (50-100%)   
+http://android.jacoblehenbauer.com/images/crd/1020520330.png,Darth Sidious,330,Dark,3,1,12,S,140,60,5070,4920,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1062820330.png,Darth Vader,331,Dark,3,1,11,S,140,50,5940,3580,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1063230130.png,Dathcha,332,Neutral,3,1,9,M,130,40,2830,4610,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1019020130.png,Daultay Dofine,333,Dark,3,1,6,M,130,40,2200,3400,FALSE,Long DEF Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1114220130.png,Death Star Gunner,334,Dark,3,1,14,M,190,30,4470,3440,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1018510130.png,Depa Billaba,335,Light,3,1,11,S,140,70,4400,4000,FALSE,Self ATK Up [Sml] (50-100%)   
+http://android.jacoblehenbauer.com/images/crd/1038230130.png,Dexter Jettster,336,Neutral,3,1,6,S,140,50,3050,2870,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1038520130.png,Dooku,337,Dark,3,1,11,S,140,50,3570,5700,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1104620130.png,DRK-1 Dark Eye Probe Droid,338,Dark,3,1,10,M,130,60,2850,4210,FALSE,Dark ACC Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1103120130.png,Droideka,339,Dark,3,1,9,M,130,40,2210,5870,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1101630130.png,EV-9D9,340,Neutral,3,1,10,S,140,50,2540,4380,FALSE,Droid All Stats Down [Sml] (7-10%)  
+http://android.jacoblehenbauer.com/images/crd/1113030130.png,Fambaa,341,Neutral,3,1,15,S,140,50,2290,6170,FALSE,Medium DEF Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1157220130.png,First Order Flametrooper,342,Dark,3,3,11,S,140,50,1760,5140,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1158220130.png,First Order Snowtrooper,343,Dark,3,2,12,M,130,40,4670,3510,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1156220130.png,First Order Stormtrooper,344,Dark,3,1,10,M,130,40,5330,3460,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1054620130.png,FX-6 [Healer],345,Dark,3,1,22,S,140,50,1170,3230,FALSE,Self HEA/REP Up [Sml] (10-50%)   
+http://android.jacoblehenbauer.com/images/crd/1113410130.png,G8-R3 [Mechanic],346,Light,3,1,21,S,140,50,1200,3120,FALSE,Self HEA/REP Up [Sml] (10-50%)   
+http://android.jacoblehenbauer.com/images/crd/1085730330.png,Gamorrean Guard,347,Neutral,3,1,12,S,140,50,2960,5840,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1017430130.png,General Ceel,348,Neutral,3,1,8,S,140,50,3450,3350,FALSE,Medium ATK Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1048620130.png,General Grievous,349,Dark,3,1,11,S,140,50,5780,3770,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1087910130.png,General Madine,350,Light,3,1,12,M,130,40,4570,4120,FALSE,Rebel Alliance ATK Up [Sml] (10-20%)  
+http://android.jacoblehenbauer.com/images/crd/1080320230.png,General Veers,351,Dark,3,1,12,M,130,40,5140,3730,FALSE,Rebel Alliance DEF Down [Sml] (10-20%)  
+http://android.jacoblehenbauer.com/images/crd/1014720130.png,Greedo,352,Dark,3,1,8,S,140,50,3540,3060,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1067010430.png,Han Solo [Death Star],353,Light,3,1,9,M,130,40,5270,3100,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1082120330.png,IG-88B,354,Dark,3,1,9,M,130,40,4060,3670,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1016430130.png,Jabba the Hut,355,Neutral,3,1,11,S,140,50,4080,4370,FALSE,Neutral DEF Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1035220230.png,Jango Fett,356,Dark,3,1,10,M,130,40,4720,3900,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1016210130.png,Jar Jar Binks,357,Light,3,1,6,S,140,50,2800,3100,FALSE,Medium ATK Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1157110130.png,Jessika Pava,358,Light,3,1,11,M,130,40,4220,4960,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1035410130.png,Jocasta Nu,359,Light,3,1,8,S,140,50,3060,4340,FALSE,       
+,K-250,360,Light,3,,,,,,,,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1014010230.png,Ki-Adi-Mundi,361,Light,3,1,12,S,140,60,2220,6820,FALSE,Blaster Reflection [Sml] (80-120%)    
+http://android.jacoblehenbauer.com/images/crd/1054130130.png,Lachichuk,362,Neutral,3,1,9,S,140,50,4010,3390,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1042330130.png,Lama Su,363,Neutral,3,1,8,M,130,40,2850,3910,FALSE,Short DEF Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1071010130.png,Leia Organa,364,Light,3,1,8,M,130,40,2860,4400,TRUE,Light ATK Up [Sml] (5-20-25%)   
+http://android.jacoblehenbauer.com/images/crd/1071010430.png,Leia Organa [Award Ceremony],365,Light,3,1,12,S,140,50,3130,5290,FALSE,Rebel Alliance DEF Up [Sml] (10-20%)  
+http://android.jacoblehenbauer.com/images/crd/1071010330.png,Leia Organa [Death Star],366,Light,3,1,8,M,130,40,2980,4800,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1071010830.png,Leia Organa [Princess in Captivity],367,Light,3,1,11,S,140,60,2080,6780,FALSE,Female DEF Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1107120130.png,LM-432 Crab Droid,368,Dark,3,1,14,M,130,40,3850,5420,FALSE,Self DEF Up [Sml] (50-100%)   
+http://android.jacoblehenbauer.com/images/crd/1081330130.png,Lobot,369,Neutral,3,1,7,M,130,40,2710,3970,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1100530130.png,Logray,370,Neutral,3,1,10,M,130,60,2990,4100,FALSE,Ewok EVA Up [Med] (20-32%)   
+http://android.jacoblehenbauer.com/images/crd/1026320130.png,Lott Dod,371,Dark,3,1,6,M,130,40,2100,3500,TRUE,Dark ATK Up [Sml] (5-20-25%)   
+http://android.jacoblehenbauer.com/images/crd/1070910430.png,Luke Skywalker [Death Star],372,Light,3,1,10,M,130,40,4280,4350,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1070910530.png,Luke Skywalker [On a Tauntaun],373,Light,3,1,13,S,140,50,4830,5190,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1043010330.png,Luminara Unduli,374,Light,3,1,12,S,140,50,4360,4500,FALSE,Droid EVA Down [Sml] (14-20%)   
+http://android.jacoblehenbauer.com/images/crd/1023610130.png,Mace Windu,375,Light,3,1,12,S,150,50,5150,4800,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1106620130.png,MagnaGuard,376,Dark,3,1,10,S,140,50,4260,4180,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1097830230.png,Malakili,377,Neutral,3,1,14,S,130,40,2900,3900,FALSE,3-Unit Beast All Stats Up [Sml] (7-10%) 
+http://android.jacoblehenbauer.com/images/crd/1023320130.png,Mas Amedda,378,Dark,3,1,13,S,130,40,2960,4170,FALSE,3-Unit Dark Side All Stats Up [Sml] (5-10%)
+http://android.jacoblehenbauer.com/images/crd/1024410430.png,Master Yoda [Jedi Council],379,Light,3,1,12,S,140,50,4870,4920,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1053810130.png,Mon Mothma,380,Light,3,1,13,M,130,40,3500,5560,FALSE,Galactic Empire ATK Down [Sml] (10-20%)  
+http://android.jacoblehenbauer.com/images/crd/1066230130.png,Nebit,381,Neutral,3,1,9,M,130,40,2630,4710,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1112330130.png,Nexu,382,Neutral,3,1,16,S,140,120,7100,1710,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1039210130.png,Nicanas Tassu,383,Light,3,1,8,S,140,50,3600,3800,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1093510130.png,Nien Nunb,384,Light,3,1,12,M,13,6,3900,5200,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1019620130.png,Nute Gunray,385,Dark,3,1,8,M,130,40,3240,3520,FALSE,"DEF Down [Sml] (5-20%)5,213    "
+http://android.jacoblehenbauer.com/images/crd/1013310530.png,Obi-Wan Kenobi [General],386,Light,3,1,11,S,140,50,5640,3960,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1013310730.png,Obi-Wan Kenobi [Jedi Knight],387,Light,3,1,10,S,140,50,4390,4500,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1106920130.png,Octuptarra Combat Tri-Droid,388,Dark,3,2,15,M,120,40,5510,2830,FALSE,Self ACC Up [Sml] (25-50%)   
+http://android.jacoblehenbauer.com/images/crd/1103320130.png,OOM Pilot Battle Droid,389,Dark,3,1,12,M,130,40,4520,4140,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1028320130.png,OOM-9,390,Dark,3,1,9,M,130,40,3860,4180,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1013410130.png,Oppo Rancisis,391,Light,3,1,11,M,130,40,3420,5270,FALSE,Stun
+http://android.jacoblehenbauer.com/images/crd/1012630130.png,Orr'UrRuuR'R,392,Neutral,3,1,15,L,140,30,5200,2190,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1040210130.png,Pablo-Jill,393,Light,3,1,10,S,140,50,4790,3110,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1020310330.png,Padme Amidala,394,Light,3,1,11,S,130,40,3820,4170,FALSE,Female ATK Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1020310130.png,Padme Amidala [In Disguise],395,Light,3,1,8,M,130,40,2720,4440,FALSE,Light DEF Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1116530130.png,Pagetti Rook,396,Neutral,3,1,13,S,140,50,1310,6650,FALSE,Adjacent Jabba's Crime Syndicate DEF Up [Sml] (7-15%)
+http://android.jacoblehenbauer.com/images/crd/1114010130.png,Pau'an Warrior,397,Light,3,1,11,S,140,50,1920,5920,FALSE,Self DEF Up [Sml] (50-100%)   
+http://android.jacoblehenbauer.com/images/crd/1021110130.png,Perosei,398,Light,3,1,8,M,130,40,2400,4160,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1103930230.png,Pit Droid [Mechanic],399,Neutral,3,1,19,S,140,50,1350,3660,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1041620130.png,Poggle the Lesser,400,Dark,3,1,8,S,140,50,4120,2680,FALSE,Light ATK Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1015110330.png,Qui-Gon Jinn,401,Light,3,1,10,S,140,50,3690,5290,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1101720130.png,R2-Q5,402,Dark,3,1,12,S,140,50,2770,4090,FALSE,Adjacent Dark ACC Up [Med] (20-50%)  
+http://android.jacoblehenbauer.com/images/crd/1055010130.png,R4-G9,403,Light,3,1,12,S,140,50,2590,4130,FALSE,Adjacent Light ACC Up [Med] (20-50%)  
+http://android.jacoblehenbauer.com/images/crd/1116410130.png,R7-D4,404,Light,3,1,13,S,140,50,3470,3590,FALSE,Galactic Republic ACC Up [Sml] (14-20%)  
+http://android.jacoblehenbauer.com/images/crd/1109720130.png,RA-7,405,Dark,3,1,12,S,140,50,2910,5070,FALSE,Galactic Empire ACC Up [Sml] (14-20%)  
+http://android.jacoblehenbauer.com/images/crd/1090230130.png,Rancor,406,Neutral,3,1,7,S,140,50,4410,2690,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1112610330.png,Rebel Commando,407,Light,3,1,13,M,130,40,3380,5220,FALSE,Medium EVA Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1112430130.png,Reek,408,Neutral,3,1,16,S,140,50,3610,6390,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1156110130.png,Resistance Trooper,409,Light,3,1,10,M,130,40,3890,4750,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1025510230.png,Ric Olie,410,Light,3,1,12,M,130,40,4350,4200,FALSE,Long ACC Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1025920230.png,Rune Haako,411,Dark,3,1,10,M,130,40,3030,4030,FALSE,Droid ACC Up [Sml] (14-20%)   
+http://android.jacoblehenbauer.com/images/crd/1111720230.png,Sandtrooper,412,Dark,3,1,9,M,130,40,4200,3560,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1111520130.png,Scout Trooper & 74-Z Speeder Bike,413,Dark,3,1,9,S,140,50,4720,3080,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1103420130.png,Security Battle Droid,414,Dark,3,1,10,M,140,40,4780,2800,FALSE,Self ATK Up [Sml] (50-100%)   
+http://android.jacoblehenbauer.com/images/crd/1164120130.png,Security Soldier,415,Dark,3,1,11,M,130,40,4390,3970,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1036610130.png,Sephjet Josall,416,Light,3,1,8,S,140,50,3740,3660,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1112530130.png,Shaak,417,Neutral,3,1,80,S,0,0,0,0,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1035010130.png,Shaak Ti,418,Light,3,1,11,S,140,50,4020,4850,FALSE,       
+,Shoretrooper,419,Dark,3,,,,,,,,TRUE,
+http://android.jacoblehenbauer.com/images/crd/1036020130.png,Sly Moore,420,Dark,3,1,11,M,130,40,4000,3770,FALSE,Light ACC Down [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1111820230.png,Snowtrooper,421,Dark,3,1,9,M,130,40,3560,4080,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1035910230.png,Stass Allie [Healer],422,Light,3,1,21,S,140,60,1030,3600,FALSE,Self HEA/REP Up [Sml] (10-50%)   
+http://android.jacoblehenbauer.com/images/crd/1111620230.png,Stormtrooper,423,Dark,3,1,9,M,130,40,4080,3760,TRUE,       
+http://android.jacoblehenbauer.com/images/crd/1111620530.png,Stormtrooper [Death Star],424,Dark,3,1,8,M,130,40,3000,4320,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1111620730.png,Stormtrooper [Stun Blaster],425,Dark,3,1,10,M,130,4,3530,4700,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1038730130.png,Taun We,426,Neutral,3,1,8,M,130,40,2610,4020,FALSE,Short ATK Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1092030130.png,Teebo,427,Neutral,3,1,10,S,140,70,4180,2930,FALSE,Ewok ACC Up [Med] (10-16%)   
+http://android.jacoblehenbauer.com/images/crd/1092710130.png,Ten Numb,428,Light,3,1,14,M,130,60,5100,4220,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1056430130.png,URoRRuR'R'R,429,Neutral,3,1,9,M,130,40,3150,4490,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1110020130.png,Viper Probe Droid,430,Dark,3,1,9,M,130,40,3030,3910,FALSE,Dark EVA Up [Sml] (10-20%)   
+http://android.jacoblehenbauer.com/images/crd/1084930130.png,Wam Lufba,431,Neutral,3,1,14,L,130,30,5430,2000,FALSE,Self ACC Up [Sml] (25-50%)   
+http://android.jacoblehenbauer.com/images/crd/1081630130.png,Wampa,432,Neutral,3,1,7,S,140,50,4190,2810,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1044220130.png,Wat Tambor,433,Dark,3,1,7,S,140,50,3060,3160,FALSE,Dark DEF Up [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1026630130.png,Watto,434,Neutral,3,1,6,M,130,40,2250,3450,FALSE,Long DEF Down [Sml] (5-20%)   
+http://android.jacoblehenbauer.com/images/crd/1034420130.png,Zam Wesell,435,Dark,3,1,11,M,130,40,5200,3600,FALSE,       
+http://android.jacoblehenbauer.com/images/crd/1114330130.png,Zephee,436,Neutral,3,1,14,S,130,40,1390,3730,FALSE,3-Unit Ewok All Stats Up [Med] (10-15%) 
+,4-LOM,437,,2,1,5,M,110,20,2110,2180,FALSE,-
+,Adi Gallia,438,,2,1,6,S,120,30,2700,2600,FALSE,-
+,Agen Kolar,439,,2,1,6,S,120,30,3150,2350,FALSE,-
+,Anakin Skywalker,440,,2,1,3,S,120,30,1640,1410,FALSE,-
+,Ashla,441,,2,1,1,S,120,30,440,460,FALSE,-
+,Aurra Sing,442,,2,1,5,M,110,20,1910,2690,FALSE,-
+,Bail Organa,443,,2,1,10,S,110,20,1200,2150,FALSE,3-Unit Light Side All Stats Up [Sml]
+,Ben Kenobi,444,,2,1,6,S,120,30,2650,2750,FALSE,-
+,Beru Lars,445,,2,1,2,S,120,30,,,FALSE,Tatooinian EVA Up [Sml]
+,Beru Lars [Young],446,,2,1,1,M,110,20,540,580,FALSE,-
+,Bib Fortuna,447,,2,1,3,S,120,30,1450,1380,FALSE,-
+,Boba Fett,448,,2,1,7,M,110,20,2790,3020,FALSE,-
+,Bossk,449,,2,1,5,M,110,20,1940,2450,FALSE,-
+,Boushh,450,,2,1,5,M,110,20,2090,2260,FALSE,-
+,C-3PO,451,,2,1,3,S,120,30,750,2320,FALSE,-
+,Capitan Antilles,452,,2,1,3,M,110,20,1370,1530,FALSE,-
+,Cariso Smadis,453,,2,1,4,M,110,20,1360,2220,FALSE,-
+,Chachi De Maal,454,,2,1,2,S,120,30,1150,700,FALSE,-
+,Chewbacca,455,,2,1,5,M,110,20,2170,2650,FALSE,-
+,Cliegg Lars,456,,2,1,1,M,110,20,570,550,FALSE,-
+,Cordé,457,,2,1,5,M,110,20,1910,2310,FALSE,Nabooan EVA Up [Sml]
+,Darth Maul,458,,2,1,6,S,120,30,3400,2300,FALSE,-
+,Darth Vader,459,,2,1,7,S,120,30,3720,2500,FALSE,-
+,Del Goren,460,,2,1,2,M,110,20,720,1120,FALSE,-
+,Denaria Kee,461,,2,1,1,S,120,30,530,370,FALSE,-
+,Djas Puhr,462,,2,1,4,S,120,30,1970,1630,FALSE,-
+,Dormé,463,,2,1,5,M,110,20,1750,2570,FALSE,Nabooan DEF Up [Sml]
+,Fode and Beed,464,,2,1,3,S,120,30,1480,1270,FALSE,-
+,Garindan,465,,2,1,3,M,110,20,1120,1550,FALSE,-
+,General Tagge,466,,2,1,2,M,110,20,1040,1100,FALSE,-
+,Gragra,467,,2,1,4,S,120,30,2210,1390,FALSE,-
+,Grand Moff Tarkin,468,,2,1,4,M,110,20,1600,2430,FALSE,-
+,Han Solo,469,,2,1,6,M,110,20,2200,3300,FALSE,-
+,Horox Ryyder,470,,2,1,2,M,110,20,770,1170,FALSE,-
+,IG-88B,471,,2,1,5,M,110,20,2730,1720,FALSE,-
+,J'Quille,472,,2,1,3,M,110,20,1330,1440,FALSE,-
+,Jobal Naberrie,473,,2,1,4,S,120,30,,,FALSE,Nabooan ACC Up [Sml]
+,Kardue'sai'Malloc,474,,2,1,4,S,120,30,2090,1510,FALSE,-
+,Leia Organa,475,,2,1,9,L,120,10,,,FALSE,-
+,Luke Skywalker,476,,2,1,7,S,120,30,3070,3010,FALSE,-
+,Luminara Unduli,477,,2,1,6,S,120,30,2700,2700,FALSE,-
+,Mas Amedda,478,,2,1,10,S,110,20,1540,2040,FALSE,3-Unit Dark Side All Stats Up [Sml]
+,Master Yoda,479,,2,1,8,S,120,30,3080,3280,FALSE,-
+,Myo,480,,2,1,5,S,120,30,2130,2030,FALSE,-
+,Neesh,481,,2,1,3,M,110,20,1230,1450,FALSE,-
+,Nizuc Bek,482,,2,1,2,M,110,20,950,990,FALSE,-
+,Obi-Wan Kenobi [Padawan],483,,2,1,7,S,120,30,3620,2430,FALSE,-
+,Ohwun De Maal,484,,2,1,2,S,120,30,1050,810,FALSE,-
+,Owen Lars,485,,2,1,5,S,120,30,2050,2090,FALSE,Tatooinian DEF Up [Sml]
+,Owen Lars [Young],486,,2,1,4,S,120,30,1850,1750,FALSE,-
+,Passel Argente,487,,2,1,1,S,120,30,550,350,FALSE,-
+,Po Nudo,488,,2,1,2,M,110,20,1060,980,FALSE,-
+,Porro Dolphe,489,,2,1,4,M,110,20,1620,1960,FALSE,-
+,Qui-Gon Jinn,490,,2,1,7,S,120,30,3610,2510,FALSE,-
+,R2-D2,491,,2,1,3,S,120,30,860,2330,FALSE,-
+,Rabé,492,,2,1,4,S,120,30,1830,1710,FALSE,-
+,Rep Teers,493,,2,1,3,S,120,30,1380,1280,FALSE,-
+,Rune Haako,494,,2,1,1,M,110,20,520,500,FALSE,-
+,Rute Gunnay,495,,2,1,1,M,110,20,550,470,FALSE,-
+,Ruwee Naberrie,496,,2,1,4,S,120,30,1770,1520,FALSE,Nabooan ATK Up [Sml]
+,Sabé,497,,2,1,4,S,120,30,1730,1820,FALSE,-
+,San Hill,498,,2,1,2,M,110,20,780,1160,FALSE,-
+,Sebulba,499,,2,1,2,S,120,30,1280,840,FALSE,-
+,Shmi Skywalker,500,,2,1,1,M,110,20,510,610,FALSE,-
+,Shu Mai,501,,2,1,2,M,110,20,1111,1168,FALSE,-
+,Sio Bibble,502,,2,1,1,M,110,20,360,660,FALSE,-
+,Tion Medon,503,,2,1,4,S,120,30,1830,1870,FALSE,-
+,Trey Callum,504,,2,1,4,M,110,20,1480,2300,FALSE,-
+,Zam Wesell,505,,2,1,9,L,120,10,4180,1490,FALSE,-
+,Zuckuss,506,,2,1,5,M,110,20,2020,2360,FALSE,-
+,2-1B [Healer],507,,1,1,1,S,110,20,350,400,FALSE,Heal Non-Droid
+,Aayla Secura,508,,1,1,5,S,110,20,2250,1580,FALSE,-
+,Admiral Ackbar,509,,1,1,2,M,100,10,600,1200,FALSE,-
+,Admiral Motti,510,,1,1,1,M,100,10,400,450,FALSE,-
+,Admiral Ozzel,511,,1,1,2,M,100,10,800,900,FALSE,-
+,Admiral Piett,512,,1,1,2,M,100,10,750,950,FALSE,-
+,Ann Gella,513,,1,1,1,M,100,10,400,450,FALSE,-
+,Antidar Williams,514,,1,1,1,M,100,10,360,642,FALSE,-
+,Ark Roose,515,,1,1,3,S,110,20,1170,1020,FALSE,-
+,Barriss Offee,516,,1,1,5,S,110,20,1830,1800,FALSE,-
+,Ben Quadinaros,517,,1,1,2,S,110,20,700,800,FALSE,-
+,Boles Roor,518,,1,1,3,S,110,20,1000,1180,FALSE,-
+,Bom Vimdin,519,,1,1,4,S,110,20,1650,1050,FALSE,-
+,BoShek,520,,1,1,2,M,100,10,600,900,FALSE,-
+,Boss Nass,521,,1,1,4,S,110,20,1800,1300,FALSE,-
+,Captain Panaka,522,,1,1,5,M,100,10,1400,2100,FALSE,-
+,Captain Typho,523,,1,1,4,M,100,10,1200,1700,FALSE,-
+,Clegg Holdfast,524,,1,1,3,S,110,20,1300,980,FALSE,-
+,Dathcha,525,,1,1,4,M,100,10,1250,1850,FALSE,-
+,Daultay Dofine,526,,1,1,1,M,100,10,450,400,FALSE,-
+,Dexter Jettster,527,,1,1,3,S,110,20,1230,1150,FALSE,-
+,Dice Ibegon,528,,1,1,2,S,110,20,850,650,FALSE,-
+,Dr. Evazan,529,,1,1,4,S,110,20,1450,1550,FALSE,-
+,Dud Bolt,530,,1,1,3,S,110,20,1250,1000,FALSE,-
+,Gasgano,531,,1,1,3,S,110,20,1140,1040,FALSE,-
+,General Ceel,532,,1,1,4,S,110,20,1500,1500,FALSE,-
+,Greedo,533,,1,1,2,S,110,20,910,610,FALSE,-
+,Hermi Odle,534,,1,1,1,M,100,10,430,430,FALSE,-
+,Jar Jar Binks,535,,1,1,1,S,110,20,400,550,FALSE,-
+,Jocasta Nu,536,,1,1,3,S,110,20,1100,1480,FALSE,-
+,Lachichuk,537,,1,1,4,S,110,20,1600,1400,FALSE,-
+,Lak Sivrak,538,,1,1,4,S,110,20,1650,1150,FALSE,-
+,Lama Su,539,,1,1,3,M,100,10,880,1400,FALSE,-
+,Lampay Fay,540,,1,1,2,S,110,20,750,750,FALSE,-
+,Leia Organa,541,,1,1,3,M,100,10,1030,1550,FALSE,-
+,Lieutenant Sheckil,542,,1,1,2,M,100,10,800,700,FALSE,-
+,Lieutenant Suba,543,,1,1,2,M,100,10,,,FALSE,-
+,Lobot,544,,1,1,2,M,100,10,650,950,FALSE,-
+,Lott Dod,545,,1,1,1,M,100,10,430,430,FALSE,-
+,Malakili,546,,1,1,2,S,110,20,900,600,FALSE,-
+,Mars Guo,547,,1,1,3,S,110,20,1080,1100,FALSE,-
+,Mawhonic,548,,1,1,3,S,110,20,1090,1090,FALSE,-
+,Muftak,549,,1,1,3,S,110,20,1120,1070,FALSE,-
+,Nabrun Leids,550,,1,1,1,M,100,10,300,500,FALSE,-
+,Nebit,551,,1,1,4,M,100,10,1150,1750,FALSE,-
+,Neva Kee,552,,1,1,3,S,110,20,1320,970,FALSE,-
+,Nicanas Tassu,553,,1,1,3,S,110,20,,,FALSE,-
+,Nute Gunray,554,,1,1,3,M,100,10,1000,1150,FALSE,-
+,OOM-9,555,,1,1,4,M,100,10,1600,1600,FALSE,-
+,Pablo-Jill,556,,1,1,5,S,110,20,2040,1590,FALSE,-
+,Padmé Amidala [In Disguise],557,,1,1,3,M,100,10,940,1650,FALSE,-
+,Perosei,558,,1,1,2,M,100,10,610,920,FALSE,-
+,Pit Droid [Mechanic],559,,1,1,1,S,110,20,370,370,FALSE,Heal Droid
+,Poggle the Lesser,560,,1,1,3,S,110,20,1450,930,FALSE,-
+,Ponda Baba,561,,1,1,2,M,100,10,850,850,FALSE,-
+,R1-G4,562,,1,1,1,S,110,20,300,400,FALSE,-
+,Rancor,563,,1,1,4,S,110,20,1950,1250,FALSE,-
+,Ratts Tyerell,564,,1,1,3,S,110,20,1230,1050,FALSE,-
+,Ric Olié,565,,1,1,2,M,100,10,600,960,FALSE,-
+,Sandtrooper,566,,1,1,4,M,100,10,2000,1200,FALSE,-
+,Scout Trooper,567,,1,1,4,S,110,20,1800,1200,FALSE,-
+,Sephjet Josall,568,,1,1,3,S,110,20,1180,1200,FALSE,-
+,Snowtrooper,569,,1,1,4,M,100,10,1500,1600,FALSE,-
+,Stormtrooper,570,,1,1,4,M,100,10,1600,1500,FALSE,-
+,Tann Gella,571,,1,1,1,M,100,10,380,480,FALSE,-
+,Tanus Spijek,572,,1,1,2,M,100,10,800,900,FALSE,-
+,Taun We,573,,1,1,3,M,100,10,970,1320,FALSE,-
+,Teemto Pagalies,574,,1,1,3,S,110,20,1400,880,FALSE,-
+,Tigran Jamiro,575,,1,1,2,M,100,10,650,950,FALSE,-
+,Ugloste,576,,1,1,1,S,110,20,380,380,FALSE,-
+,URoRRuR'R'R,577,,1,1,4,M,100,10,1350,1750,FALSE,-
+,Wampa,578,,1,1,4,S,110,20,1900,1200,FALSE,-
+,Wat Tambor,579,,1,1,1,S,110,20,480,330,FALSE,-
+,Watto,580,,1,1,2,M,100,10,660,970,FALSE,-

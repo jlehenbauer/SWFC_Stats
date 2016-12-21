@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jacoblehenbauer.android.statsforswfc.TopMenu"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:text="@string/donate_message"
+        android:textColor="@color/colorWhite"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/donate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="$1"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="5dp"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/donate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="$2"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="5dp"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/donate5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="$5"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="5dp"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/donate10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="$10"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="5dp"/>
+
+
+</LinearLayout>

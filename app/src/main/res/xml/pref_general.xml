@@ -11,6 +11,11 @@
                 android:value="Feedback for Stats for SWFC"/>
         </intent>
     </Preference>
+    <Preference android:key="addCardLink"
+        android:title="Submit a Card's Stats">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://goo.gl/forms/3ZPw4swq1mCTcEbC3"/>
+    </Preference>
     <!-- NOTE: EditTextPreference accepts EditText attributes. -->
     <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code.
     <EditTextPreference

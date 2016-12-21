@@ -26,15 +26,10 @@
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             android:title="@string/action_settings"
-            app:title="@string/action_settings" />
+            app:title="Settings" />
 
     </android.support.design.widget.AppBarLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:text="Settings will be here soon!"
-        android:textColor="@color/colorWhite"/>
+
+
 </LinearLayout>

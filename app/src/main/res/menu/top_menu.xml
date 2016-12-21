@@ -6,4 +6,10 @@
         android:orderInCategory="100"
         android:title="@string/settings_title"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_donate"
+        android:orderInCategory="100"
+        android:title="Donate"
+        app:showAsAction="never"
+        android:visible="true"/>
 </menu>

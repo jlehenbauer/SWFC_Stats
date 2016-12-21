@@ -9,4 +9,6 @@
     <dimen name="app_bar_height">200dp</dimen>
     <dimen name="item_width">200dp</dimen>
     <dimen name="text_margin">16dp</dimen>
+    <!-- Custom dimensions for lists in the formation editor -->
+    <dimen name="list_height">500dp</dimen>
 </resources>
