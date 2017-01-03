@@ -9,8 +9,8 @@ android {
         applicationId "com.jacoblehenbauer.android.statsforswfc"
         minSdkVersion 19
         targetSdkVersion 24
-        versionCode 14
-        versionName "1.4"
+        versionCode 15
+        versionName "1.41"
     }
     buildTypes {
         release {

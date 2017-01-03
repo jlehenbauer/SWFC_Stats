@@ -17,7 +17,7 @@
     <string name="title_vehicle_list">Vehicles</string>
     <string name="title_vehicle_detail">Vehicle Detail</string>
     <string name="main_message">\nWelcome to the unofficial SWFC Stats app! More features are on the way, and I\'m updating as frequently as possible. In the menu (which you can pull in from the left) you can choose to view the stats of cards or vehicles. \n\nI\'ve been gathering much data on these cards, and while almost all are complete, there are some missing bits here and there. If you find one, please use the new submission form that can be found under Settings->General. \n\nIn particular, some of the vehicles are in need of a Build Cost and Build Time, so if you see they\'re missing for a vehicle and have them, email me and they\'ll be in the next update! \n\nThanks for using the SWFC Stats App, and may the Force be with you.</string>
-    <string name="update_message">V1.4: LOTS of new 5* cards added (some don\'t have complete stats yet, see message and button below)!! \nAdded the ability to sort using the Magnifying Glass action button on the cards list. Vehicle sort coming soon!\nAdditionally, I\'m soon going to add the ability to donate to me for my work on this app. If you appreciate my work, please rate the app, and consider donating. The more I make, the more it\'s worth it to add new features!\n</string>
+    <string name="update_message">V1.41: Added a bunch new 1* and 2* cards, as well as reference menus to see the costs of Evolving and improving Skills. Added the ability to sort the card lists. Vehicle sort coming soon!\nAdditionally, I\'m soon going to add the ability to donate to me for my work on this app. If you appreciate my work, please rate the app, and consider donating. The more I make, the more it\'s worth it to add new features!\n</string>
     <string name="about_disclaimer">The Stats for SWFC is in no way related to any other entity. Star Wars and Star Wars Force Collection belong to Disney and Konami, and I take no credit or responsibility for any content of their ownership. This is a free tool meant to help those playing SWFC. Please direct any comments, issues or questions to the feedback button below. Thank you.</string>
     <string name="title_activity_settings">Settings</string>
     <string name="donate_message">Thank you for considering a donation! Most developers will write something like, \"Buy me a beer\" here, but to me a donation is a vote for further development. \n \nI\'d love to implement more uses for this app (like a deck builder!) and it\'s simply far more worth my time if it\'s profitable. So if you\'d like to see more features, please consider voting for further development below:</string>
@@ -91,6 +91,7 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
-    <string name="title_activity_formation_editor">FormationEditorActivity</string>
+    <string name="title_activity_formation_editor">Formation Editor</string>
     <string name="title_activity_donate">Donate</string>
+    <string name="title_activity_reference">Item References</string>
 </resources>

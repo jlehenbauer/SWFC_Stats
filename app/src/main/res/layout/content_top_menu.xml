@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/colorWhite"
         android:textStyle="italic"
-        android:text="If you have a card that doesn't appear in this app, please submit it by clicking this button (also available as a link in settings, which will remain through all updates).\n"/>
+        android:text="If you have a card that doesn't appear in this app, please submit it by clicking this \'Submit Card Stats\' in the menu drawer. \n"/>
 
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/submitStatsButton"
@@ -37,6 +37,7 @@
         android:layout_gravity="center"
         android:text="Submit Card Stats"
         />
+
 
     <TextView
         android:layout_width="wrap_content"

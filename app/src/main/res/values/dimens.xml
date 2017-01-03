@@ -11,4 +11,5 @@
     <dimen name="text_margin">16dp</dimen>
     <!-- Custom dimensions for lists in the formation editor -->
     <dimen name="list_height">500dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
 </resources>

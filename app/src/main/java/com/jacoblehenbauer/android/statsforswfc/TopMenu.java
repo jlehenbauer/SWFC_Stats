@@ -128,15 +128,25 @@ public class TopMenu extends AppCompatActivity
             Intent launchStats;
             launchStats = new Intent(this, CardListActivity.class);
             startActivity(launchStats);
-        } else if (id == R.id.nav_vehicle_stats) { //launch vehicle stats activity
+        }
+        else if (id == R.id.nav_vehicle_stats) { //launch vehicle stats activity
             Intent launchVehicleStats;
             launchVehicleStats = new Intent(this, VehicleListActivity.class);
             startActivity(launchVehicleStats);
-        } /**else if (id == R.id.nav_pricing) { //launch pricing activity
+        }
+        else if(id == R.id.nav_reference) { //launch reference acivity
+            Intent launchReference;
+            launchReference = new Intent(this, ReferenceActivity.class);
+            startActivity(launchReference);
+        }
+        else if(id == R.id.nav_submit_stats){
+            Uri uriUrl = Uri.parse("https://goo.gl/forms/dN9YX3mY33VYB3RG2");
+            Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+            startActivity(launchBrowser);
+        }
+        /**else if (id == R.id.nav_pricing) { //launch pricing activity
 
-        } else if (id == R.id.nav_settings) { //launch settings activity
-
-        } else if (id == R.id.nav_send) { //launch send info activity
+        }  else if (id == R.id.nav_send) { //launch submit info activity
 
         }**/
 
